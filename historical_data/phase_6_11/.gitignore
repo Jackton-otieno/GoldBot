@@ -1,0 +1,4 @@
+# Raw Exness monthly archives (56-116 MB each) stay local. Their URL, size and
+# SHA-256 are tracked in the neighbouring *.manifest.json files, and
+# tools.exness_archive_611 fetch re-downloads identical bytes.
+*.zip

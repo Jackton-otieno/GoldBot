@@ -1,0 +1,174 @@
+{
+  "as_of": "2026-11-21",
+  "candidate_registry_sha256": "59f9ba69157cbb596dd792e29e8bd4d466602b5043332287a9cb709de175e2cd",
+  "cohorts": [
+    {
+      "entrypoint": "evaluate",
+      "implementation": "goldbot/strategy/strategy.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "baseline",
+      "timeframe": "M15"
+    },
+    {
+      "entrypoint": "evaluate",
+      "implementation": "goldbot/strategy/strategy.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "baseline",
+      "timeframe": "H1"
+    },
+    {
+      "entrypoint": "trend_pullback",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "trend_pullback_ema_rsi",
+      "timeframe": "M15"
+    },
+    {
+      "entrypoint": "trend_pullback",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "trend_pullback_ema_rsi",
+      "timeframe": "H1"
+    },
+    {
+      "entrypoint": "donchian_breakout",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "breakout_donchian",
+      "timeframe": "M15"
+    },
+    {
+      "entrypoint": "donchian_breakout",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "breakout_donchian",
+      "timeframe": "H1"
+    },
+    {
+      "entrypoint": "bollinger_reversion",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "mean_reversion_bollinger_rsi",
+      "timeframe": "M15"
+    },
+    {
+      "entrypoint": "bollinger_reversion",
+      "implementation": "tools/research_strategies_phase_6103.py",
+      "isolated_reference_equity_usd": "3000",
+      "risk_atr_period": 14,
+      "strategy": "mean_reversion_bollinger_rsi",
+      "timeframe": "H1"
+    }
+  ],
+  "comparison": {
+    "closed_trades_per_run_range": [
+      4,
+      9
+    ],
+    "cohorts_positive_across_all_costs": 0,
+    "runs": 32,
+    "source_sha256": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df"
+  },
+  "decisions": {
+    "automated_demo_trading": {
+      "authorized": false,
+      "status": "BLOCKED"
+    },
+    "live_trading": {
+      "authorized": false,
+      "status": "BLOCKED"
+    },
+    "offline_engineering": {
+      "inherited_integrity": {
+        "archived_gate_conflict": false,
+        "assessment_predates_review": false,
+        "scope": "Reviewed offline work and pinned evidence integrity",
+        "source_issues": [],
+        "status": "PASS",
+        "unexpected_blocker_evidence": []
+      },
+      "status": "PASS"
+    },
+    "prospective_data_intake": {
+      "authorized": false,
+      "blockers": [
+        "broker_identity_and_product",
+        "monetary_precision_and_booked_pnl",
+        "utc_mapping_and_freshness",
+        "quote_trade_sessions_and_exceptions",
+        "risk_day_and_opening_equity",
+        "historical_provenance_and_coverage",
+        "costs_margin_and_slippage",
+        "minimum_volume_feasibility",
+        "prospective_registration_and_exposure"
+      ],
+      "status": "BLOCKED",
+      "technical_intake": {
+        "reason": "No trusted registration and intake configured",
+        "state": "blocked"
+      }
+    },
+    "protocol_approval": {
+      "approved": false,
+      "reason": "No verified independent approval or registration receipt",
+      "status": "BLOCKED"
+    },
+    "retrospective_research": {
+      "blockers": [
+        "historical_provenance_and_coverage"
+      ],
+      "scoped_legacy_ohlc": {
+        "execution_grade": false,
+        "prospective_eligible": false,
+        "scope": "Frozen exposed hypothetical OHLC research only",
+        "status": "PASS"
+      },
+      "status": "BLOCKED"
+    }
+  },
+  "external_registration_verified": false,
+  "frozen_draft_verified": true,
+  "observation_period": {
+    "approved": false,
+    "assessment_calendar_day_precedes_start": true,
+    "calendar_days": 365,
+    "proposal": {
+      "allowed_protocol_violations": 0,
+      "horizon_policy": "Fixed end; no peeks, extensions, early success, or replacements",
+      "maximum_chunk_duration_hours": 24,
+      "maximum_custody_attestation_delay_hours": 24,
+      "maximum_observed_drawdown_fraction": "<0.10",
+      "minimum_closed_trades_per_cohort": 100,
+      "net_after_all_costs_usd": ">0",
+      "profit_factor": ">=1.3; positive wins with zero losses are +infinity",
+      "thresholds_status": "PROPOSED_REQUIRES_INDEPENDENT_APPROVAL",
+      "version": "phase-6.10.6-draft-1",
+      "violations": [
+        "lookahead, premature evaluation access, or retrospective sampling",
+        "unapproved code, data, costs, risk, dates, or configuration changes",
+        "unknown source identity, unexplained coverage, or unverified timestamps",
+        "missing/contradictory receipts, lineage, cost evidence, or risk records",
+        "unsupported fill or sizing, risk-limit breach, or unresolved terminal exposure"
+      ],
+      "window_includes_warmup": true,
+      "window_utc": [
+        "2027-02-01T00:00:00+00:00",
+        "2028-02-01T00:00:00+00:00"
+      ]
+    }
+  },
+  "overall": "NO-GO",
+  "phase_6_9_6": {
+    "decision": "NO-GO",
+    "execution_authorized": false,
+    "historical_execution_authorized": false,
+    "prospective_authorized": false
+  }
+}

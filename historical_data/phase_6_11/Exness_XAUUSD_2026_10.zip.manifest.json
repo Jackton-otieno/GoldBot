@@ -1,0 +1,16 @@
+{
+  "acquired_utc_bracket": [
+    "2026-11-21T20:25:47.535075+00:00",
+    "2026-11-21T20:27:31.740957+00:00"
+  ],
+  "byte_count": 55924924,
+  "http_status": 200,
+  "last_modified": "Sat, 31 Oct 2026 01:41:18 GMT",
+  "member_bytes": 371288623,
+  "month": "2026-10",
+  "sha256": "5f0d3751320641e1595cb019e349ae58cb7b93bdf7b50df23885ae82664fa4d2",
+  "source": "Exness public tick archive",
+  "symbol": "XAUUSD",
+  "url": "https://ticks.ex2archive.com/ticks/XAUUSD/2026/10/Exness_XAUUSD_2026_10.zip",
+  "zip_member": "Exness_XAUUSD_2026_10.csv"
+}

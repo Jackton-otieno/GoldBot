@@ -68,7 +68,8 @@ class ConsolidatedReportTests(unittest.TestCase):
                         "phase_6_9_3", "phase_6_9_3_1", "phase_6_9_4", "phase_6_9_4_1",
                         "phase_6_9_5", "phase_6_9_6", "phase_6_10_1", "phase_6_10_2", "phase_6_10_3",
                         "phase_6_10_4", "phase_6_10_5_1", "phase_6_10_5_2",
-                        "phase_6_10_5_3", "phase_6_10_5_4", "phase_6_10_5_5", "phase_6_10_6"}
+                        "phase_6_10_5_3", "phase_6_10_5_4", "phase_6_10_5_5", "phase_6_10_6",
+                        "phase_6_10_7", "phase_6_11"}
         source_files.update(
             path.relative_to(self.root).as_posix()
             for path in report_root.rglob("*")

@@ -1,0 +1,484 @@
+{
+  "H1": {
+    "bar_seconds": 3600,
+    "days": [
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.124",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "7.149",
+        "utc_date": "2026-10-01"
+      },
+      {
+        "archive_bars": 21,
+        "best_median_ohlc_gap": "0.126",
+        "best_offset_hours": 3,
+        "matched_bars": 20,
+        "runner_up_median_ohlc_gap": "4.815",
+        "utc_date": "2026-10-02"
+      },
+      {
+        "archive_bars": 2,
+        "best_median_ohlc_gap": "3.961",
+        "best_offset_hours": 3,
+        "matched_bars": 2,
+        "runner_up_median_ohlc_gap": "7.142",
+        "utc_date": "2026-10-04"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.137",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "6.772",
+        "utc_date": "2026-10-05"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.167",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "8.243",
+        "utc_date": "2026-10-06"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.137",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "4.838",
+        "utc_date": "2026-10-07"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.138",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "4.758",
+        "utc_date": "2026-10-08"
+      },
+      {
+        "archive_bars": 21,
+        "best_median_ohlc_gap": "0.133",
+        "best_offset_hours": 3,
+        "matched_bars": 20,
+        "runner_up_median_ohlc_gap": "3.668",
+        "utc_date": "2026-10-09"
+      },
+      {
+        "archive_bars": 2,
+        "best_median_ohlc_gap": "0.516",
+        "best_offset_hours": 3,
+        "matched_bars": 2,
+        "runner_up_median_ohlc_gap": "3.474",
+        "utc_date": "2026-10-11"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.134",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "4.012",
+        "utc_date": "2026-10-12"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.146",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "4.767",
+        "utc_date": "2026-10-13"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.136",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "5.098",
+        "utc_date": "2026-10-14"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.147",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "5.535",
+        "utc_date": "2026-10-15"
+      },
+      {
+        "archive_bars": 21,
+        "best_median_ohlc_gap": "0.132",
+        "best_offset_hours": 3,
+        "matched_bars": 20,
+        "runner_up_median_ohlc_gap": "5.043",
+        "utc_date": "2026-10-16"
+      },
+      {
+        "archive_bars": 2,
+        "best_median_ohlc_gap": "2.697",
+        "best_offset_hours": 3,
+        "matched_bars": 2,
+        "runner_up_median_ohlc_gap": "7.608",
+        "utc_date": "2026-10-18"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.130",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "3.567",
+        "utc_date": "2026-10-19"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.131",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "5.949",
+        "utc_date": "2026-10-20"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.128",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "3.840",
+        "utc_date": "2026-10-21"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.147",
+        "best_offset_hours": 3,
+        "matched_bars": 22,
+        "runner_up_median_ohlc_gap": "6.902",
+        "utc_date": "2026-10-22"
+      },
+      {
+        "archive_bars": 21,
+        "best_median_ohlc_gap": "0.167",
+        "best_offset_hours": 3,
+        "matched_bars": 20,
+        "runner_up_median_ohlc_gap": "4.336",
+        "utc_date": "2026-10-23"
+      },
+      {
+        "archive_bars": 2,
+        "best_median_ohlc_gap": "1.509",
+        "best_offset_hours": 2,
+        "matched_bars": 2,
+        "runner_up_median_ohlc_gap": "3.112",
+        "utc_date": "2026-10-25"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.100",
+        "best_offset_hours": 2,
+        "matched_bars": 23,
+        "runner_up_median_ohlc_gap": "4.866",
+        "utc_date": "2026-10-26"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.124",
+        "best_offset_hours": 2,
+        "matched_bars": 23,
+        "runner_up_median_ohlc_gap": "3.978",
+        "utc_date": "2026-10-27"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.147",
+        "best_offset_hours": 2,
+        "matched_bars": 23,
+        "runner_up_median_ohlc_gap": "5.356",
+        "utc_date": "2026-10-28"
+      },
+      {
+        "archive_bars": 23,
+        "best_median_ohlc_gap": "0.146",
+        "best_offset_hours": 2,
+        "matched_bars": 23,
+        "runner_up_median_ohlc_gap": "6.254",
+        "utc_date": "2026-10-29"
+      },
+      {
+        "archive_bars": 21,
+        "best_median_ohlc_gap": "0.104",
+        "best_offset_hours": 2,
+        "matched_bars": 21,
+        "runner_up_median_ohlc_gap": "8.328",
+        "utc_date": "2026-10-30"
+      }
+    ],
+    "mt5_export": "XAUUSD_H1.csv",
+    "summary": {
+      "days_with_offset": 26,
+      "days_without_overlap": 0,
+      "dominant_offset_hours": 3,
+      "offset_hours_by_day_count": {
+        "2": 6,
+        "3": 20
+      },
+      "price_agreement": {
+        "close_gap_max": "16.376",
+        "close_gap_p50": "0.131",
+        "close_gap_p90": "0.283",
+        "matched_bars": 487,
+        "offset_rule": "each UTC day's best offset",
+        "share_close_equal_after_rounding_archive_to_cents": 0.0226
+      },
+      "price_unit_note": "Archive prices are scaled by 1000; MT5 exports carry two decimals.",
+      "single_constant_offset": false,
+      "transitions": [
+        {
+          "from_date": "2026-10-23",
+          "from_hours": 3,
+          "to_date": "2026-10-25",
+          "to_hours": 2
+        }
+      ]
+    }
+  },
+  "M15": {
+    "bar_seconds": 900,
+    "days": [
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.138",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "6.386",
+        "utc_date": "2026-10-01"
+      },
+      {
+        "archive_bars": 84,
+        "best_median_ohlc_gap": "0.129",
+        "best_offset_hours": 3,
+        "matched_bars": 80,
+        "runner_up_median_ohlc_gap": "6.976",
+        "utc_date": "2026-10-02"
+      },
+      {
+        "archive_bars": 8,
+        "best_median_ohlc_gap": "0.244",
+        "best_offset_hours": 3,
+        "matched_bars": 8,
+        "runner_up_median_ohlc_gap": "3.894",
+        "utc_date": "2026-10-04"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.148",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "5.702",
+        "utc_date": "2026-10-05"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.144",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "6.261",
+        "utc_date": "2026-10-06"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.141",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "4.691",
+        "utc_date": "2026-10-07"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.147",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "5.247",
+        "utc_date": "2026-10-08"
+      },
+      {
+        "archive_bars": 84,
+        "best_median_ohlc_gap": "0.132",
+        "best_offset_hours": 3,
+        "matched_bars": 80,
+        "runner_up_median_ohlc_gap": "3.727",
+        "utc_date": "2026-10-09"
+      },
+      {
+        "archive_bars": 8,
+        "best_median_ohlc_gap": "0.258",
+        "best_offset_hours": 3,
+        "matched_bars": 8,
+        "runner_up_median_ohlc_gap": "6.596",
+        "utc_date": "2026-10-11"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.135",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "4.294",
+        "utc_date": "2026-10-12"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.137",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "4.451",
+        "utc_date": "2026-10-13"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.139",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "4.868",
+        "utc_date": "2026-10-14"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.131",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "5.685",
+        "utc_date": "2026-10-15"
+      },
+      {
+        "archive_bars": 84,
+        "best_median_ohlc_gap": "0.136",
+        "best_offset_hours": 3,
+        "matched_bars": 80,
+        "runner_up_median_ohlc_gap": "5.042",
+        "utc_date": "2026-10-16"
+      },
+      {
+        "archive_bars": 8,
+        "best_median_ohlc_gap": "0.142",
+        "best_offset_hours": 3,
+        "matched_bars": 8,
+        "runner_up_median_ohlc_gap": "6.668",
+        "utc_date": "2026-10-18"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.127",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "3.866",
+        "utc_date": "2026-10-19"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.118",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "5.376",
+        "utc_date": "2026-10-20"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.113",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "4.278",
+        "utc_date": "2026-10-21"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.132",
+        "best_offset_hours": 3,
+        "matched_bars": 88,
+        "runner_up_median_ohlc_gap": "6.036",
+        "utc_date": "2026-10-22"
+      },
+      {
+        "archive_bars": 84,
+        "best_median_ohlc_gap": "0.130",
+        "best_offset_hours": 3,
+        "matched_bars": 80,
+        "runner_up_median_ohlc_gap": "4.870",
+        "utc_date": "2026-10-23"
+      },
+      {
+        "archive_bars": 8,
+        "best_median_ohlc_gap": "0.147",
+        "best_offset_hours": 2,
+        "matched_bars": 8,
+        "runner_up_median_ohlc_gap": "3.802",
+        "utc_date": "2026-10-25"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.118",
+        "best_offset_hours": 2,
+        "matched_bars": 92,
+        "runner_up_median_ohlc_gap": "4.365",
+        "utc_date": "2026-10-26"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.123",
+        "best_offset_hours": 2,
+        "matched_bars": 92,
+        "runner_up_median_ohlc_gap": "4.102",
+        "utc_date": "2026-10-27"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.142",
+        "best_offset_hours": 2,
+        "matched_bars": 92,
+        "runner_up_median_ohlc_gap": "5.299",
+        "utc_date": "2026-10-28"
+      },
+      {
+        "archive_bars": 92,
+        "best_median_ohlc_gap": "0.123",
+        "best_offset_hours": 2,
+        "matched_bars": 92,
+        "runner_up_median_ohlc_gap": "5.505",
+        "utc_date": "2026-10-29"
+      },
+      {
+        "archive_bars": 84,
+        "best_median_ohlc_gap": "0.120",
+        "best_offset_hours": 2,
+        "matched_bars": 84,
+        "runner_up_median_ohlc_gap": "7.099",
+        "utc_date": "2026-10-30"
+      }
+    ],
+    "mt5_export": "XAUUSD_M15.csv",
+    "summary": {
+      "days_with_offset": 26,
+      "days_without_overlap": 0,
+      "dominant_offset_hours": 3,
+      "offset_hours_by_day_count": {
+        "2": 6,
+        "3": 20
+      },
+      "price_agreement": {
+        "close_gap_max": "16.376",
+        "close_gap_p50": "0.133",
+        "close_gap_p90": "0.289",
+        "matched_bars": 1948,
+        "offset_rule": "each UTC day's best offset",
+        "share_close_equal_after_rounding_archive_to_cents": 0.0257
+      },
+      "price_unit_note": "Archive prices are scaled by 1000; MT5 exports carry two decimals.",
+      "single_constant_offset": false,
+      "transitions": [
+        {
+          "from_date": "2026-10-23",
+          "from_hours": 3,
+          "to_date": "2026-10-25",
+          "to_hours": 2
+        }
+      ]
+    }
+  }
+}

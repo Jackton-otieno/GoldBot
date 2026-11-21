@@ -1,0 +1,522 @@
+{
+  "as_of": "2026-11-21",
+  "dependencies": [
+    {
+      "acceptance_criteria": "Independent reviewer confirms exact scope; current identity guard passes before any permitted diagnostic.",
+      "action": "Obtain a redacted product card and broker confirmation; independently verify the exact pinned installation at any later attachment.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "expected_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "issue": null,
+          "path": "reports/phase_6_9_2/connectivity.json"
+        },
+        {
+          "actual_sha256": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb",
+          "expected_sha256": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb",
+          "issue": null,
+          "path": "reports/phase_6_9_6/assessment.json"
+        }
+      ],
+      "evidence_required": "Dated Exness KE account-variant confirmation and matching masked server, account, symbol, mode and installation evidence.",
+      "finding": "Earlier terminal identity is dated. The exact product variant is unverified.",
+      "id": "broker_identity_and_product",
+      "required_resolution": "Recheck installation and exact account at attachment and obtain redacted product confirmation.",
+      "responsible_or_dependency": "Operator and Exness KE",
+      "sequence": 1,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "MISSING",
+        "STALE"
+      ],
+      "verification_status": "MISSING"
+    },
+    {
+      "acceptance_criteria": "Independent reviewer reconciles the approved evaluator assumptions to dated executable evidence over the entire intended scope.",
+      "action": "Obtain dated exact-product rates and documentation of ordinary and exceptional execution.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "8024bc7f31306af38d36229dc3a11b5a0397eb253b80f9bb53401d91e86febf1",
+          "expected_sha256": "8024bc7f31306af38d36229dc3a11b5a0397eb253b80f9bb53401d91e86febf1",
+          "issue": null,
+          "path": "reports/phase_6_10_5_4/capital-feasibility.json"
+        },
+        {
+          "actual_sha256": "c83c8da1a74cff842f34835baf4ffc9793365174daecab411785a1e8b85daffb",
+          "expected_sha256": "c83c8da1a74cff842f34835baf4ffc9793365174daecab411785a1e8b85daffb",
+          "issue": null,
+          "path": "reports/phase_6_10_5_4/cost-evidence.md"
+        },
+        {
+          "actual_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "expected_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "issue": null,
+          "path": "reports/phase_6_9_3_1/verification.md"
+        },
+        {
+          "actual_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "expected_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "issue": null,
+          "path": "reports/phase_6_9_4/verification.md"
+        }
+      ],
+      "evidence_required": "Commission and rounding, spread data, swaps/funding, margin and HMR tiers, conversion, stop-out and fill/slippage evidence.",
+      "finding": "Observed quotes and margin are point samples. Commission, swaps, funding, tariffs and fills are unverified.",
+      "id": "costs_margin_and_slippage",
+      "required_resolution": "Obtain effective scoped spreads, commissions, swap/funding, margin tiers, slippage and fill evidence.",
+      "responsible_or_dependency": "Exness KE and independent execution reviewer",
+      "sequence": 1,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "UNRESOLVED"
+      ],
+      "verification_status": "UNRESOLVED"
+    },
+    {
+      "acceptance_criteria": "Independent reconciliation passes the unchanged broker validator and resolves the known discrepancy without a larger tolerance.",
+      "action": "Request the rounding sequence, tie rules, and documented calculator-to-booking treatment at both sides of a cent boundary.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "8946c573024c626328b3248f42873ed1b16dd65247487c5442c14b14412e255b",
+          "expected_sha256": "8946c573024c626328b3248f42873ed1b16dd65247487c5442c14b14412e255b",
+          "issue": null,
+          "path": "reports/phase_6_10_5_1/precision-validation.json"
+        },
+        {
+          "actual_sha256": "fad993feb56e1f58d51ea2fbffba7fd0d8860d9be9a4bc780d9f0f12f040abea",
+          "expected_sha256": "fad993feb56e1f58d51ea2fbffba7fd0d8860d9be9a4bc780d9f0f12f040abea",
+          "issue": null,
+          "path": "reports/phase_6_10_5_1/risk-impact.json"
+        },
+        {
+          "actual_sha256": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+          "expected_sha256": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+          "issue": null,
+          "path": "reports/phase_6_9_3/probes.json"
+        },
+        {
+          "actual_sha256": "e1cf52b2da259e32f117e95213734abd94af63a338ae1c541c083e46de3485fb",
+          "expected_sha256": "e1cf52b2da259e32f117e95213734abd94af63a338ae1c541c083e46de3485fb",
+          "issue": null,
+          "path": "reports/phase_6_9_3_1/notional-comparison.json"
+        },
+        {
+          "actual_sha256": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+          "expected_sha256": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+          "issue": null,
+          "path": "reports/phase_6_9_3_1/probes.json"
+        },
+        {
+          "actual_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "expected_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "issue": null,
+          "path": "reports/phase_6_9_3_1/verification.md"
+        }
+      ],
+      "evidence_required": "Authoritative formula and booked-P/L examples for gains/losses, minimum volume, commission and partial closes.",
+      "finding": "216 independent calculator results fit the empirical model. Booked P/L remains unverified.",
+      "id": "monetary_precision_and_booked_pnl",
+      "required_resolution": "Obtain authoritative calculator/booking rules and reconcile the discrepancy with the unchanged validator.",
+      "responsible_or_dependency": "Exness KE / MetaQuotes and independent reviewer",
+      "sequence": 1,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "CONFLICTING"
+      ],
+      "verification_status": "CONFLICTING"
+    },
+    {
+      "acceptance_criteria": "Validator finds a unique applicable interval, with explicit exceptional coverage and no unresolved overlaps or gaps.",
+      "action": "Obtain separate dated quote/trade calendars and a versioned exception feed for the exact product.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "f8f71d1023d21b003861be8dc4b2d8c1264e6fbc2dcad176a4f32719f29e3469",
+          "expected_sha256": "f8f71d1023d21b003861be8dc4b2d8c1264e6fbc2dcad176a4f32719f29e3469",
+          "issue": null,
+          "path": "reports/phase_6_10_5_2/session-evidence.json"
+        },
+        {
+          "actual_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "expected_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "issue": null,
+          "path": "reports/phase_6_9_4/verification.md"
+        },
+        {
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null,
+          "path": "reports/phase_6_9_4_1/diagnostic.json"
+        }
+      ],
+      "evidence_required": "UTC quote, open, close-only and restricted intervals, DST transitions, holidays, maintenance, closure and correction notices.",
+      "finding": "The public DST schedule does not establish exact quote or trade intervals for this account.",
+      "id": "quote_trade_sessions_and_exceptions",
+      "required_resolution": "Verify dated quote, trade and close-only permissions, DST, holidays, maintenance and exceptional closures.",
+      "responsible_or_dependency": "Exness KE and session-evidence reviewer",
+      "sequence": 1,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "UNRESOLVED"
+      ],
+      "verification_status": "UNRESOLVED"
+    },
+    {
+      "acceptance_criteria": "Unique mapping covers the whole bracket; existing freshness and close-boundary checks pass under the scoped clock evidence.",
+      "action": "Obtain effective-dated live and archive time semantics and capture independent clock brackets under existing diagnostic controls.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "0e8ccb596a0dbc000b3a097060e9a1af1afc66f06a01a260f36b80bf21770166",
+          "expected_sha256": "0e8ccb596a0dbc000b3a097060e9a1af1afc66f06a01a260f36b80bf21770166",
+          "issue": null,
+          "path": "reports/phase_6_10_5_2/timestamp-verification.json"
+        },
+        {
+          "actual_sha256": "aa6b45cb882615293c8673a3893dfed24e2455049337d11c298d5d36d89a0fa2",
+          "expected_sha256": "aa6b45cb882615293c8673a3893dfed24e2455049337d11c298d5d36d89a0fa2",
+          "issue": null,
+          "path": "reports/phase_6_9_4/diagnostic.json"
+        },
+        {
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null,
+          "path": "reports/phase_6_9_4_1/diagnostic.json"
+        },
+        {
+          "actual_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "expected_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "issue": null,
+          "path": "reports/phase_6_9_5/live-summary.json"
+        }
+      ],
+      "evidence_required": "Raw seconds/milliseconds, request/return semantics, transition samples, offset windows and independent UTC measurements.",
+      "finding": "The clock bracket supported conditional age estimates. No effective-dated production mapping exists.",
+      "id": "utc_mapping_and_freshness",
+      "required_resolution": "Obtain server-specific live and historical UTC semantics and verify full-bracket freshness and transition handling.",
+      "responsible_or_dependency": "Exness KE / MetaQuotes and time-evidence reviewer",
+      "sequence": 1,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "UNRESOLVED"
+      ],
+      "verification_status": "UNRESOLVED"
+    },
+    {
+      "acceptance_criteria": "Existing historical validator admits the intended scope or explicitly limits it to research. All unexplained gaps remain outstanding.",
+      "action": "Obtain one bounded permitted sample first, independently review lineage and gaps, then check the target interval inventory.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": true,
+        "retrospective_research_data_eligibility": true
+      },
+      "evidence": [
+        {
+          "actual_sha256": "965f9f2bdc21f2c276ec1fa417fd8b84c630390d4704f564c1c205517a01f3c1",
+          "expected_sha256": "965f9f2bdc21f2c276ec1fa417fd8b84c630390d4704f564c1c205517a01f3c1",
+          "issue": null,
+          "path": "reports/phase_6_10_5_3/data-manifest.json"
+        },
+        {
+          "actual_sha256": "370e43e7d5380e6f678e1e2d5303a9e4b3f7e0701d9d3a9319704ecd46f3613c",
+          "expected_sha256": "370e43e7d5380e6f678e1e2d5303a9e4b3f7e0701d9d3a9319704ecd46f3613c",
+          "issue": null,
+          "path": "reports/phase_6_10_5_3/data-quality.json"
+        },
+        {
+          "actual_sha256": "5a7430eadafbbf5e07ac2fa20c87df27b0e1e839dfd7e8378beef01d72053401",
+          "expected_sha256": "5a7430eadafbbf5e07ac2fa20c87df27b0e1e839dfd7e8378beef01d72053401",
+          "issue": null,
+          "path": "reports/phase_6_10_5_3/historical-readiness.json"
+        },
+        {
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null,
+          "path": "reports/phase_6_9_4_1/diagnostic.json"
+        },
+        {
+          "actual_sha256": "edb4a74ad094bd6f02cc1773b5c2fc71bfacc73e863c9b3af8f366d055340578",
+          "expected_sha256": "edb4a74ad094bd6f02cc1773b5c2fc71bfacc73e863c9b3af8f366d055340578",
+          "issue": null,
+          "path": "reports/phase_6_9_5/diagnostic.sqlite3"
+        },
+        {
+          "actual_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "expected_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "issue": null,
+          "path": "reports/phase_6_9_5/live-summary.json"
+        },
+        {
+          "actual_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "expected_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "issue": null,
+          "path": "reports/phase_6_9_5/verified-manifest.json"
+        }
+      ],
+      "evidence_required": "Source and account scope, rights, original hashes, bid/ask basis, UTC encoding, coverage and exception evidence.",
+      "finding": "No new research dataset or execution-grade history passed. Archived ticks are diagnostic only.",
+      "id": "historical_provenance_and_coverage",
+      "required_resolution": "Verify original bytes, reuse rights, UTC mapping, bid/ask basis, dated coverage and gaps with the existing validator.",
+      "responsible_or_dependency": "Data provider, data custodian and independent reviewer",
+      "sequence": 2,
+      "severity": "HIGH",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "UNRESOLVED"
+      ],
+      "verification_status": "UNRESOLVED"
+    },
+    {
+      "acceptance_criteria": "Existing risk-day check admits only the verified successor, and missing or conflicting evidence leaves latches in force.",
+      "action": "Approve an account-specific risk-day policy, then obtain a boundary equity observation independent of the collector.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "88f05bf80e4a720b769ef508b5ff481d2550bda44d21859cc73a24ca89363848",
+          "expected_sha256": "88f05bf80e4a720b769ef508b5ff481d2550bda44d21859cc73a24ca89363848",
+          "issue": null,
+          "path": "reports/phase_6_10_5_2/risk-day-verification.json"
+        },
+        {
+          "actual_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "expected_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "issue": null,
+          "path": "reports/phase_6_9_4_1/verification.md"
+        }
+      ],
+      "evidence_required": "Exact UTC successor boundary, documented equity calculation and positive attested equity at that instant.",
+      "finding": "No approved daily reset or independently attested opening equity was recorded.",
+      "id": "risk_day_and_opening_equity",
+      "required_resolution": "Approve an exact account-scoped policy boundary and attest opening equity at that UTC instant.",
+      "responsible_or_dependency": "GoldBot operator and independent account-evidence reviewer",
+      "sequence": 2,
+      "severity": "CRITICAL",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "MISSING"
+      ],
+      "verification_status": "MISSING"
+    },
+    {
+      "acceptance_criteria": "Every admitted test entry fits the unchanged planner and free margin; rejected cases remain rejected and accounted for.",
+      "action": "Recheck the USD 3,000 reference with verified dates, costs, contract economics and existing risk limits.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "8024bc7f31306af38d36229dc3a11b5a0397eb253b80f9bb53401d91e86febf1",
+          "expected_sha256": "8024bc7f31306af38d36229dc3a11b5a0397eb253b80f9bb53401d91e86febf1",
+          "issue": null,
+          "path": "reports/phase_6_10_5_4/capital-feasibility.json"
+        },
+        {
+          "actual_sha256": "b8ac6223f88fabc471dbb41bbb993926b8c3405c4dc3bfa5b5fc8ca8312fd218",
+          "expected_sha256": "b8ac6223f88fabc471dbb41bbb993926b8c3405c4dc3bfa5b5fc8ca8312fd218",
+          "issue": null,
+          "path": "reports/phase_6_10_5_4/rejection-analysis.json"
+        }
+      ],
+      "evidence_required": "Minimum/step, validated stop geometry, actual budget and margin inputs, rejection reconciliation.",
+      "finding": "The USD 3,000 reference frequently fails minimum-lot risk checks, especially on H1.",
+      "id": "minimum_volume_feasibility",
+      "required_resolution": "Verify actual contract/cost inputs and feasible scoped entries at the unchanged budget.",
+      "responsible_or_dependency": "GoldBot risk reviewer and Exness KE",
+      "sequence": 3,
+      "severity": "HIGH",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "UNRESOLVED"
+      ],
+      "verification_status": "UNRESOLVED"
+    },
+    {
+      "acceptance_criteria": "Phase 6.10.6 verifies strategy identity, scope, timing and nonoverlap, and the governing gate explicitly authorizes the permitted activity.",
+      "action": "Complete the exposure declaration; freeze the source, evaluator, environment, costs and dates; obtain independent receipts.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": true,
+        "prospective_validation_preparation": true,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "expected_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "issue": null,
+          "path": "reports/phase_6_9_5/verified-manifest.json"
+        },
+        {
+          "actual_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "expected_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "issue": null,
+          "path": "reports/validation_phase_6_8_6/draft-protocol.md"
+        },
+        {
+          "actual_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "expected_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "issue": null,
+          "path": "reports/validation_phase_6_8_6/readiness.md"
+        },
+        {
+          "actual_sha256": "aeb45b7a94fe43934541b0129e95b1d7a0e2ee5f1c58bf8b876b993867775544",
+          "expected_sha256": "aeb45b7a94fe43934541b0129e95b1d7a0e2ee5f1c58bf8b876b993867775544",
+          "issue": null,
+          "path": "reports/validation_phase_6_8_6/reference-freeze.json"
+        }
+      ],
+      "evidence_required": "Signed plan and prior UTC envelopes, pre-start registration, timely custody, full horizon and independently sealed intake.",
+      "finding": "The protocol is a draft. No trusted registration, verified exposure inventory or sealed intake is configured.",
+      "id": "prospective_registration_and_exposure",
+      "required_resolution": "Approve scope and fixed dates, independently precommit, verify nonoverlap and admit sealed intake under the existing protocol.",
+      "responsible_or_dependency": "GoldBot operator, independent registrar and data custodian",
+      "sequence": 4,
+      "severity": "HIGH",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "MISSING",
+        "UNRESOLVED"
+      ],
+      "verification_status": "MISSING"
+    },
+    {
+      "acceptance_criteria": "A candidate meets the independently approved thresholds on eligible unseen data. This finding alone grants no trading authority.",
+      "action": "Use the separately approved evaluator once on a valid sealed intake, reporting all eight cohorts together.",
+      "blocks": {
+        "automated_demo_trading_authorization": true,
+        "live_trading_authorization": true,
+        "prospective_validation_admission": false,
+        "prospective_validation_preparation": false,
+        "retrospective_research_data_eligibility": false
+      },
+      "evidence": [
+        {
+          "actual_sha256": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df",
+          "expected_sha256": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df",
+          "issue": null,
+          "path": "reports/phase_6_10_4/comparison.json"
+        },
+        {
+          "actual_sha256": "6791cf8423af99e65756fc6a2356e8b5db0cee2ab26f2c61b24a2483a643177e",
+          "expected_sha256": "6791cf8423af99e65756fc6a2356e8b5db0cee2ab26f2c61b24a2483a643177e",
+          "issue": null,
+          "path": "reports/research_phase_6_8_5/assumptions.json"
+        },
+        {
+          "actual_sha256": "b708a00c10fa4e79e82307a5dbb1589e7752eb8e4531083e7b485db064c197a3",
+          "expected_sha256": "b708a00c10fa4e79e82307a5dbb1589e7752eb8e4531083e7b485db064c197a3",
+          "issue": null,
+          "path": "reports/research_phase_6_8_5/results.json"
+        }
+      ],
+      "evidence_required": "Independent audit of each complete after-cost ledger, drawdown, sample count, and protocol violations.",
+      "finding": "Frozen retrospective outcomes do not demonstrate robust profitability.",
+      "id": "profitability_not_demonstrated",
+      "required_resolution": "Obtain independently validated net-after-costs strategy results and risk compliance.",
+      "responsible_or_dependency": "Independent strategy reviewer",
+      "sequence": 5,
+      "severity": "HIGH",
+      "unexpected_evidence": false,
+      "unresolved_conditions": [
+        "REJECTED"
+      ],
+      "verification_status": "REJECTED"
+    },
+    {
+      "acceptance_criteria": "Independent dry-run evidence passes, all applicable blockers are closed, and Phase 6.9.6 explicitly authorizes demo execution.",
+      "action": "Specify and separately verify the Phase 7 demo-only operating envelope and incident response after prerequisite gates clear.",
+      "blocks": {
+        "automated_demo_trading_authorization": true
+      },
+      "depends_on": [
+        "broker_identity_and_product",
+        "risk_day_and_opening_equity",
+        "profitability_not_demonstrated",
+        "prospective_registration_and_exposure"
+      ],
+      "evidence_paths": [
+        "reports/phase_6_9_6/assessment.json",
+        "reports/phase_6_10_6/readiness.json"
+      ],
+      "evidence_required": "Pinned demo identity, risk and reconciliation drills, stop/kill and restart drills, logs, monitoring owner and rollback checklist.",
+      "id": "phase7_operational_controls",
+      "responsible_or_dependency": "GoldBot operator and independent operations reviewer",
+      "sequence": 6,
+      "status": "BLOCKED"
+    },
+    {
+      "acceptance_criteria": "Every live condition passes and Phase 6.9.6 grants explicit applicable execution authorization.",
+      "action": "Treat any live deployment as a distinct decision using live-account evidence and explicit authorization.",
+      "blocks": {
+        "live_trading_authorization": true
+      },
+      "depends_on": [
+        "phase7_operational_controls",
+        "costs_margin_and_slippage"
+      ],
+      "evidence_paths": [
+        "reports/phase_6_9_6/assessment.json",
+        "reports/phase_6_10_5_5/readiness.json"
+      ],
+      "evidence_required": "Successful separately authorized demo evidence, independently verified live scope and signed live approval.",
+      "id": "live_authorization",
+      "responsible_or_dependency": "GoldBot operator, live broker and independent risk reviewer",
+      "sequence": 7,
+      "status": "BLOCKED"
+    }
+  ],
+  "overall": "NO-GO"
+}
