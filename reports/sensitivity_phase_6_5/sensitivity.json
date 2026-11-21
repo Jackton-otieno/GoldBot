@@ -1,0 +1,2510 @@
+{
+  "cost_input_source": "Phase 6.5 requested hypothetical scenarios",
+  "dynamic_replay": {
+    "atr_14": "1.0",
+    "risk_day_boundaries": [
+      {
+        "open_row": 1,
+        "risk_day_id": "synthetic-day-A"
+      },
+      {
+        "open_row": 6,
+        "risk_day_id": "synthetic-day-B"
+      }
+    ],
+    "rows": [
+      {
+        "close": 2000,
+        "gap_before": false,
+        "high": 2000,
+        "low": 2000,
+        "open": 2000,
+        "signal": "BUY"
+      },
+      {
+        "close": 2000,
+        "gap_before": false,
+        "high": 2003.1,
+        "low": 2000,
+        "open": 2000,
+        "signal": "SELL"
+      },
+      {
+        "close": 1989,
+        "gap_before": true,
+        "high": 1989,
+        "low": 1989,
+        "open": 1989,
+        "signal": "BUY"
+      },
+      {
+        "close": 1989,
+        "gap_before": false,
+        "high": 1989,
+        "low": 1989,
+        "open": 1989,
+        "signal": "SELL"
+      },
+      {
+        "close": 1989,
+        "gap_before": false,
+        "high": 1989,
+        "low": 1989,
+        "open": 1989,
+        "signal": "SELL"
+      },
+      {
+        "close": 1989,
+        "gap_before": false,
+        "high": 1989,
+        "low": 1989,
+        "open": 1989,
+        "signal": "SELL"
+      },
+      {
+        "close": 1987,
+        "gap_before": false,
+        "high": 1989,
+        "low": 1985,
+        "open": 1989,
+        "signal": "BUY"
+      },
+      {
+        "close": 1987.5,
+        "gap_before": false,
+        "high": 1987.5,
+        "low": 1987,
+        "open": 1987,
+        "signal": "HOLD"
+      }
+    ],
+    "source": "phase-6.5 hand-authored OHLC and signal fixture",
+    "timeframe": "M15"
+  },
+  "fixed_trade_model": "Fixed midpoint references and lots; spread and adverse slippage on both market legs",
+  "scenario_order": [
+    "ideal",
+    "low",
+    "baseline",
+    "stress"
+  ],
+  "scenarios": {
+    "baseline": {
+      "dynamic_portfolio": {
+        "decision_path": [
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": "NO_PRIOR_SIGNAL",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 1
+          },
+          {
+            "attempted": {
+              "row": 1,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "2000.25",
+              "loss_budget": "15.000",
+              "modeled_margin": "16.00",
+              "modeled_stop_loss": "14.160",
+              "risk_day_id": "synthetic-day-A",
+              "scenario_id": "phase-6.5/baseline",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.30",
+              "status": "INDICATIVE",
+              "stop": "1998.65",
+              "stop_distance": "1.60",
+              "symbol": "XAUUSD",
+              "target": "2003.45",
+              "volume": "0.08"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 2
+          },
+          {
+            "attempted": {
+              "row": 2,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.56",
+              "gross_pnl": "-92.0000",
+              "net_pnl": "-92.5600",
+              "position": {
+                "entry_row": 2,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "2000.25",
+                  "loss_budget": "15.000",
+                  "modeled_margin": "16.00",
+                  "modeled_stop_loss": "14.160",
+                  "risk_day_id": "synthetic-day-A",
+                  "scenario_id": "phase-6.5/baseline",
+                  "side": "BUY",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0.30",
+                  "status": "INDICATIVE",
+                  "stop": "1998.65",
+                  "stop_distance": "1.60",
+                  "symbol": "XAUUSD",
+                  "target": "2003.45",
+                  "volume": "0.08"
+                },
+                "signal_row": 1
+              },
+              "price": "1988.75",
+              "reason": "OPEN_STOP",
+              "row": 3
+            },
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "92.5600",
+            "risk_day_opening_equity": "3000",
+            "row": 3
+          },
+          {
+            "attempted": {
+              "row": 3,
+              "side": "BUY"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "92.5600",
+            "risk_day_opening_equity": "3000",
+            "row": 4
+          },
+          {
+            "attempted": {
+              "row": 4,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "92.5600",
+            "risk_day_opening_equity": "3000",
+            "row": 5
+          },
+          {
+            "attempted": {
+              "row": 5,
+              "side": "SELL"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1988.75",
+              "loss_budget": "14.5372000",
+              "modeled_margin": "16.00",
+              "modeled_stop_loss": "14.160",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/baseline",
+              "side": "SELL",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.30",
+              "status": "INDICATIVE",
+              "stop": "1990.35",
+              "stop_distance": "1.60",
+              "symbol": "XAUUSD",
+              "target": "1985.55",
+              "volume": "0.08"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2907.4400",
+            "row": 6
+          },
+          {
+            "attempted": {
+              "row": 6,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2907.4400",
+            "row": 7
+          },
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": null,
+            "event": "closed",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.56",
+              "gross_pnl": "25.6000",
+              "net_pnl": "25.0400",
+              "position": {
+                "entry_row": 6,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "1988.75",
+                  "loss_budget": "14.5372000",
+                  "modeled_margin": "16.00",
+                  "modeled_stop_loss": "14.160",
+                  "risk_day_id": "synthetic-day-B",
+                  "scenario_id": "phase-6.5/baseline",
+                  "side": "SELL",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0.30",
+                  "status": "INDICATIVE",
+                  "stop": "1990.35",
+                  "stop_distance": "1.60",
+                  "symbol": "XAUUSD",
+                  "target": "1985.55",
+                  "volume": "0.08"
+                },
+                "signal_row": 5
+              },
+              "price": "1985.55",
+              "reason": "TARGET",
+              "row": 7
+            },
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2907.4400",
+            "row": 7
+          },
+          {
+            "attempted": {
+              "row": 7,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1987.25",
+              "loss_budget": "14.6624000",
+              "modeled_margin": "16.00",
+              "modeled_stop_loss": "14.160",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/baseline",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.30",
+              "status": "INDICATIVE",
+              "stop": "1985.65",
+              "stop_distance": "1.60",
+              "symbol": "XAUUSD",
+              "target": "1990.45",
+              "volume": "0.08"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2907.4400",
+            "row": 8
+          }
+        ],
+        "entry_count": 3,
+        "performance": {
+          "account": {
+            "final_balance": "2932.4800",
+            "final_equity": "2933.2800",
+            "first_insolvent_event_index": null,
+            "marked_return": "-0.02224",
+            "realized_net_pnl": "-67.5200",
+            "realized_return": "-0.02250666666666666666666666666666666666667",
+            "starting_balance": "3000",
+            "starting_equity": "3000",
+            "unrealized_pnl": "0.8000"
+          },
+          "costs": {
+            "commission_due_on_exit": "0.56",
+            "commission_paid": "1.12",
+            "realized_gross_pnl": "-66.4000",
+            "slippage_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            },
+            "spread_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            }
+          },
+          "currency": "USD",
+          "entry_rejections": {
+            "DAILY_LOSS_LIMIT": 2,
+            "POSITION_LIMIT": 2
+          },
+          "event_series": [
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event_index": 0,
+              "position_open": false
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "open",
+              "event_index": 1,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "closed",
+              "event_index": 2,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "3.2000",
+              "drawdown_fraction": "0.001066666666666666666666666666666666666667",
+              "equity": "2996.8000",
+              "event": "open",
+              "event_index": 3,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "3.2000",
+              "drawdown_fraction": "0.001066666666666666666666666666666666666667",
+              "equity": "2996.8000",
+              "event": "closed",
+              "event_index": 4,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "open",
+              "event_index": 5,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "closed",
+              "event_index": 6,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "open",
+              "event_index": 7,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "closed",
+              "event_index": 8,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "open",
+              "event_index": 9,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "92.5600",
+              "drawdown_fraction": "0.03085333333333333333333333333333333333333",
+              "equity": "2907.4400",
+              "event": "closed",
+              "event_index": 10,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "95.7600",
+              "drawdown_fraction": "0.03192",
+              "equity": "2904.2400",
+              "event": "open",
+              "event_index": 11,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "95.7600",
+              "drawdown_fraction": "0.03192",
+              "equity": "2904.2400",
+              "event": "closed",
+              "event_index": 12,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "95.7600",
+              "drawdown_fraction": "0.03192",
+              "equity": "2904.2400",
+              "event": "open",
+              "event_index": 13,
+              "position_open": true,
+              "row": 7
+            },
+            {
+              "drawdown": "67.5200",
+              "drawdown_fraction": "0.02250666666666666666666666666666666666667",
+              "equity": "2932.4800",
+              "event": "closed",
+              "event_index": 14,
+              "position_open": false,
+              "row": 7
+            },
+            {
+              "drawdown": "70.7200",
+              "drawdown_fraction": "0.02357333333333333333333333333333333333333",
+              "equity": "2929.2800",
+              "event": "open",
+              "event_index": 15,
+              "position_open": true,
+              "row": 8
+            },
+            {
+              "drawdown": "66.7200",
+              "drawdown_fraction": "0.02224",
+              "equity": "2933.2800",
+              "event": "closed",
+              "event_index": 16,
+              "position_open": true,
+              "row": 8
+            }
+          ],
+          "exposure": {
+            "intervals_with_position": 6,
+            "observed_interval_fraction": "0.4",
+            "observed_intervals": 15
+          },
+          "max_drawdown": {
+            "drawdown": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "95.7600"
+            },
+            "drawdown_fraction": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "0.03192"
+            }
+          },
+          "scenario_id": "phase-6.5/baseline",
+          "schema_version": 1,
+          "terminal_signal_row": null,
+          "timeframe": "M15",
+          "trades": {
+            "closed": 2,
+            "counts": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 1
+            },
+            "ending_streak": {
+              "length": 1,
+              "outcome": "win"
+            },
+            "expectancy": "-33.7600",
+            "longest_streaks": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 1
+            },
+            "mean_loss": "-92.5600",
+            "mean_win": "25.0400",
+            "net_loss_total": "-92.5600",
+            "net_win_total": "25.0400",
+            "profit_factor": {
+              "reason": null,
+              "status": "finite",
+              "value": "0.2705272255834053586862575626620570440795"
+            }
+          },
+          "unavailable": {
+            "annualized_sharpe": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "calendar_returns": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "day_metrics": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "elapsed_exposure": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            }
+          },
+          "unresolved_position": {
+            "commission_due_on_exit": "0.56",
+            "entry_price": "1987.25",
+            "entry_row": 8,
+            "liquidation_quote": "1987.35",
+            "side": "BUY",
+            "signal_row": 7,
+            "unrealized_pnl": "0.8000",
+            "used_margin": "16.00",
+            "volume_lots": "0.08"
+          }
+        },
+        "rejection_count": 4
+      },
+      "fixed_trade_comparison": {
+        "total_net_pnl_usd": "48.6000",
+        "trades": [
+          {
+            "commission_usd": "0.70",
+            "entry_midpoint": "2000",
+            "entry_price": "2000.25",
+            "exit_midpoint": "2003",
+            "exit_price": "2002.75",
+            "gross_pnl_usd": "25.0000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "24.3000",
+            "side": "BUY",
+            "slippage_cost_usd": "2.0000",
+            "spread_cost_usd": "3.0000",
+            "volume_lots": "0.10"
+          },
+          {
+            "commission_usd": "0.70",
+            "entry_midpoint": "2000",
+            "entry_price": "1999.75",
+            "exit_midpoint": "1997",
+            "exit_price": "1997.25",
+            "gross_pnl_usd": "25.0000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "24.3000",
+            "side": "SELL",
+            "slippage_cost_usd": "2.0000",
+            "spread_cost_usd": "3.0000",
+            "volume_lots": "0.10"
+          }
+        ]
+      },
+      "inputs": {
+        "round_trip_commission_usd_per_lot": "7",
+        "slippage_usd_per_oz": "0.10",
+        "spread_usd_per_oz": "0.30"
+      },
+      "simulation_spec": {
+        "broker": {
+          "contract_size": "100",
+          "evidence": {
+            "scenario_id": "phase-6.5/baseline",
+            "source": "hypothetical XAUUSD execution and broker inputs",
+            "verified": true
+          },
+          "loss_model": "USD_LINEAR",
+          "margin_currency": "USD",
+          "point": "0.005",
+          "profit_currency": "USD",
+          "stops_level_points": 0,
+          "symbol": "XAUUSD",
+          "tick_size": "0.005",
+          "tick_value_loss": "0.50",
+          "volume_max": "10",
+          "volume_min": "0.01",
+          "volume_step": "0.01"
+        },
+        "entry_slippage": "0.10",
+        "evidence": {
+          "scenario_id": "phase-6.5/baseline",
+          "source": "hypothetical XAUUSD execution and broker inputs",
+          "verified": true
+        },
+        "margin_per_lot": "200",
+        "round_trip_commission_per_lot": "7",
+        "spread": "0.30",
+        "stop_slippage": "0.10"
+      }
+    },
+    "ideal": {
+      "dynamic_portfolio": {
+        "decision_path": [
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": "NO_PRIOR_SIGNAL",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 1
+          },
+          {
+            "attempted": {
+              "row": 1,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "2000",
+              "loss_budget": "15.000",
+              "modeled_margin": "20.00",
+              "modeled_stop_loss": "15.000",
+              "risk_day_id": "synthetic-day-A",
+              "scenario_id": "phase-6.5/ideal",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0",
+              "status": "INDICATIVE",
+              "stop": "1998.50",
+              "stop_distance": "1.50",
+              "symbol": "XAUUSD",
+              "target": "2003.00",
+              "volume": "0.10"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 2
+          },
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": null,
+            "event": "closed",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.00",
+              "gross_pnl": "30.0000",
+              "net_pnl": "30.0000",
+              "position": {
+                "entry_row": 2,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "2000",
+                  "loss_budget": "15.000",
+                  "modeled_margin": "20.00",
+                  "modeled_stop_loss": "15.000",
+                  "risk_day_id": "synthetic-day-A",
+                  "scenario_id": "phase-6.5/ideal",
+                  "side": "BUY",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0",
+                  "status": "INDICATIVE",
+                  "stop": "1998.50",
+                  "stop_distance": "1.50",
+                  "symbol": "XAUUSD",
+                  "target": "2003.00",
+                  "volume": "0.10"
+                },
+                "signal_row": 1
+              },
+              "price": "2003.00",
+              "reason": "TARGET",
+              "row": 2
+            },
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 2
+          },
+          {
+            "attempted": {
+              "row": 2,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "GAP_ENTRY",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 3
+          },
+          {
+            "attempted": {
+              "row": 3,
+              "side": "BUY"
+            },
+            "entry": null,
+            "entry_status": "UNVERIFIED_SIGNAL_INTERVAL",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 4
+          },
+          {
+            "attempted": {
+              "row": 4,
+              "side": "SELL"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1989.0",
+              "loss_budget": "15.1500000",
+              "modeled_margin": "20.00",
+              "modeled_stop_loss": "15.000",
+              "risk_day_id": "synthetic-day-A",
+              "scenario_id": "phase-6.5/ideal",
+              "side": "SELL",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0",
+              "status": "INDICATIVE",
+              "stop": "1990.50",
+              "stop_distance": "1.50",
+              "symbol": "XAUUSD",
+              "target": "1986.00",
+              "volume": "0.10"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 5
+          },
+          {
+            "attempted": {
+              "row": 5,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3030.0000",
+            "row": 6
+          },
+          {
+            "attempted": {
+              "row": 6,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3030.0000",
+            "row": 7
+          },
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": null,
+            "event": "closed",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.00",
+              "gross_pnl": "30.0000",
+              "net_pnl": "30.0000",
+              "position": {
+                "entry_row": 5,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "1989.0",
+                  "loss_budget": "15.1500000",
+                  "modeled_margin": "20.00",
+                  "modeled_stop_loss": "15.000",
+                  "risk_day_id": "synthetic-day-A",
+                  "scenario_id": "phase-6.5/ideal",
+                  "side": "SELL",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0",
+                  "status": "INDICATIVE",
+                  "stop": "1990.50",
+                  "stop_distance": "1.50",
+                  "symbol": "XAUUSD",
+                  "target": "1986.00",
+                  "volume": "0.10"
+                },
+                "signal_row": 4
+              },
+              "price": "1986.00",
+              "reason": "TARGET",
+              "row": 7
+            },
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3030.0000",
+            "row": 7
+          },
+          {
+            "attempted": {
+              "row": 7,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1987.0",
+              "loss_budget": "15.3000000",
+              "modeled_margin": "20.00",
+              "modeled_stop_loss": "15.000",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/ideal",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0",
+              "status": "INDICATIVE",
+              "stop": "1985.50",
+              "stop_distance": "1.50",
+              "symbol": "XAUUSD",
+              "target": "1990.00",
+              "volume": "0.10"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3030.0000",
+            "row": 8
+          }
+        ],
+        "entry_count": 3,
+        "performance": {
+          "account": {
+            "final_balance": "3060.0000",
+            "final_equity": "3065.0000",
+            "first_insolvent_event_index": null,
+            "marked_return": "0.02166666666666666666666666666666666666667",
+            "realized_net_pnl": "60.0000",
+            "realized_return": "0.0200",
+            "starting_balance": "3000",
+            "starting_equity": "3000",
+            "unrealized_pnl": "5.000"
+          },
+          "costs": {
+            "commission_due_on_exit": "0.00",
+            "commission_paid": "0.00",
+            "realized_gross_pnl": "60.0000",
+            "slippage_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            },
+            "spread_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            }
+          },
+          "currency": "USD",
+          "entry_rejections": {
+            "GAP_ENTRY": 1,
+            "POSITION_LIMIT": 2,
+            "UNVERIFIED_SIGNAL_INTERVAL": 1
+          },
+          "event_series": [
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event_index": 0,
+              "position_open": false
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "open",
+              "event_index": 1,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "closed",
+              "event_index": 2,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "0.00",
+              "drawdown_fraction": "0.00",
+              "equity": "3000.00",
+              "event": "open",
+              "event_index": 3,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "closed",
+              "event_index": 4,
+              "position_open": false,
+              "row": 2
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "open",
+              "event_index": 5,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "closed",
+              "event_index": 6,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "open",
+              "event_index": 7,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "closed",
+              "event_index": 8,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "open",
+              "event_index": 9,
+              "position_open": true,
+              "row": 5
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "closed",
+              "event_index": 10,
+              "position_open": true,
+              "row": 5
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "open",
+              "event_index": 11,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "closed",
+              "event_index": 12,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3030.0000",
+              "event": "open",
+              "event_index": 13,
+              "position_open": true,
+              "row": 7
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3060.0000",
+              "event": "closed",
+              "event_index": 14,
+              "position_open": false,
+              "row": 7
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3060.0000",
+              "event": "open",
+              "event_index": 15,
+              "position_open": true,
+              "row": 8
+            },
+            {
+              "drawdown": "0.0000",
+              "drawdown_fraction": "0",
+              "equity": "3065.0000",
+              "event": "closed",
+              "event_index": 16,
+              "position_open": true,
+              "row": 8
+            }
+          ],
+          "exposure": {
+            "intervals_with_position": 7,
+            "observed_interval_fraction": "0.4666666666666666666666666666666666666667",
+            "observed_intervals": 15
+          },
+          "max_drawdown": {
+            "drawdown": {
+              "peak_event_index": null,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "none",
+              "trough_event_index": null,
+              "value": "0"
+            },
+            "drawdown_fraction": {
+              "peak_event_index": null,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "none",
+              "trough_event_index": null,
+              "value": "0"
+            }
+          },
+          "scenario_id": "phase-6.5/ideal",
+          "schema_version": 1,
+          "terminal_signal_row": null,
+          "timeframe": "M15",
+          "trades": {
+            "closed": 2,
+            "counts": {
+              "breakeven": 0,
+              "loss": 0,
+              "win": 2
+            },
+            "ending_streak": {
+              "length": 2,
+              "outcome": "win"
+            },
+            "expectancy": "30.0000",
+            "longest_streaks": {
+              "breakeven": 0,
+              "loss": 0,
+              "win": 2
+            },
+            "mean_loss": null,
+            "mean_win": "30.0000",
+            "net_loss_total": "0",
+            "net_win_total": "60.0000",
+            "profit_factor": {
+              "reason": "no_net_losses",
+              "status": "infinite",
+              "value": null
+            }
+          },
+          "unavailable": {
+            "annualized_sharpe": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "calendar_returns": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "day_metrics": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "elapsed_exposure": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            }
+          },
+          "unresolved_position": {
+            "commission_due_on_exit": "0.00",
+            "entry_price": "1987.0",
+            "entry_row": 8,
+            "liquidation_quote": "1987.5",
+            "side": "BUY",
+            "signal_row": 7,
+            "unrealized_pnl": "5.000",
+            "used_margin": "20.00",
+            "volume_lots": "0.10"
+          }
+        },
+        "rejection_count": 4
+      },
+      "fixed_trade_comparison": {
+        "total_net_pnl_usd": "60.00",
+        "trades": [
+          {
+            "commission_usd": "0.00",
+            "entry_midpoint": "2000",
+            "entry_price": "2000",
+            "exit_midpoint": "2003",
+            "exit_price": "2003",
+            "gross_pnl_usd": "30.00",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "30.00",
+            "side": "BUY",
+            "slippage_cost_usd": "0.00",
+            "spread_cost_usd": "0.00",
+            "volume_lots": "0.10"
+          },
+          {
+            "commission_usd": "0.00",
+            "entry_midpoint": "2000",
+            "entry_price": "2000",
+            "exit_midpoint": "1997",
+            "exit_price": "1997",
+            "gross_pnl_usd": "30.00",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "30.00",
+            "side": "SELL",
+            "slippage_cost_usd": "0.00",
+            "spread_cost_usd": "0.00",
+            "volume_lots": "0.10"
+          }
+        ]
+      },
+      "inputs": {
+        "round_trip_commission_usd_per_lot": "0",
+        "slippage_usd_per_oz": "0",
+        "spread_usd_per_oz": "0"
+      },
+      "simulation_spec": {
+        "broker": {
+          "contract_size": "100",
+          "evidence": {
+            "scenario_id": "phase-6.5/ideal",
+            "source": "hypothetical XAUUSD execution and broker inputs",
+            "verified": true
+          },
+          "loss_model": "USD_LINEAR",
+          "margin_currency": "USD",
+          "point": "0.005",
+          "profit_currency": "USD",
+          "stops_level_points": 0,
+          "symbol": "XAUUSD",
+          "tick_size": "0.005",
+          "tick_value_loss": "0.50",
+          "volume_max": "10",
+          "volume_min": "0.01",
+          "volume_step": "0.01"
+        },
+        "entry_slippage": "0",
+        "evidence": {
+          "scenario_id": "phase-6.5/ideal",
+          "source": "hypothetical XAUUSD execution and broker inputs",
+          "verified": true
+        },
+        "margin_per_lot": "200",
+        "round_trip_commission_per_lot": "0",
+        "spread": "0",
+        "stop_slippage": "0"
+      }
+    },
+    "low": {
+      "dynamic_portfolio": {
+        "decision_path": [
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": "NO_PRIOR_SIGNAL",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 1
+          },
+          {
+            "attempted": {
+              "row": 1,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "2000.125",
+              "loss_budget": "15.000",
+              "modeled_margin": "18.00",
+              "modeled_stop_loss": "14.6700",
+              "risk_day_id": "synthetic-day-A",
+              "scenario_id": "phase-6.5/low",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.150",
+              "status": "INDICATIVE",
+              "stop": "1998.575",
+              "stop_distance": "1.550",
+              "symbol": "XAUUSD",
+              "target": "2003.225",
+              "volume": "0.09"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 2
+          },
+          {
+            "attempted": {
+              "row": 2,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.27",
+              "gross_pnl": "-101.25000",
+              "net_pnl": "-101.52000",
+              "position": {
+                "entry_row": 2,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "2000.125",
+                  "loss_budget": "15.000",
+                  "modeled_margin": "18.00",
+                  "modeled_stop_loss": "14.6700",
+                  "risk_day_id": "synthetic-day-A",
+                  "scenario_id": "phase-6.5/low",
+                  "side": "BUY",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0.150",
+                  "status": "INDICATIVE",
+                  "stop": "1998.575",
+                  "stop_distance": "1.550",
+                  "symbol": "XAUUSD",
+                  "target": "2003.225",
+                  "volume": "0.09"
+                },
+                "signal_row": 1
+              },
+              "price": "1988.875",
+              "reason": "OPEN_STOP",
+              "row": 3
+            },
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "101.52000",
+            "risk_day_opening_equity": "3000",
+            "row": 3
+          },
+          {
+            "attempted": {
+              "row": 3,
+              "side": "BUY"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "101.52000",
+            "risk_day_opening_equity": "3000",
+            "row": 4
+          },
+          {
+            "attempted": {
+              "row": 4,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "101.52000",
+            "risk_day_opening_equity": "3000",
+            "row": 5
+          },
+          {
+            "attempted": {
+              "row": 5,
+              "side": "SELL"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1988.875",
+              "loss_budget": "14.49240000",
+              "modeled_margin": "16.00",
+              "modeled_stop_loss": "13.0400",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/low",
+              "side": "SELL",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.150",
+              "status": "INDICATIVE",
+              "stop": "1990.425",
+              "stop_distance": "1.550",
+              "symbol": "XAUUSD",
+              "target": "1985.775",
+              "volume": "0.08"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2898.48000",
+            "row": 6
+          },
+          {
+            "attempted": {
+              "row": 6,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2898.48000",
+            "row": 7
+          },
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": null,
+            "event": "closed",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.24",
+              "gross_pnl": "24.80000",
+              "net_pnl": "24.56000",
+              "position": {
+                "entry_row": 6,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "1988.875",
+                  "loss_budget": "14.49240000",
+                  "modeled_margin": "16.00",
+                  "modeled_stop_loss": "13.0400",
+                  "risk_day_id": "synthetic-day-B",
+                  "scenario_id": "phase-6.5/low",
+                  "side": "SELL",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "0.150",
+                  "status": "INDICATIVE",
+                  "stop": "1990.425",
+                  "stop_distance": "1.550",
+                  "symbol": "XAUUSD",
+                  "target": "1985.775",
+                  "volume": "0.08"
+                },
+                "signal_row": 5
+              },
+              "price": "1985.775",
+              "reason": "TARGET",
+              "row": 7
+            },
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2898.48000",
+            "row": 7
+          },
+          {
+            "attempted": {
+              "row": 7,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1987.125",
+              "loss_budget": "14.61520000",
+              "modeled_margin": "16.00",
+              "modeled_stop_loss": "13.0400",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/low",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "0.150",
+              "status": "INDICATIVE",
+              "stop": "1985.575",
+              "stop_distance": "1.550",
+              "symbol": "XAUUSD",
+              "target": "1990.225",
+              "volume": "0.08"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2898.48000",
+            "row": 8
+          }
+        ],
+        "entry_count": 3,
+        "performance": {
+          "account": {
+            "final_balance": "2923.04000",
+            "final_equity": "2925.44000",
+            "first_insolvent_event_index": null,
+            "marked_return": "-0.02485333333333333333333333333333333333333",
+            "realized_net_pnl": "-76.96000",
+            "realized_return": "-0.02565333333333333333333333333333333333333",
+            "starting_balance": "3000",
+            "starting_equity": "3000",
+            "unrealized_pnl": "2.40000"
+          },
+          "costs": {
+            "commission_due_on_exit": "0.24",
+            "commission_paid": "0.51",
+            "realized_gross_pnl": "-76.45000",
+            "slippage_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            },
+            "spread_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            }
+          },
+          "currency": "USD",
+          "entry_rejections": {
+            "DAILY_LOSS_LIMIT": 2,
+            "POSITION_LIMIT": 2
+          },
+          "event_series": [
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event_index": 0,
+              "position_open": false
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "open",
+              "event_index": 1,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "closed",
+              "event_index": 2,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "1.80000",
+              "drawdown_fraction": "0.00060",
+              "equity": "2998.20000",
+              "event": "open",
+              "event_index": 3,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "1.80000",
+              "drawdown_fraction": "0.00060",
+              "equity": "2998.20000",
+              "event": "closed",
+              "event_index": 4,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "open",
+              "event_index": 5,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "closed",
+              "event_index": 6,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "open",
+              "event_index": 7,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "closed",
+              "event_index": 8,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "open",
+              "event_index": 9,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "101.52000",
+              "drawdown_fraction": "0.03384",
+              "equity": "2898.48000",
+              "event": "closed",
+              "event_index": 10,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "103.12000",
+              "drawdown_fraction": "0.03437333333333333333333333333333333333333",
+              "equity": "2896.88000",
+              "event": "open",
+              "event_index": 11,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "103.12000",
+              "drawdown_fraction": "0.03437333333333333333333333333333333333333",
+              "equity": "2896.88000",
+              "event": "closed",
+              "event_index": 12,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "103.12000",
+              "drawdown_fraction": "0.03437333333333333333333333333333333333333",
+              "equity": "2896.88000",
+              "event": "open",
+              "event_index": 13,
+              "position_open": true,
+              "row": 7
+            },
+            {
+              "drawdown": "76.96000",
+              "drawdown_fraction": "0.02565333333333333333333333333333333333333",
+              "equity": "2923.04000",
+              "event": "closed",
+              "event_index": 14,
+              "position_open": false,
+              "row": 7
+            },
+            {
+              "drawdown": "78.56000",
+              "drawdown_fraction": "0.02618666666666666666666666666666666666667",
+              "equity": "2921.44000",
+              "event": "open",
+              "event_index": 15,
+              "position_open": true,
+              "row": 8
+            },
+            {
+              "drawdown": "74.56000",
+              "drawdown_fraction": "0.02485333333333333333333333333333333333333",
+              "equity": "2925.44000",
+              "event": "closed",
+              "event_index": 16,
+              "position_open": true,
+              "row": 8
+            }
+          ],
+          "exposure": {
+            "intervals_with_position": 6,
+            "observed_interval_fraction": "0.4",
+            "observed_intervals": 15
+          },
+          "max_drawdown": {
+            "drawdown": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "103.12000"
+            },
+            "drawdown_fraction": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "0.03437333333333333333333333333333333333333"
+            }
+          },
+          "scenario_id": "phase-6.5/low",
+          "schema_version": 1,
+          "terminal_signal_row": null,
+          "timeframe": "M15",
+          "trades": {
+            "closed": 2,
+            "counts": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 1
+            },
+            "ending_streak": {
+              "length": 1,
+              "outcome": "win"
+            },
+            "expectancy": "-38.48000",
+            "longest_streaks": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 1
+            },
+            "mean_loss": "-101.52000",
+            "mean_win": "24.56000",
+            "net_loss_total": "-101.52000",
+            "net_win_total": "24.56000",
+            "profit_factor": {
+              "reason": null,
+              "status": "finite",
+              "value": "0.2419227738376674546887312844759653270292"
+            }
+          },
+          "unavailable": {
+            "annualized_sharpe": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "calendar_returns": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "day_metrics": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "elapsed_exposure": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            }
+          },
+          "unresolved_position": {
+            "commission_due_on_exit": "0.24",
+            "entry_price": "1987.125",
+            "entry_row": 8,
+            "liquidation_quote": "1987.425",
+            "side": "BUY",
+            "signal_row": 7,
+            "unrealized_pnl": "2.40000",
+            "used_margin": "16.00",
+            "volume_lots": "0.08"
+          }
+        },
+        "rejection_count": 4
+      },
+      "fixed_trade_comparison": {
+        "total_net_pnl_usd": "54.40000",
+        "trades": [
+          {
+            "commission_usd": "0.30",
+            "entry_midpoint": "2000",
+            "entry_price": "2000.125",
+            "exit_midpoint": "2003",
+            "exit_price": "2002.875",
+            "gross_pnl_usd": "27.50000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "27.20000",
+            "side": "BUY",
+            "slippage_cost_usd": "1.0000",
+            "spread_cost_usd": "1.5000",
+            "volume_lots": "0.10"
+          },
+          {
+            "commission_usd": "0.30",
+            "entry_midpoint": "2000",
+            "entry_price": "1999.875",
+            "exit_midpoint": "1997",
+            "exit_price": "1997.125",
+            "gross_pnl_usd": "27.50000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "27.20000",
+            "side": "SELL",
+            "slippage_cost_usd": "1.0000",
+            "spread_cost_usd": "1.5000",
+            "volume_lots": "0.10"
+          }
+        ]
+      },
+      "inputs": {
+        "round_trip_commission_usd_per_lot": "3",
+        "slippage_usd_per_oz": "0.05",
+        "spread_usd_per_oz": "0.15"
+      },
+      "simulation_spec": {
+        "broker": {
+          "contract_size": "100",
+          "evidence": {
+            "scenario_id": "phase-6.5/low",
+            "source": "hypothetical XAUUSD execution and broker inputs",
+            "verified": true
+          },
+          "loss_model": "USD_LINEAR",
+          "margin_currency": "USD",
+          "point": "0.005",
+          "profit_currency": "USD",
+          "stops_level_points": 0,
+          "symbol": "XAUUSD",
+          "tick_size": "0.005",
+          "tick_value_loss": "0.50",
+          "volume_max": "10",
+          "volume_min": "0.01",
+          "volume_step": "0.01"
+        },
+        "entry_slippage": "0.05",
+        "evidence": {
+          "scenario_id": "phase-6.5/low",
+          "source": "hypothetical XAUUSD execution and broker inputs",
+          "verified": true
+        },
+        "margin_per_lot": "200",
+        "round_trip_commission_per_lot": "3",
+        "spread": "0.15",
+        "stop_slippage": "0.05"
+      }
+    },
+    "stress": {
+      "dynamic_portfolio": {
+        "decision_path": [
+          {
+            "attempted": null,
+            "entry": null,
+            "entry_status": "NO_PRIOR_SIGNAL",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 1
+          },
+          {
+            "attempted": {
+              "row": 1,
+              "side": "BUY"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "2001.00",
+              "loss_budget": "15.000",
+              "modeled_margin": "10.00",
+              "modeled_stop_loss": "13.250",
+              "risk_day_id": "synthetic-day-A",
+              "scenario_id": "phase-6.5/stress",
+              "side": "BUY",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "1.00",
+              "status": "INDICATIVE",
+              "stop": "1999.00",
+              "stop_distance": "2.00",
+              "symbol": "XAUUSD",
+              "target": "2005.00",
+              "volume": "0.05"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "3000",
+            "row": 2
+          },
+          {
+            "attempted": {
+              "row": 2,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": {
+              "both_touched": false,
+              "commission": "0.75",
+              "gross_pnl": "-65.0000",
+              "net_pnl": "-65.7500",
+              "position": {
+                "entry_row": 2,
+                "plan": {
+                  "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                  "entry": "2001.00",
+                  "loss_budget": "15.000",
+                  "modeled_margin": "10.00",
+                  "modeled_stop_loss": "13.250",
+                  "risk_day_id": "synthetic-day-A",
+                  "scenario_id": "phase-6.5/stress",
+                  "side": "BUY",
+                  "sources": [
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "explicit synthetic row boundaries",
+                    "hypothetical XAUUSD execution and broker inputs",
+                    "hypothetical XAUUSD execution and broker inputs"
+                  ],
+                  "spread": "1.00",
+                  "status": "INDICATIVE",
+                  "stop": "1999.00",
+                  "stop_distance": "2.00",
+                  "symbol": "XAUUSD",
+                  "target": "2005.00",
+                  "volume": "0.05"
+                },
+                "signal_row": 1
+              },
+              "price": "1988.00",
+              "reason": "OPEN_STOP",
+              "row": 3
+            },
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "65.7500",
+            "risk_day_opening_equity": "3000",
+            "row": 3
+          },
+          {
+            "attempted": {
+              "row": 3,
+              "side": "BUY"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "65.7500",
+            "risk_day_opening_equity": "3000",
+            "row": 4
+          },
+          {
+            "attempted": {
+              "row": 4,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "DAILY_LOSS_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [
+              "DAILY_LOSS_LIMIT"
+            ],
+            "risk_day": "synthetic-day-A",
+            "risk_day_loss_to_date": "65.7500",
+            "risk_day_opening_equity": "3000",
+            "row": 5
+          },
+          {
+            "attempted": {
+              "row": 5,
+              "side": "SELL"
+            },
+            "entry": {
+              "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+              "entry": "1988.00",
+              "loss_budget": "14.6712500",
+              "modeled_margin": "10.00",
+              "modeled_stop_loss": "13.250",
+              "risk_day_id": "synthetic-day-B",
+              "scenario_id": "phase-6.5/stress",
+              "side": "SELL",
+              "sources": [
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs",
+                "explicit synthetic row boundaries",
+                "hypothetical XAUUSD execution and broker inputs",
+                "hypothetical XAUUSD execution and broker inputs"
+              ],
+              "spread": "1.00",
+              "status": "INDICATIVE",
+              "stop": "1990.00",
+              "stop_distance": "2.00",
+              "symbol": "XAUUSD",
+              "target": "1984.00",
+              "volume": "0.05"
+            },
+            "entry_status": "FILLED",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2934.2500",
+            "row": 6
+          },
+          {
+            "attempted": {
+              "row": 6,
+              "side": "SELL"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2934.2500",
+            "row": 7
+          },
+          {
+            "attempted": {
+              "row": 7,
+              "side": "BUY"
+            },
+            "entry": null,
+            "entry_status": "POSITION_LIMIT",
+            "event": "open",
+            "exit": null,
+            "flags": [],
+            "risk_day": "synthetic-day-B",
+            "risk_day_loss_to_date": "0",
+            "risk_day_opening_equity": "2934.2500",
+            "row": 8
+          }
+        ],
+        "entry_count": 2,
+        "performance": {
+          "account": {
+            "final_balance": "2934.2500",
+            "final_equity": "2934.2500",
+            "first_insolvent_event_index": null,
+            "marked_return": "-0.02191666666666666666666666666666666666667",
+            "realized_net_pnl": "-65.7500",
+            "realized_return": "-0.02191666666666666666666666666666666666667",
+            "starting_balance": "3000",
+            "starting_equity": "3000",
+            "unrealized_pnl": "-0.0000"
+          },
+          "costs": {
+            "commission_due_on_exit": "0.75",
+            "commission_paid": "0.75",
+            "realized_gross_pnl": "-65.0000",
+            "slippage_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            },
+            "spread_cost": {
+              "reason": "no_separate_cost_ledger",
+              "value": null
+            }
+          },
+          "currency": "USD",
+          "entry_rejections": {
+            "DAILY_LOSS_LIMIT": 2,
+            "POSITION_LIMIT": 3
+          },
+          "event_series": [
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event_index": 0,
+              "position_open": false
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "open",
+              "event_index": 1,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "0",
+              "drawdown_fraction": "0",
+              "equity": "3000",
+              "event": "closed",
+              "event_index": 2,
+              "position_open": false,
+              "row": 1
+            },
+            {
+              "drawdown": "7.5000",
+              "drawdown_fraction": "0.0025",
+              "equity": "2992.5000",
+              "event": "open",
+              "event_index": 3,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "7.5000",
+              "drawdown_fraction": "0.0025",
+              "equity": "2992.5000",
+              "event": "closed",
+              "event_index": 4,
+              "position_open": true,
+              "row": 2
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "open",
+              "event_index": 5,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "closed",
+              "event_index": 6,
+              "position_open": false,
+              "row": 3
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "open",
+              "event_index": 7,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "closed",
+              "event_index": 8,
+              "position_open": false,
+              "row": 4
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "open",
+              "event_index": 9,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "closed",
+              "event_index": 10,
+              "position_open": false,
+              "row": 5
+            },
+            {
+              "drawdown": "73.2500",
+              "drawdown_fraction": "0.02441666666666666666666666666666666666667",
+              "equity": "2926.7500",
+              "event": "open",
+              "event_index": 11,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "73.2500",
+              "drawdown_fraction": "0.02441666666666666666666666666666666666667",
+              "equity": "2926.7500",
+              "event": "closed",
+              "event_index": 12,
+              "position_open": true,
+              "row": 6
+            },
+            {
+              "drawdown": "73.2500",
+              "drawdown_fraction": "0.02441666666666666666666666666666666666667",
+              "equity": "2926.7500",
+              "event": "open",
+              "event_index": 13,
+              "position_open": true,
+              "row": 7
+            },
+            {
+              "drawdown": "63.2500",
+              "drawdown_fraction": "0.02108333333333333333333333333333333333333",
+              "equity": "2936.7500",
+              "event": "closed",
+              "event_index": 14,
+              "position_open": true,
+              "row": 7
+            },
+            {
+              "drawdown": "63.2500",
+              "drawdown_fraction": "0.02108333333333333333333333333333333333333",
+              "equity": "2936.7500",
+              "event": "open",
+              "event_index": 15,
+              "position_open": true,
+              "row": 8
+            },
+            {
+              "drawdown": "65.7500",
+              "drawdown_fraction": "0.02191666666666666666666666666666666666667",
+              "equity": "2934.2500",
+              "event": "closed",
+              "event_index": 16,
+              "position_open": true,
+              "row": 8
+            }
+          ],
+          "exposure": {
+            "intervals_with_position": 7,
+            "observed_interval_fraction": "0.4666666666666666666666666666666666666667",
+            "observed_intervals": 15
+          },
+          "max_drawdown": {
+            "drawdown": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "73.2500"
+            },
+            "drawdown_fraction": {
+              "peak_event_index": 2,
+              "peak_to_recovery_intervals": null,
+              "recovery_event_index": null,
+              "status": "unrecovered",
+              "trough_event_index": 11,
+              "value": "0.02441666666666666666666666666666666666667"
+            }
+          },
+          "scenario_id": "phase-6.5/stress",
+          "schema_version": 1,
+          "terminal_signal_row": null,
+          "timeframe": "M15",
+          "trades": {
+            "closed": 1,
+            "counts": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 0
+            },
+            "ending_streak": {
+              "length": 1,
+              "outcome": "loss"
+            },
+            "expectancy": "-65.7500",
+            "longest_streaks": {
+              "breakeven": 0,
+              "loss": 1,
+              "win": 0
+            },
+            "mean_loss": "-65.7500",
+            "mean_win": null,
+            "net_loss_total": "-65.7500",
+            "net_win_total": "0",
+            "profit_factor": {
+              "reason": null,
+              "status": "finite",
+              "value": "0E+4"
+            }
+          },
+          "unavailable": {
+            "annualized_sharpe": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "calendar_returns": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "day_metrics": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            },
+            "elapsed_exposure": {
+              "reason": "unverified_time_or_sampling_boundaries",
+              "value": null
+            }
+          },
+          "unresolved_position": {
+            "commission_due_on_exit": "0.75",
+            "entry_price": "1988.00",
+            "entry_row": 6,
+            "liquidation_quote": "1988.00",
+            "side": "SELL",
+            "signal_row": 5,
+            "unrealized_pnl": "-0.0000",
+            "used_margin": "10.00",
+            "volume_lots": "0.05"
+          }
+        },
+        "rejection_count": 5
+      },
+      "fixed_trade_comparison": {
+        "total_net_pnl_usd": "17.0000",
+        "trades": [
+          {
+            "commission_usd": "1.50",
+            "entry_midpoint": "2000",
+            "entry_price": "2001.00",
+            "exit_midpoint": "2003",
+            "exit_price": "2002.00",
+            "gross_pnl_usd": "10.0000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "8.5000",
+            "side": "BUY",
+            "slippage_cost_usd": "10.0000",
+            "spread_cost_usd": "10.0000",
+            "volume_lots": "0.10"
+          },
+          {
+            "commission_usd": "1.50",
+            "entry_midpoint": "2000",
+            "entry_price": "1999.00",
+            "exit_midpoint": "1997",
+            "exit_price": "1998.00",
+            "gross_pnl_usd": "10.0000",
+            "midpoint_pnl_usd": "30.00",
+            "net_pnl_usd": "8.5000",
+            "side": "SELL",
+            "slippage_cost_usd": "10.0000",
+            "spread_cost_usd": "10.0000",
+            "volume_lots": "0.10"
+          }
+        ]
+      },
+      "inputs": {
+        "round_trip_commission_usd_per_lot": "15",
+        "slippage_usd_per_oz": "0.50",
+        "spread_usd_per_oz": "1.00"
+      },
+      "simulation_spec": {
+        "broker": {
+          "contract_size": "100",
+          "evidence": {
+            "scenario_id": "phase-6.5/stress",
+            "source": "hypothetical XAUUSD execution and broker inputs",
+            "verified": true
+          },
+          "loss_model": "USD_LINEAR",
+          "margin_currency": "USD",
+          "point": "0.005",
+          "profit_currency": "USD",
+          "stops_level_points": 0,
+          "symbol": "XAUUSD",
+          "tick_size": "0.005",
+          "tick_value_loss": "0.50",
+          "volume_max": "10",
+          "volume_min": "0.01",
+          "volume_step": "0.01"
+        },
+        "entry_slippage": "0.50",
+        "evidence": {
+          "scenario_id": "phase-6.5/stress",
+          "source": "hypothetical XAUUSD execution and broker inputs",
+          "verified": true
+        },
+        "margin_per_lot": "200",
+        "round_trip_commission_per_lot": "15",
+        "spread": "1.00",
+        "stop_slippage": "0.50"
+      }
+    }
+  },
+  "schema_version": 1
+}

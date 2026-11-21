@@ -1,0 +1,205 @@
+{
+  "complete_prior_universe_confirmed": false,
+  "draft_artifact_sha256": {
+    "goldbot/backtesting/prospective_validation.py": "01f85a3d1a704e0dd1ce6463da89eb4ced55a6c72266a7892f2aec1a08acc23b",
+    "reports/validation_phase_6_8_6/draft-protocol.md": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb"
+  },
+  "phase_6_6_strategy_freeze": {
+    "manifest": {
+      "boundary_policy": [
+        "Each timeframe is evaluated independently in original row order.",
+        "All earlier same-timeframe closes may seed indicators and previous-candle state only.",
+        "Each partition starts with fresh account, risk, position and pending signal state.",
+        "Synthetic risk schedule starts at the first partition open with no inferred resets.",
+        "Final close signal expires unfilled. Open position is reported unresolved and discarded.",
+        "No liquidation, carry, or later candle is used to resolve a partition boundary."
+      ],
+      "historical_execution": "disabled",
+      "indicator_ema_periods": [
+        9,
+        21,
+        50,
+        200
+      ],
+      "indicator_first_valid_rows": {
+        "atr_14": 14,
+        "ema_200": 200,
+        "ema_21": 21,
+        "ema_50": 50,
+        "ema_9": 9,
+        "macd_histogram": 34,
+        "rsi_14": 15
+      },
+      "indicator_sma_periods": [
+        20,
+        50,
+        200
+      ],
+      "package_source_sha256": {
+        "analysis/data_analysis.py": "ac15296a1836f50be2290e1b830bb37b589a915fdcb8b43b5bb3a8c5db0f0990",
+        "analysis/indicators.py": "c43ecdf7e2d2b6f5adce4630375d36fe906dcb83463fe48ae7b36657058a7bbc",
+        "backtesting/execution_simulator.py": "b367a1684218adb3841aec59236d0afd4e3ba4c683f0100cc83b70e9a32b9f4b",
+        "backtesting/historical_replay.py": "72f00c4c451447d4313e7dd635898b0aaf71c6da39f90be46f78b9ee1bedff08",
+        "backtesting/portfolio_coordinator.py": "1c1c0bd0d098f6b916d01452087479e2f6e1b9781af374f22a681fa5aa2ef863",
+        "backtesting/sensitivity_analysis.py": "30bfc2517102bd0641eef550375b8276fefe3113fde9b680b21c461a02a8cbd6",
+        "backtesting/strategy_validation.py": "aed86eec42b93dca12a1d167850e6cd109921bd9640c950d9a5bb0803b8b54f0",
+        "risk/position_sizing.py": "611584369b2c3907d56db8681caf14bfeadfc92568a21963121361a73b064a96",
+        "risk/risk_config.py": "36d5b48c4865a95e6911b0d13152bf096f6bda677f09a6dbed9c0376cc8c0e17",
+        "risk/risk_manager.py": "c2bceba9fb3a750efc0399ee4c61cb4740546cdc2ab62a44a8a279d50b1d9bcd",
+        "risk/trade_plan.py": "03a019022eba1bbd946510c6c3756a71688ffaf8784ca3240f64cd18a2d160cb",
+        "strategy/signals.py": "ed8adc4bb28bbb6c04ae6f22863902dcc171daa009af812a72af672e1d5fb867",
+        "strategy/strategy.py": "3ca319ecd18227e3b5e29ba3248c74ca9a168f7e77b128059471659ebea44430",
+        "strategy/strategy_config.py": "16f2d98d49d25020e3fbde9affa93997fa87950b9d1df0a80c484ca5a9aa092e"
+      },
+      "risk": {
+        "ILLUSTRATIVE_EQUITY": "3000",
+        "MAX_DAILY_LOSS": "0.02",
+        "MAX_DRAWDOWN": "0.1",
+        "MAX_POSITIONS": 1,
+        "RISK_PER_TRADE": "0.005",
+        "STOP_ATR_MULTIPLE": "1.5",
+        "SYMBOL": "XAUUSD",
+        "TARGET_STOP_MULTIPLE": "2"
+      },
+      "rsi_thresholds": [
+        30,
+        50,
+        70
+      ],
+      "schema": "goldbot.strategy-validation.config.v1",
+      "strategy": {
+        "hold_gap_crossovers": true
+      },
+      "synthetic_execution": {
+        "broker": {
+          "contract_size": "100",
+          "evidence": {
+            "scenario_id": "phase-6.5/phase-6.6-synthetic-baseline",
+            "source": "hypothetical XAUUSD execution and broker inputs",
+            "verified": true
+          },
+          "loss_model": "USD_LINEAR",
+          "margin_currency": "USD",
+          "point": "0.005",
+          "profit_currency": "USD",
+          "stops_level_points": 0,
+          "symbol": "XAUUSD",
+          "tick_size": "0.005",
+          "tick_value_loss": "0.5",
+          "volume_max": "10",
+          "volume_min": "0.01",
+          "volume_step": "0.01"
+        },
+        "entry_slippage": "0.1",
+        "evidence": {
+          "scenario_id": "phase-6.5/phase-6.6-synthetic-baseline",
+          "source": "hypothetical XAUUSD execution and broker inputs",
+          "verified": true
+        },
+        "margin_per_lot": "200",
+        "round_trip_commission_per_lot": "7",
+        "spread": "0.3",
+        "stop_slippage": "0.1"
+      }
+    },
+    "sha256": "ed9ea8a63046a5e6ed09e22e3c963c6971ff4bd94fc8c247efd114e6993ef94b"
+  },
+  "phase_6_8_4_returned_rows": 0,
+  "prior_coverage_utc": null,
+  "prior_diagnostic_review_inventory": {
+    "reports/phase_5_2_broker_diagnostic.json": "47784f7dce545957f8976c9bcd902b39299aba21de9e5086a42f641bfc835794",
+    "reports/phase_6_8_1/current-demo.json": "a6097cae9c9094f2d4a3dc955c97f0b50187699c5a05f65cc6a527fc87bc9979",
+    "reports/phase_6_8_2/current-demo.json": "63df1a47e6cefd0893a407513e0dc35355be94c24912a0b457bada877b901cf7",
+    "reports/phase_6_8_2/dst-2025.json": "907abbfb66d1b86aa4aec0ee28c2c1abea68380496d7e490704f28fb8fcba421",
+    "reports/phase_6_8_2/dst-2026.json": "10ef69c6b7a993359ee6f997982bcb0c618d2c4ef19f96696d9ea4211dbb7612",
+    "reports/phase_6_8_2/initial-demo.json": "69a95f2bc4f141faa4ed127aa9da74c94a05afdf47e77de9ca436f14bc8ed0a8",
+    "reports/phase_6_8_2/repeat-demo.json": "cf34dec93ba2080f3fe1fb0414258baf789ca4d91c662d61fc3b90621974e995",
+    "reports/phase_6_8_3/demo-session-metadata.json": "0afd1f47d8b9cff15a09cbc29c1a52774ad71a41eefc54e110661b9a11573009",
+    "reports/phase_6_8_4/demo-tick-samples.json": "2cd0b863705d61806c72adecb03b2b224f2eaaffa0bb2dc8148da0d8075b2911"
+  },
+  "prior_original_sources": {
+    "H1": {
+      "partitions": [
+        {
+          "count": 6000,
+          "first_raw_server_clock_label": 1740704400,
+          "first_source_row": 1,
+          "last_raw_server_clock_label": 1772794800,
+          "last_source_row": 6000,
+          "name": "development",
+          "preceding_close_warmup_rows": 0
+        },
+        {
+          "count": 2000,
+          "first_raw_server_clock_label": 1772798400,
+          "first_source_row": 6001,
+          "last_raw_server_clock_label": 1783976400,
+          "last_source_row": 8000,
+          "name": "validation",
+          "preceding_close_warmup_rows": 6000
+        },
+        {
+          "count": 2000,
+          "first_raw_server_clock_label": 1783980000,
+          "first_source_row": 8001,
+          "last_raw_server_clock_label": 1794927600,
+          "last_source_row": 10000,
+          "name": "test",
+          "preceding_close_warmup_rows": 8000
+        }
+      ],
+      "path": "data/XAUUSD_H1.csv",
+      "provenance": "original GoldBot MT5 export; previously inspected",
+      "row_count": 10000,
+      "sha256": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+    },
+    "M15": {
+      "partitions": [
+        {
+          "count": 6000,
+          "first_raw_server_clock_label": 1781128800,
+          "first_source_row": 1,
+          "last_raw_server_clock_label": 1789469100,
+          "last_source_row": 6000,
+          "name": "development",
+          "preceding_close_warmup_rows": 0
+        },
+        {
+          "count": 2000,
+          "first_raw_server_clock_label": 1789470000,
+          "first_source_row": 6001,
+          "last_raw_server_clock_label": 1792125900,
+          "last_source_row": 8000,
+          "name": "validation",
+          "preceding_close_warmup_rows": 6000
+        },
+        {
+          "count": 2000,
+          "first_raw_server_clock_label": 1792126800,
+          "first_source_row": 8001,
+          "last_raw_server_clock_label": 1794930300,
+          "last_source_row": 10000,
+          "name": "test",
+          "preceding_close_warmup_rows": 8000
+        }
+      ],
+      "path": "data/XAUUSD_M15.csv",
+      "provenance": "original GoldBot MT5 export; previously inspected",
+      "row_count": 10000,
+      "sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+    }
+  },
+  "prospective_window": null,
+  "reference_inventory_sha256": "02835dac2e6f7203763f4d933b66c6e702a3807f0b1220029dfb19309e4b42a6",
+  "reference_reports": {
+    "reports/phase_6_8_4/broker-support-inquiry.md": "d72883d123d2fbf6bd21f230c5b00611997520ba80da9899e9155e4f19a9752b",
+    "reports/phase_6_8_4/demo-tick-samples.json": "2cd0b863705d61806c72adecb03b2b224f2eaaffa0bb2dc8148da0d8075b2911",
+    "reports/phase_6_8_4/historical-readiness.json": "207a9a9a48bc92c9dc689fc817332302bdb6626a73f8079b2f09bf2493381226",
+    "reports/phase_6_8_4/preserved-before.sha256": "6106d2378cd886f5b73729534c2ad589218fef32409e4165d6d66c735f522c1b",
+    "reports/research_phase_6_8_5/assumptions.json": "6791cf8423af99e65756fc6a2356e8b5db0cee2ab26f2c61b24a2483a643177e",
+    "reports/research_phase_6_8_5/preserved-before.sha256": "bdc068f31f60032ee355c8a13cc034801355f71c2d2dcc74217b349ca3a9edcb",
+    "reports/research_phase_6_8_5/results.json": "b708a00c10fa4e79e82307a5dbb1589e7752eb8e4531083e7b485db064c197a3",
+    "reports/validation_phase_6_6/validation.json": "ada9c5d23978a2e97a0754ab37397318b786b086a9478553ecbf39432170a123"
+  },
+  "status": "draft reference only -- no approval, signed registration or UTC window"
+}

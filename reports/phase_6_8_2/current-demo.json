@@ -1,0 +1,502 @@
+{
+  "symbol": "XAUUSD",
+  "status": "REJECTED",
+  "samples": [
+    {
+      "before": {
+        "monotonic": 63133.984,
+        "wall_utc": "2026-11-17T22:29:08.875839+00:00"
+      },
+      "after": {
+        "monotonic": 63133.984,
+        "wall_utc": "2026-11-17T22:29:08.881895+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": null,
+      "bid_ask_changed": null
+    },
+    {
+      "before": {
+        "monotonic": 63135.984,
+        "wall_utc": "2026-11-17T22:29:10.883620+00:00"
+      },
+      "after": {
+        "monotonic": 63135.984,
+        "wall_utc": "2026-11-17T22:29:10.887723+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63138.0,
+        "wall_utc": "2026-11-17T22:29:12.888598+00:00"
+      },
+      "after": {
+        "monotonic": 63138.0,
+        "wall_utc": "2026-11-17T22:29:12.891623+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63140.0,
+        "wall_utc": "2026-11-17T22:29:14.892206+00:00"
+      },
+      "after": {
+        "monotonic": 63140.0,
+        "wall_utc": "2026-11-17T22:29:14.898885+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63142.0,
+        "wall_utc": "2026-11-17T22:29:16.899184+00:00"
+      },
+      "after": {
+        "monotonic": 63142.015,
+        "wall_utc": "2026-11-17T22:29:16.904206+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63144.015,
+        "wall_utc": "2026-11-17T22:29:18.905080+00:00"
+      },
+      "after": {
+        "monotonic": 63144.015,
+        "wall_utc": "2026-11-17T22:29:18.908655+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63146.015,
+        "wall_utc": "2026-11-17T22:29:20.909854+00:00"
+      },
+      "after": {
+        "monotonic": 63146.015,
+        "wall_utc": "2026-11-17T22:29:20.915873+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63148.015,
+        "wall_utc": "2026-11-17T22:29:22.916854+00:00"
+      },
+      "after": {
+        "monotonic": 63148.031,
+        "wall_utc": "2026-11-17T22:29:22.920428+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63150.031,
+        "wall_utc": "2026-11-17T22:29:24.921483+00:00"
+      },
+      "after": {
+        "monotonic": 63150.031,
+        "wall_utc": "2026-11-17T22:29:24.925590+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63152.031,
+        "wall_utc": "2026-11-17T22:29:26.926243+00:00"
+      },
+      "after": {
+        "monotonic": 63152.031,
+        "wall_utc": "2026-11-17T22:29:26.932910+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63154.031,
+        "wall_utc": "2026-11-17T22:29:28.933233+00:00"
+      },
+      "after": {
+        "monotonic": 63154.046,
+        "wall_utc": "2026-11-17T22:29:28.938520+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63156.046,
+        "wall_utc": "2026-11-17T22:29:30.939333+00:00"
+      },
+      "after": {
+        "monotonic": 63156.046,
+        "wall_utc": "2026-11-17T22:29:30.943882+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63158.046,
+        "wall_utc": "2026-11-17T22:29:32.945647+00:00"
+      },
+      "after": {
+        "monotonic": 63158.062,
+        "wall_utc": "2026-11-17T22:29:32.951543+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63160.062,
+        "wall_utc": "2026-11-17T22:29:34.952568+00:00"
+      },
+      "after": {
+        "monotonic": 63160.062,
+        "wall_utc": "2026-11-17T22:29:34.957224+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63162.062,
+        "wall_utc": "2026-11-17T22:29:36.957797+00:00"
+      },
+      "after": {
+        "monotonic": 63162.062,
+        "wall_utc": "2026-11-17T22:29:36.964715+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    },
+    {
+      "before": {
+        "monotonic": 63164.062,
+        "wall_utc": "2026-11-17T22:29:38.965277+00:00"
+      },
+      "after": {
+        "monotonic": 63164.078,
+        "wall_utc": "2026-11-17T22:29:38.969894+00:00"
+      },
+      "connected_before": true,
+      "connected_after": true,
+      "tick": {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 6
+      },
+      "error_code": null,
+      "raw_ms_delta": 0,
+      "bid_ask_changed": false
+    }
+  ],
+  "timestamp_convention": "UNVERIFIED",
+  "session_status": "UNVERIFIED",
+  "history": {
+    "before": {
+      "monotonic": 63164.078,
+      "wall_utc": "2026-11-17T22:29:38.970878+00:00"
+    },
+    "connected_before": true,
+    "tick_limit": 128,
+    "bar_limit": 16,
+    "tick_error_code": null,
+    "bar_error_code": null,
+    "connected_after": true,
+    "after": {
+      "monotonic": 63164.078,
+      "wall_utc": "2026-11-17T22:29:38.975817+00:00"
+    },
+    "tick_count": 7,
+    "bar_count": 16,
+    "tick_rows": [
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399232,
+        "bid": 3847.47,
+        "ask": 3847.7,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399331,
+        "bid": 3847.49,
+        "ask": 3847.72,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399533,
+        "bid": 3847.59,
+        "ask": 3847.82,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399634,
+        "bid": 3847.67,
+        "ask": 3847.9,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399735,
+        "bid": 3847.44,
+        "ask": 3847.67,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399835,
+        "bid": 3847.37,
+        "ask": 3847.6,
+        "flags": 1030
+      },
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 1030
+      }
+    ],
+    "timestamp_price_matches": [
+      {
+        "raw_s": 1794956399,
+        "raw_ms": 1794956399935,
+        "bid": 3847.41,
+        "ask": 3847.64,
+        "flags": 1030
+      }
+    ],
+    "exact_tick_matches": [],
+    "raw_bar_opens": [
+      1794955440,
+      1794955500,
+      1794955560,
+      1794955620,
+      1794955680,
+      1794955740,
+      1794955800,
+      1794955860,
+      1794955920,
+      1794955980,
+      1794956040,
+      1794956100,
+      1794956160,
+      1794956220,
+      1794956280,
+      1794956340
+    ],
+    "matching_raw_minute_bar_opens": [
+      1794956340
+    ]
+  },
+  "external_clock_probes": [
+    {
+      "source": "time.nist.gov",
+      "protocol": "TCP Daytime",
+      "before": {
+        "monotonic": 63133.453,
+        "wall_utc": "2026-11-17T22:29:08.342287+00:00"
+      },
+      "after": {
+        "monotonic": 63133.953,
+        "wall_utc": "2026-11-17T22:29:08.842813+00:00"
+      },
+      "response": "61361 26-11-17 22:29:09 00 0 0 211.4 UTC(NIST) *",
+      "correction_bounds_s": [
+        -1.1542130000000002,
+        1.546313
+      ]
+    },
+    {
+      "source": "time.nist.gov",
+      "protocol": "TCP Daytime",
+      "before": {
+        "monotonic": 63164.078,
+        "wall_utc": "2026-11-17T22:29:38.976611+00:00"
+      },
+      "after": {
+        "monotonic": 63164.562,
+        "wall_utc": "2026-11-17T22:29:39.461004+00:00"
+      },
+      "response": "",
+      "error": "ValueError"
+    }
+  ],
+  "clock": {
+    "status": "INDEPENDENT_TIME_UNAVAILABLE"
+  },
+  "quote_state": "STATIC_TIMESTAMP",
+  "reasons": [
+    "STATIC_TIMESTAMP",
+    "INDEPENDENT_TIME_UNAVAILABLE",
+    "NO_VERIFIED_SERVER_TIMESTAMP_CONVENTION_OR_OFFSET_WINDOW"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "observed_at_utc": "2026-11-18T13:42:13.314214+00:00",
+  "terminal_executable": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+  "process_and_latest_local_authorization_matched": true,
+  "exact_locally_resolved_login_matched": true,
+  "server": "ExnessKE-MT5Trial9",
+  "company": "Exness (KE) Limited",
+  "account_suffix": "9498",
+  "mode": "demo",
+  "currency": "USD",
+  "balance_usd": 3000.0,
+  "leverage": 100,
+  "terminal_build": 6324,
+  "terminal_algo_trading_allowed": false,
+  "symbol": "XAUUSD",
+  "pro_account_card_verified": false
+}

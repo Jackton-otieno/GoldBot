@@ -1,0 +1,37 @@
+{
+  "archived_calculator": {
+    "adverse_cases": 400,
+    "max_overestimate_usd": "0.00800",
+    "max_underestimate_usd": "0.00900",
+    "overestimates": 128,
+    "underestimates": 112,
+    "zero_reported_loss": 47
+  },
+  "booked_profit_loss": "UNVERIFIED",
+  "independent_calculator": {
+    "adverse_cases": 108,
+    "max_overestimate_usd": "0.00900",
+    "max_underestimate_usd": "0.00900",
+    "overestimates": 52,
+    "underestimates": 50,
+    "zero_reported_loss": 23
+  },
+  "independent_frozen_model": {
+    "adverse_cases": 108,
+    "max_overestimate_usd": "0.00900",
+    "max_underestimate_usd": "0.00900",
+    "overestimates": 52,
+    "underestimates": 50,
+    "zero_reported_loss": 23
+  },
+  "model_absolute_error_strict_upper_bound_usd": "0.01",
+  "planner_policy": "UNCHANGED",
+  "sizing_example": {
+    "budget_usd": "0.00100",
+    "existing_linear_loss_usd": "0.00100",
+    "hypothetical_excess_usd": "0.00900",
+    "hypothetical_model_loss_usd": "0.01",
+    "status": "INDICATIVE",
+    "volume": "0.01"
+  }
+}

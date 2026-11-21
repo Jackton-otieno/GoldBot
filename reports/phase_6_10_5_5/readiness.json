@@ -1,0 +1,106 @@
+{
+  "as_of": "2026-11-21",
+  "assessments": {
+    "automated_demo_trading_authorization": {
+      "authorized": false,
+      "blockers": [
+        "broker_identity_and_product",
+        "monetary_precision_and_booked_pnl",
+        "utc_mapping_and_freshness",
+        "quote_trade_sessions_and_exceptions",
+        "risk_day_and_opening_equity",
+        "historical_provenance_and_coverage",
+        "costs_margin_and_slippage",
+        "minimum_volume_feasibility",
+        "profitability_not_demonstrated",
+        "prospective_registration_and_exposure"
+      ],
+      "status": "BLOCKED"
+    },
+    "live_trading_authorization": {
+      "authorized": false,
+      "blockers": [
+        "broker_identity_and_product",
+        "monetary_precision_and_booked_pnl",
+        "utc_mapping_and_freshness",
+        "quote_trade_sessions_and_exceptions",
+        "risk_day_and_opening_equity",
+        "historical_provenance_and_coverage",
+        "costs_margin_and_slippage",
+        "minimum_volume_feasibility",
+        "profitability_not_demonstrated",
+        "prospective_registration_and_exposure"
+      ],
+      "status": "BLOCKED"
+    },
+    "offline_engineering_completeness": {
+      "archived_gate_conflict": false,
+      "assessment_predates_review": false,
+      "scope": "Reviewed offline work and pinned evidence integrity",
+      "source_issues": [],
+      "status": "PASS",
+      "unexpected_blocker_evidence": []
+    },
+    "prospective_validation_admission": {
+      "authorized": false,
+      "blockers": [
+        "broker_identity_and_product",
+        "monetary_precision_and_booked_pnl",
+        "utc_mapping_and_freshness",
+        "quote_trade_sessions_and_exceptions",
+        "risk_day_and_opening_equity",
+        "historical_provenance_and_coverage",
+        "costs_margin_and_slippage",
+        "minimum_volume_feasibility",
+        "prospective_registration_and_exposure"
+      ],
+      "status": "BLOCKED",
+      "technical_intake": {
+        "reason": "No trusted registration and intake configured",
+        "state": "blocked"
+      }
+    },
+    "prospective_validation_preparation": {
+      "blockers": [
+        "historical_provenance_and_coverage",
+        "prospective_registration_and_exposure"
+      ],
+      "draft_available": true,
+      "status": "BLOCKED"
+    },
+    "retrospective_research_data_eligibility": {
+      "blockers": [
+        "historical_provenance_and_coverage"
+      ],
+      "scoped_legacy_ohlc": {
+        "execution_grade": false,
+        "prospective_eligible": false,
+        "scope": "Frozen exposed hypothetical OHLC research only",
+        "status": "PASS"
+      },
+      "status": "BLOCKED"
+    }
+  },
+  "inherited_findings": {
+    "archive_coverage_and_quote_basis": "UNRESOLVED",
+    "dated_quote_and_trade_sessions": "UNRESOLVED",
+    "executable_costs_and_margin": "UNRESOLVED",
+    "exness_account_variant": "MISSING",
+    "exness_identity": "STALE",
+    "exness_monetary_precision": "CONFLICTING",
+    "metaquotes_contract": "REJECTED",
+    "opening_equity": "MISSING",
+    "prior_exposure": "UNRESOLVED",
+    "production_utc_mapping": "UNRESOLVED",
+    "prospective_protocol": "MISSING",
+    "retrospective_strategy": "REJECTED",
+    "risk_day": "MISSING"
+  },
+  "overall": "NO-GO",
+  "phase_6_9_6": {
+    "decision": "NO-GO",
+    "execution_authorized": false,
+    "historical_execution_authorized": false,
+    "prospective_authorized": false
+  }
+}

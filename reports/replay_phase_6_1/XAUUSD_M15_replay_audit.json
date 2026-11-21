@@ -1,0 +1,1323 @@
+{
+  "counts": {
+    "closed_events": 10000,
+    "decisions": {
+      "BUY": 53,
+      "HOLD": 9868,
+      "SELL": 79
+    },
+    "open_events": 10000,
+    "raw_label_gaps": 114,
+    "reasons": {
+      "BUY_SETUP": 53,
+      "GAP_CROSSOVER": 6,
+      "MACD_FILTER": 59,
+      "NO_CROSSOVER": 9382,
+      "RSI_FILTER": 5,
+      "SELL_SETUP": 79,
+      "TREND_FILTER": 237,
+      "WARMUP": 199
+    },
+    "source_rows": 10000
+  },
+  "final_closed_row": 10000,
+  "final_closed_row_has_successor_open": false,
+  "gap_open_events": [
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4067.76,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781139600,
+      "source_row": 5,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4207.64,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781226000,
+      "source_row": 93,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4262.55,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1781485200,
+      "source_row": 181,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4305.42,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781571600,
+      "source_row": 269,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4327.69,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781658000,
+      "source_row": 357,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4252.88,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781744400,
+      "source_row": 445,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4203.06,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781830800,
+      "source_row": 533,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4138.9,
+      "raw_label_delta": 190800,
+      "raw_server_clock_label": 1782090000,
+      "source_row": 610,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4189.24,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782176400,
+      "source_row": 698,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4109.55,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782262800,
+      "source_row": 786,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4001.11,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782349200,
+      "source_row": 874,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3989.99,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782435600,
+      "source_row": 962,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4082.28,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1782694800,
+      "source_row": 1050,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4013.93,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782781200,
+      "source_row": 1138,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3997.53,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782867600,
+      "source_row": 1226,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3998.58,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1782954000,
+      "source_row": 1314,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4091.17,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783040400,
+      "source_row": 1402,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4171.97,
+      "raw_label_delta": 190800,
+      "raw_server_clock_label": 1783299600,
+      "source_row": 1479,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4162.13,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783386000,
+      "source_row": 1567,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4094.64,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783472400,
+      "source_row": 1655,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4074.17,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783558800,
+      "source_row": 1743,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4120.93,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783645200,
+      "source_row": 1831,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4095.58,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1783904400,
+      "source_row": 1919,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3977.51,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1783990800,
+      "source_row": 2007,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4019.79,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784077200,
+      "source_row": 2095,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4050.87,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784163600,
+      "source_row": 2183,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3973.91,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784250000,
+      "source_row": 2271,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4000.49,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1784509200,
+      "source_row": 2359,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4004.66,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784595600,
+      "source_row": 2447,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4076.59,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784682000,
+      "source_row": 2535,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4123.93,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784768400,
+      "source_row": 2623,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4032.03,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1784854800,
+      "source_row": 2711,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4088.39,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1785114000,
+      "source_row": 2799,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4063.21,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785200400,
+      "source_row": 2887,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4022.84,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785286800,
+      "source_row": 2975,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4027.47,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785373200,
+      "source_row": 3063,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4078.18,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785459600,
+      "source_row": 3151,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4074.21,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1785718800,
+      "source_row": 3239,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4017.16,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785805200,
+      "source_row": 3327,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4065.5,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785891600,
+      "source_row": 3415,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4244.09,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1785978000,
+      "source_row": 3503,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4220.77,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1786064400,
+      "source_row": 3591,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4336.25,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1786323600,
+      "source_row": 3679,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4382.37,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1786410000,
+      "source_row": 3767,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4367.51,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1786496400,
+      "source_row": 3855,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4403.56,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1786582800,
+      "source_row": 3943,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4340.87,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1786669200,
+      "source_row": 4031,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4375.27,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1786928400,
+      "source_row": 4119,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4406.6,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787014800,
+      "source_row": 4207,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4316.78,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787101200,
+      "source_row": 4295,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4489.31,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787187600,
+      "source_row": 4383,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4508.3,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787274000,
+      "source_row": 4471,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4608.1,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1787533200,
+      "source_row": 4559,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4648.89,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787619600,
+      "source_row": 4647,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4652.17,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787706000,
+      "source_row": 4735,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4593.63,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787792400,
+      "source_row": 4823,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4597.75,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1787878800,
+      "source_row": 4911,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4428.39,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1788138000,
+      "source_row": 4999,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4421.34,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1788224400,
+      "source_row": 5087,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4320.26,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1788310800,
+      "source_row": 5175,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4374.0,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1788397200,
+      "source_row": 5263,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4474.1,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1788483600,
+      "source_row": 5351,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4417.0,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1788742800,
+      "source_row": 5439,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4403.84,
+      "raw_label_delta": 13500,
+      "raw_server_clock_label": 1788829200,
+      "source_row": 5521,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4352.19,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1788915600,
+      "source_row": 5609,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4401.6,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789002000,
+      "source_row": 5697,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4311.47,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789088400,
+      "source_row": 5785,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4328.26,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1789347600,
+      "source_row": 5873,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4294.14,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789434000,
+      "source_row": 5961,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4270.1,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789520400,
+      "source_row": 6049,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4258.62,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789606800,
+      "source_row": 6137,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4318.57,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1789693200,
+      "source_row": 6225,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4370.17,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1789952400,
+      "source_row": 6313,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4331.22,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790038800,
+      "source_row": 6401,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4341.24,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790125200,
+      "source_row": 6489,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4283.66,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790211600,
+      "source_row": 6577,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4270.4,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790298000,
+      "source_row": 6665,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4274.61,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1790557200,
+      "source_row": 6753,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4108.33,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790643600,
+      "source_row": 6841,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4125.7,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790730000,
+      "source_row": 6929,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4133.95,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790816400,
+      "source_row": 7017,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4170.07,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1790902800,
+      "source_row": 7105,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4137.33,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1791162000,
+      "source_row": 7193,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4139.24,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791248400,
+      "source_row": 7281,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4163.01,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791334800,
+      "source_row": 7369,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4108.22,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791421200,
+      "source_row": 7457,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4127.66,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791507600,
+      "source_row": 7545,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4191.46,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1791766800,
+      "source_row": 7633,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4166.92,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791853200,
+      "source_row": 7721,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4157.98,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1791939600,
+      "source_row": 7809,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4106.46,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792026000,
+      "source_row": 7897,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4166.16,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792112400,
+      "source_row": 7985,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4159.33,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1792371600,
+      "source_row": 8073,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4137.99,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792458000,
+      "source_row": 8161,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4113.82,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792544400,
+      "source_row": 8249,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4137.27,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792630800,
+      "source_row": 8337,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4021.04,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1792717200,
+      "source_row": 8425,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3997.56,
+      "raw_label_delta": 177300,
+      "raw_server_clock_label": 1792972800,
+      "source_row": 8513,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4016.89,
+      "raw_label_delta": 4500,
+      "raw_server_clock_label": 1793059200,
+      "source_row": 8605,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4061.61,
+      "raw_label_delta": 4500,
+      "raw_server_clock_label": 1793145600,
+      "source_row": 8697,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4067.85,
+      "raw_label_delta": 4500,
+      "raw_server_clock_label": 1793232000,
+      "source_row": 8789,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4021.7,
+      "raw_label_delta": 4500,
+      "raw_server_clock_label": 1793318400,
+      "source_row": 8881,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3878.98,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1793581200,
+      "source_row": 8973,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3944.81,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1793667600,
+      "source_row": 9061,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3927.22,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1793754000,
+      "source_row": 9149,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4062.58,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1793840400,
+      "source_row": 9237,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4083.88,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1793926800,
+      "source_row": 9325,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4064.71,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1794186000,
+      "source_row": 9413,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4086.43,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1794272400,
+      "source_row": 9501,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4024.12,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1794358800,
+      "source_row": 9589,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3984.99,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1794445200,
+      "source_row": 9677,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3868.88,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1794531600,
+      "source_row": 9765,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3870.2,
+      "raw_label_delta": 180900,
+      "raw_server_clock_label": 1794790800,
+      "source_row": 9853,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 3847.26,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1794877200,
+      "source_row": 9941,
+      "timeframe": "M15"
+    }
+  ],
+  "sample_events": [
+    {
+      "event": "open",
+      "gap_before": false,
+      "open": 4101.57,
+      "raw_label_delta": null,
+      "raw_server_clock_label": 1781128800,
+      "source_row": 1,
+      "timeframe": "M15"
+    },
+    {
+      "close": 4088.93,
+      "event": "closed",
+      "gap_before": false,
+      "high": 4102.11,
+      "indicators": {
+        "atr_14": null,
+        "ema_200": null,
+        "ema_21": null,
+        "ema_50": null,
+        "ema_9": null,
+        "macd_12_26": null,
+        "macd_histogram": null,
+        "macd_signal_9": null,
+        "rsi_14": null,
+        "sma_20": null,
+        "sma_200": null,
+        "sma_50": null
+      },
+      "low": 4087.21,
+      "open": 4101.57,
+      "raw_label_delta": null,
+      "raw_server_clock_label": 1781128800,
+      "real_volume": 0,
+      "signal": {
+        "decision": "HOLD",
+        "reasons": [
+          "WARMUP"
+        ]
+      },
+      "source_row": 1,
+      "spread": 4,
+      "tick_volume": 7279,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": false,
+      "open": 4091.52,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781131500,
+      "source_row": 4,
+      "timeframe": "M15"
+    },
+    {
+      "close": 4082.72,
+      "event": "closed",
+      "gap_before": false,
+      "high": 4092.59,
+      "indicators": {
+        "atr_14": null,
+        "ema_200": null,
+        "ema_21": null,
+        "ema_50": null,
+        "ema_9": null,
+        "macd_12_26": null,
+        "macd_histogram": null,
+        "macd_signal_9": null,
+        "rsi_14": null,
+        "sma_20": null,
+        "sma_200": null,
+        "sma_50": null
+      },
+      "low": 4081.62,
+      "open": 4091.52,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781131500,
+      "real_volume": 0,
+      "signal": {
+        "decision": "HOLD",
+        "reasons": [
+          "WARMUP"
+        ]
+      },
+      "source_row": 4,
+      "spread": 4,
+      "tick_volume": 7194,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": true,
+      "open": 4067.76,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781139600,
+      "source_row": 5,
+      "timeframe": "M15"
+    },
+    {
+      "close": 4056.12,
+      "event": "closed",
+      "gap_before": true,
+      "high": 4071.97,
+      "indicators": {
+        "atr_14": null,
+        "ema_200": null,
+        "ema_21": null,
+        "ema_50": null,
+        "ema_9": null,
+        "macd_12_26": null,
+        "macd_histogram": null,
+        "macd_signal_9": null,
+        "rsi_14": null,
+        "sma_20": null,
+        "sma_200": null,
+        "sma_50": null
+      },
+      "low": 4050.21,
+      "open": 4067.76,
+      "raw_label_delta": 8100,
+      "raw_server_clock_label": 1781139600,
+      "real_volume": 0,
+      "signal": {
+        "decision": "HOLD",
+        "reasons": [
+          "WARMUP"
+        ]
+      },
+      "source_row": 5,
+      "spread": 4,
+      "tick_volume": 5806,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": false,
+      "open": 4321.21,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781591400,
+      "source_row": 291,
+      "timeframe": "M15"
+    },
+    {
+      "close": 4331.93,
+      "event": "closed",
+      "gap_before": false,
+      "high": 4332.87,
+      "indicators": {
+        "atr_14": 7.494614104323558,
+        "ema_200": 4261.1232497155515,
+        "ema_21": 4318.7095185818225,
+        "ema_50": 4321.652466838231,
+        "ema_9": 4319.681632302579,
+        "macd_12_26": -0.6795446003079633,
+        "macd_histogram": 2.3330372288904795,
+        "macd_signal_9": -3.0125818291984428,
+        "rsi_14": 63.568640908609275,
+        "sma_20": 4315.961,
+        "sma_200": 4270.89925,
+        "sma_50": 4328.8124
+      },
+      "low": 4319.81,
+      "open": 4321.21,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781591400,
+      "real_volume": 0,
+      "signal": {
+        "decision": "BUY",
+        "reasons": [
+          "BUY_SETUP"
+        ]
+      },
+      "source_row": 291,
+      "spread": 0,
+      "tick_volume": 3859,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": false,
+      "open": 4308.11,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781773200,
+      "source_row": 477,
+      "timeframe": "M15"
+    },
+    {
+      "close": 4298.94,
+      "event": "closed",
+      "gap_before": false,
+      "high": 4310.02,
+      "indicators": {
+        "atr_14": 10.883912305800965,
+        "ema_200": 4312.902819197785,
+        "ema_21": 4311.158261794446,
+        "ema_50": 4312.410791857002,
+        "ema_9": 4310.989558347186,
+        "macd_12_26": 0.7680669141436738,
+        "macd_histogram": -1.7586739481176954,
+        "macd_signal_9": 2.526740862261369,
+        "rsi_14": 42.69511741191335,
+        "sma_20": 4315.8605,
+        "sma_200": 4326.7841,
+        "sma_50": 4309.3466
+      },
+      "low": 4296.26,
+      "open": 4308.11,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1781773200,
+      "real_volume": 0,
+      "signal": {
+        "decision": "SELL",
+        "reasons": [
+          "SELL_SETUP"
+        ]
+      },
+      "source_row": 477,
+      "spread": 0,
+      "tick_volume": 6367,
+      "timeframe": "M15"
+    },
+    {
+      "event": "open",
+      "gap_before": false,
+      "open": 3846.33,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1794930300,
+      "source_row": 10000,
+      "timeframe": "M15"
+    },
+    {
+      "close": 3851.3,
+      "event": "closed",
+      "gap_before": false,
+      "high": 3852.49,
+      "indicators": {
+        "atr_14": 7.383859100270732,
+        "ema_200": 3878.9494677909624,
+        "ema_21": 3859.9849049911077,
+        "ema_50": 3863.335823636871,
+        "ema_9": 3856.0621398307467,
+        "macd_12_26": -3.7068239879836256,
+        "macd_histogram": -0.9714693003587507,
+        "macd_signal_9": -2.735354687624875,
+        "rsi_14": 40.15209575368271,
+        "sma_20": 3859.6585,
+        "sma_200": 3871.3648,
+        "sma_50": 3867.062
+      },
+      "low": 3844.74,
+      "open": 3846.33,
+      "raw_label_delta": 900,
+      "raw_server_clock_label": 1794930300,
+      "real_volume": 0,
+      "signal": {
+        "decision": "HOLD",
+        "reasons": [
+          "NO_CROSSOVER"
+        ]
+      },
+      "source_row": 10000,
+      "spread": 13,
+      "tick_volume": 4682,
+      "timeframe": "M15"
+    }
+  ],
+  "source": "XAUUSD_M15.csv",
+  "source_hash_verified": true,
+  "source_sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e",
+  "timeframe": "M15"
+}

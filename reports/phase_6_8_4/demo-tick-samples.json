@@ -1,0 +1,317 @@
+{
+  "count_limited_probe": {
+    "api": "copy_ticks_from",
+    "expected_demo_server": "MetaQuotes-Demo",
+    "flag": -1,
+    "host_request_utc": "2026-11-18T04:44:41.726933+00:00",
+    "host_started_utc": "2026-11-18T04:44:05.649244+00:00",
+    "max_returned_rows": 32,
+    "package_version": "5.0.6231",
+    "raw_start_seconds": 1794930300,
+    "scope_confirmed": true,
+    "semantics": "Count-limited from the last M15 open raw label; no upper time bound or UTC claim.",
+    "status": "IN_PROGRESS",
+    "symbol": "XAUUSD",
+    "terminal_version": [
+      500,
+      6320,
+      "13 Nov 2026"
+    ],
+    "termination": "PROCESS_TIMEOUT_AFTER_120_SECONDS_INCLUDING_SETUP"
+  },
+  "coverage": "BOUNDED_PROBES_ONLY",
+  "datasets": {
+    "H1": {
+      "first_raw_label": 1740704400,
+      "gap_count": 446,
+      "last_raw_label": 1794927600,
+      "nominal_step_seconds": 3600,
+      "path": "data/XAUUSD_H1.csv",
+      "rows": 10000,
+      "selected_gaps": {
+        "longest": {
+          "absent_nominal_labels": 74,
+          "delta_seconds": 270000,
+          "next_label": 1775437200,
+          "previous_label": 1775167200
+        },
+        "shortest": {
+          "absent_nominal_labels": 1,
+          "delta_seconds": 7200,
+          "next_label": 1741050000,
+          "previous_label": 1741042800
+        }
+      },
+      "sha256": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+    },
+    "M15": {
+      "first_raw_label": 1781128800,
+      "gap_count": 114,
+      "last_raw_label": 1794930300,
+      "nominal_step_seconds": 900,
+      "path": "data/XAUUSD_M15.csv",
+      "rows": 10000,
+      "selected_gaps": {
+        "longest": {
+          "absent_nominal_labels": 211,
+          "delta_seconds": 190800,
+          "next_label": 1783299600,
+          "previous_label": 1783108800
+        },
+        "shortest": {
+          "absent_nominal_labels": 4,
+          "delta_seconds": 4500,
+          "next_label": 1793059200,
+          "previous_label": 1793054700
+        }
+      },
+      "sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+    }
+  },
+  "focused_range_retry": {
+    "api_available": {
+      "copy_ticks_from": true,
+      "copy_ticks_range": true
+    },
+    "bounds_audit": "Start second through last millisecond of end second; not a completeness claim.",
+    "captured_host_utc": "2026-11-18T04:46:38.144785+00:00",
+    "chunk_seconds_budget": 15,
+    "chunks": [
+      {
+        "api_code": -1,
+        "host_request_utc": "2026-11-18T04:46:38.513524+00:00",
+        "host_response_utc": "2026-11-18T04:48:13.676102+00:00",
+        "integer_seconds_from": 1740704400,
+        "integer_seconds_to": 1740704414,
+        "reasons": [
+          "H1:first"
+        ],
+        "returned_count": null,
+        "status": "API_ERROR"
+      },
+      {
+        "api_code": -1,
+        "host_request_utc": "2026-11-18T04:48:13.681624+00:00",
+        "host_response_utc": "2026-11-18T04:49:49.228886+00:00",
+        "integer_seconds_from": 1775304000,
+        "integer_seconds_to": 1775304014,
+        "reasons": [
+          "H1:longest_gap:inside"
+        ],
+        "returned_count": null,
+        "status": "API_ERROR"
+      },
+      {
+        "api_code": -1,
+        "host_request_utc": "2026-11-18T04:49:49.234955+00:00",
+        "host_response_utc": "2026-11-18T04:51:24.846303+00:00",
+        "integer_seconds_from": 1781128800,
+        "integer_seconds_to": 1781128814,
+        "reasons": [
+          "M15:first"
+        ],
+        "returned_count": null,
+        "status": "API_ERROR"
+      },
+      {
+        "api_code": -1,
+        "host_request_utc": "2026-11-18T04:51:24.850833+00:00",
+        "host_response_utc": "2026-11-18T04:52:59.156648+00:00",
+        "integer_seconds_from": 1793057400,
+        "integer_seconds_to": 1793057414,
+        "reasons": [
+          "M15:shortest_gap:inside"
+        ],
+        "returned_count": null,
+        "status": "API_ERROR"
+      }
+    ],
+    "coordinate_semantics": "Integer seconds taken from CSV raw labels or raw arithmetic around them. MetaQuotes describes epoch UTC inputs; broker-specific mapping, alignment and Python endpoint precision are unverified. Native range documents inclusive bounds.",
+    "copy_ticks_all_flag": -1,
+    "coverage": "SAMPLES_ONLY",
+    "current_metadata_only": {
+      "account_currency": "USD",
+      "chart_mode": 0,
+      "swap_long": -12.6,
+      "swap_mode": 1,
+      "swap_short": -4.6
+    },
+    "datasets": {
+      "H1": {
+        "first_raw_label": 1740704400,
+        "gap_count": 446,
+        "last_raw_label": 1794927600,
+        "nominal_step_seconds": 3600,
+        "path": "data/XAUUSD_H1.csv",
+        "rows": 10000,
+        "selected_gaps": {
+          "longest": {
+            "absent_nominal_labels": 74,
+            "delta_seconds": 270000,
+            "next_label": 1775437200,
+            "previous_label": 1775167200
+          },
+          "shortest": {
+            "absent_nominal_labels": 1,
+            "delta_seconds": 7200,
+            "next_label": 1741050000,
+            "previous_label": 1741042800
+          }
+        },
+        "sha256": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+      },
+      "M15": {
+        "first_raw_label": 1781128800,
+        "gap_count": 114,
+        "last_raw_label": 1794930300,
+        "nominal_step_seconds": 900,
+        "path": "data/XAUUSD_M15.csv",
+        "rows": 10000,
+        "selected_gaps": {
+          "longest": {
+            "absent_nominal_labels": 211,
+            "delta_seconds": 190800,
+            "next_label": 1783299600,
+            "previous_label": 1783108800
+          },
+          "shortest": {
+            "absent_nominal_labels": 4,
+            "delta_seconds": 4500,
+            "next_label": 1793059200,
+            "previous_label": 1793054700
+          }
+        },
+        "sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+      }
+    },
+    "expected_demo_server": "MetaQuotes-Demo",
+    "historical_execution_ready": false,
+    "nonfinite_encoding": "Nonfinite floating fields, if present, are encoded as repr strings.",
+    "package_version": "5.0.6231",
+    "planned_chunk_count": 4,
+    "status": "SAMPLES_CAPTURED",
+    "symbol": "XAUUSD",
+    "terminal_version": [
+      500,
+      6320,
+      "13 Nov 2026"
+    ]
+  },
+  "historical_execution_ready": false,
+  "initial_attempt": {
+    "completed_request_count": null,
+    "plan": "Full set of earliest, middle, latest and selected gap probes, ascending raw starts.",
+    "saved_responses": 0,
+    "status": "STOPPED_AFTER_APPROXIMATELY_20_MINUTES"
+  },
+  "limitation": "Archive completeness, lower/upper date limits and effective UTC alignment remain unverified. An error or interrupted read is not an empty observation.",
+  "range_responses_by_status": {
+    "API_ERROR": 5
+  },
+  "recent_range_retry": {
+    "api_available": {
+      "copy_ticks_from": true,
+      "copy_ticks_range": true
+    },
+    "bounds_audit": "Start second through last millisecond of end second; not a completeness claim.",
+    "captured_host_utc": "2026-11-18T04:41:32.155950+00:00",
+    "chunk_seconds_budget": 15,
+    "chunks": [
+      {
+        "api_code": -1,
+        "host_request_utc": "2026-11-18T04:41:32.860168+00:00",
+        "host_response_utc": "2026-11-18T04:43:07.658162+00:00",
+        "integer_seconds_from": 1794930300,
+        "integer_seconds_to": 1794930314,
+        "reasons": [
+          "M15:last"
+        ],
+        "returned_count": null,
+        "status": "API_ERROR"
+      }
+    ],
+    "coordinate_semantics": "Integer seconds taken from CSV raw labels or raw arithmetic around them. MetaQuotes describes epoch UTC inputs; broker-specific mapping, alignment and Python endpoint precision are unverified. Native range documents inclusive bounds.",
+    "copy_ticks_all_flag": -1,
+    "coverage": "SAMPLES_ONLY",
+    "current_metadata_only": {
+      "account_currency": "USD",
+      "chart_mode": 0,
+      "swap_long": -12.6,
+      "swap_mode": 1,
+      "swap_short": -4.6
+    },
+    "datasets": {
+      "H1": {
+        "first_raw_label": 1740704400,
+        "gap_count": 446,
+        "last_raw_label": 1794927600,
+        "nominal_step_seconds": 3600,
+        "path": "data/XAUUSD_H1.csv",
+        "rows": 10000,
+        "selected_gaps": {
+          "longest": {
+            "absent_nominal_labels": 74,
+            "delta_seconds": 270000,
+            "next_label": 1775437200,
+            "previous_label": 1775167200
+          },
+          "shortest": {
+            "absent_nominal_labels": 1,
+            "delta_seconds": 7200,
+            "next_label": 1741050000,
+            "previous_label": 1741042800
+          }
+        },
+        "sha256": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+      },
+      "M15": {
+        "first_raw_label": 1781128800,
+        "gap_count": 114,
+        "last_raw_label": 1794930300,
+        "nominal_step_seconds": 900,
+        "path": "data/XAUUSD_M15.csv",
+        "rows": 10000,
+        "selected_gaps": {
+          "longest": {
+            "absent_nominal_labels": 211,
+            "delta_seconds": 190800,
+            "next_label": 1783299600,
+            "previous_label": 1783108800
+          },
+          "shortest": {
+            "absent_nominal_labels": 4,
+            "delta_seconds": 4500,
+            "next_label": 1793059200,
+            "previous_label": 1793054700
+          }
+        },
+        "sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+      }
+    },
+    "expected_demo_server": "MetaQuotes-Demo",
+    "historical_execution_ready": false,
+    "nonfinite_encoding": "Nonfinite floating fields, if present, are encoded as repr strings.",
+    "package_version": "5.0.6231",
+    "pending_request": {
+      "integer_seconds_from": 1794927600,
+      "integer_seconds_to": 1794927614,
+      "reasons": [
+        "H1:last"
+      ]
+    },
+    "planned_chunk_count": 12,
+    "status": "IN_PROGRESS",
+    "symbol": "XAUUSD",
+    "terminal_version": [
+      500,
+      6320,
+      "13 Nov 2026"
+    ],
+    "termination": "STOPPED_WITH_H1_LAST_REQUEST_PENDING"
+  },
+  "returned_rows": 0,
+  "scope": {
+    "demo_server": "MetaQuotes-Demo",
+    "symbol": "XAUUSD"
+  }
+}

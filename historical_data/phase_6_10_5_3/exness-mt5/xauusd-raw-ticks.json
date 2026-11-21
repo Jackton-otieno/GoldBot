@@ -1,0 +1,26 @@
+{
+  "captures": [
+    {
+      "error_code": -1,
+      "request_start_raw_s": 1668686400,
+      "requested_count": 256,
+      "status": "UNAVAILABLE"
+    },
+    {
+      "error_code": -1,
+      "request_start_raw_s": 1794916800,
+      "requested_count": 256,
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "identity": {
+    "algo_trading": false,
+    "currency": "USD",
+    "entity": "Exness (KE) Limited",
+    "mode": "demo",
+    "server": "ExnessKE-MT5Trial9",
+    "suffix": "9498",
+    "symbol": "XAUUSD",
+    "terminal_build": 6324
+  }
+}

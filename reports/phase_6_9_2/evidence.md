@@ -1,0 +1,7 @@
+# Exness demo setup evidence
+
+Reviewed 18 November 2026, Africa/Nairobi. The user approved Exness KE MT5 Pro demo. The [Kenyan demo page](https://www.exness.ke/demo-trading-account/) identifies Exness (KE) Limited and CMA licence 162. The [Phase 6.9.1 public-source record](../phase_6_9_1/source-evidence.md) provides the prior symbol, contract and clock evidence. The [official server guide](https://get.exness.help/hc/en-us/articles/360012578619-Trading-account-login-and-server-details) directs users to the server and login on the assigned account card.
+
+Local inspection found `C:\Program Files\MetaTrader 5\terminal64.exe` and a matching MetaQuotes data-folder installation marker. No running MT5 desktop process or separate Exness installation was visible in the inspected process list and standard installation locations. The existing connection helper auto-discovers the terminal and checks account demo mode. The Exness check has its own opt-in entry point and pins the selected executable, exact demo server and account reference.
+
+**Blocked at manual setup.** No verified active session was available for Python attachment. The actual assigned server, terminal-reported company, Kenyan routing for this account, Pro status, balance, leverage and XAUUSD availability remain unverified. No account ID, password, quote, historical data or account snapshot was collected. Use the [manual setup instructions](../../docs/phases/phase-6-9-2.md).

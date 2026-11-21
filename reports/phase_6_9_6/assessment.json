@@ -1,0 +1,583 @@
+{
+  "as_of": "2026-11-18",
+  "decision": "NO-GO",
+  "execution_authorized": false,
+  "historical_execution_authorized": false,
+  "prospective_authorized": false,
+  "blocker_register": [
+    {
+      "requirement": {
+        "key": "exness_identity",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Observed terminal diagnostics",
+        "finding": "OBSERVED",
+        "detail": "Pinned connectivity passed on 18 November 2026. This is a historical identity snapshot.",
+        "next_evidence": "Recheck exact identity using the independent local pin at every future attachment.",
+        "paths": [
+          "reports/phase_6_9_2/connectivity.json"
+        ],
+        "observed_on": "2026-11-18"
+      },
+      "status": "OBSERVED",
+      "issues": [],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_2/connectivity.json",
+          "expected_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "actual_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "exness_account_variant",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Required evidence absent",
+        "finding": "MISSING",
+        "detail": "Terminal identity supplies no Personal Area Pro classification.",
+        "next_evidence": "Record redacted independent evidence for the product variant of this exact demo.",
+        "paths": [
+          "reports/phase_6_9_2/connectivity.json"
+        ],
+        "observed_on": null
+      },
+      "status": "MISSING",
+      "issues": [
+        "MISSING"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_2/connectivity.json",
+          "expected_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "actual_sha256": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "exness_monetary_precision",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Observed terminal diagnostics",
+        "finding": "CONFLICTING",
+        "detail": "The unchanged validator rejected four of 144 P/L probes; the earlier run rejected six. The notional-first rounding fit leaves calculator semantics and booked P/L unresolved.",
+        "next_evidence": "Obtain authoritative rounding and accounting rules and independently reconcile them.",
+        "paths": [
+          "reports/phase_6_9_3/probes.json",
+          "reports/phase_6_9_3_1/probes.json",
+          "reports/phase_6_9_3_1/verification.md",
+          "reports/phase_6_9_3_1/notional-comparison.json"
+        ],
+        "observed_on": null
+      },
+      "status": "CONFLICTING",
+      "issues": [
+        "CONFLICTING"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_3/probes.json",
+          "expected_sha256": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+          "actual_sha256": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_3_1/probes.json",
+          "expected_sha256": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+          "actual_sha256": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_3_1/verification.md",
+          "expected_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "actual_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_3_1/notional-comparison.json",
+          "expected_sha256": "e1cf52b2da259e32f117e95213734abd94af63a338ae1c541c083e46de3485fb",
+          "actual_sha256": "e1cf52b2da259e32f117e95213734abd94af63a338ae1c541c083e46de3485fb",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "metaquotes_contract",
+        "scope": "Original MetaQuotes demo / XAUUSD",
+        "kind": "Observed terminal diagnostics",
+        "finding": "REJECTED",
+        "detail": "USD 0.10 tick metadata conflicts with USD 1.00 implied by calculator probes.",
+        "next_evidence": "Keep original broker isolated and require its own contract reconciliation.",
+        "paths": [
+          "reports/phase_6_8_1/current-demo.json",
+          "reports/phase_6_9_1/demo-verification.md"
+        ],
+        "observed_on": null
+      },
+      "status": "REJECTED",
+      "issues": [
+        "REJECTED"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_8_1/current-demo.json",
+          "expected_sha256": "a6097cae9c9094f2d4a3dc955c97f0b50187699c5a05f65cc6a527fc87bc9979",
+          "actual_sha256": "a6097cae9c9094f2d4a3dc955c97f0b50187699c5a05f65cc6a527fc87bc9979",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_1/demo-verification.md",
+          "expected_sha256": "9217ce47620aa983c9447408d3de3e9b58c195251f21c9cca192f81e76ec1c14",
+          "actual_sha256": "9217ce47620aa983c9447408d3de3e9b58c195251f21c9cca192f81e76ec1c14",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "production_utc_mapping",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Observed terminal diagnostics",
+        "finding": "UNRESOLVED",
+        "detail": "An earlier clock bracket was conditional. The smoke opening probe failed. Raw labels, archive request coordinates and effective UTC windows remain unverified.",
+        "next_evidence": "Obtain scoped, independently reviewed effective-dated UTC mapping and transition checks.",
+        "paths": [
+          "reports/phase_6_9_4/diagnostic.json",
+          "reports/phase_6_9_4_1/diagnostic.json",
+          "reports/phase_6_9_5/live-summary.json"
+        ],
+        "observed_on": null
+      },
+      "status": "UNRESOLVED",
+      "issues": [
+        "UNRESOLVED"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_4/diagnostic.json",
+          "expected_sha256": "aa6b45cb882615293c8673a3893dfed24e2455049337d11c298d5d36d89a0fa2",
+          "actual_sha256": "aa6b45cb882615293c8673a3893dfed24e2455049337d11c298d5d36d89a0fa2",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_4_1/diagnostic.json",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_5/live-summary.json",
+          "expected_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "actual_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "dated_quote_and_trade_sessions",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Archived assessment",
+        "finding": "UNRESOLVED",
+        "detail": "Current samples and general schedules leave account-specific sessions and exceptions open.",
+        "next_evidence": "Document dated quote/trade intervals, close-only periods, holidays and maintenance.",
+        "paths": [
+          "reports/phase_6_9_4/verification.md",
+          "reports/phase_6_9_4_1/diagnostic.json"
+        ],
+        "observed_on": null
+      },
+      "status": "UNRESOLVED",
+      "issues": [
+        "UNRESOLVED"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_4/verification.md",
+          "expected_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "actual_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_4_1/diagnostic.json",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "archive_coverage_and_quote_basis",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Observed terminal diagnostics",
+        "finding": "UNRESOLVED",
+        "detail": "Sampled tick retrieval and one bid-derived M1 reconstruction do not establish archive coverage. The archived smoke recorded eight snapshots, zero admitted bars and unknown tick coverage.",
+        "next_evidence": "Reconcile scoped bid/ask history, chart basis, continuity, gaps and corrections.",
+        "paths": [
+          "reports/phase_6_9_4_1/diagnostic.json",
+          "reports/phase_6_9_5/live-summary.json",
+          "reports/phase_6_9_5/diagnostic.sqlite3",
+          "reports/phase_6_9_5/verified-manifest.json"
+        ],
+        "observed_on": null
+      },
+      "status": "UNRESOLVED",
+      "issues": [
+        "UNRESOLVED"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_4_1/diagnostic.json",
+          "expected_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "actual_sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_5/live-summary.json",
+          "expected_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "actual_sha256": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_5/diagnostic.sqlite3",
+          "expected_sha256": "edb4a74ad094bd6f02cc1773b5c2fc71bfacc73e863c9b3af8f366d055340578",
+          "actual_sha256": "edb4a74ad094bd6f02cc1773b5c2fc71bfacc73e863c9b3af8f366d055340578",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_5/verified-manifest.json",
+          "expected_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "actual_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "risk_day",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Required evidence absent",
+        "finding": "MISSING",
+        "detail": "An approved account-scoped policy boundary is absent.",
+        "next_evidence": "Approve the risk-day boundary and prove its effective UTC mapping.",
+        "paths": [
+          "reports/phase_6_9_4_1/verification.md"
+        ],
+        "observed_on": null
+      },
+      "status": "MISSING",
+      "issues": [
+        "MISSING"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_4_1/verification.md",
+          "expected_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "actual_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "opening_equity",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Required evidence absent",
+        "finding": "MISSING",
+        "detail": "The diagnostics collected no equity at the exact policy-day opening.",
+        "next_evidence": "Attest positive opening equity at the effective boundary for this exact account.",
+        "paths": [
+          "reports/phase_6_9_4_1/verification.md"
+        ],
+        "observed_on": null
+      },
+      "status": "MISSING",
+      "issues": [
+        "MISSING"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_4_1/verification.md",
+          "expected_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "actual_sha256": "adb6cace34d8cc314605a462c2844384e982d2a62f9d198d57724156f4ffaeb2",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "executable_costs_and_margin",
+        "scope": "Exness (KE) Limited / ExnessKE-MT5Trial9 / USD demo …9498 / XAUUSD",
+        "kind": "Archived assessment",
+        "finding": "UNRESOLVED",
+        "detail": "The sampled margin results leave effective-dated rates, fees, swap, FX and fill costs open.",
+        "next_evidence": "Obtain broker-scoped effective schedules and execution eligibility evidence.",
+        "paths": [
+          "reports/phase_6_9_3_1/verification.md",
+          "reports/phase_6_9_4/verification.md"
+        ],
+        "observed_on": null
+      },
+      "status": "UNRESOLVED",
+      "issues": [
+        "UNRESOLVED"
+      ],
+      "sources": [
+        {
+          "path": "reports/phase_6_9_3_1/verification.md",
+          "expected_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "actual_sha256": "0f4684a44f0de45866f14309055f34ba389bd2cd8888beaa54135f000f8ee5ae",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_4/verification.md",
+          "expected_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "actual_sha256": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "retrospective_strategy",
+        "scope": "Strategy evidence / M15 and H1",
+        "kind": "Observed historical inputs, simulated outcomes",
+        "finding": "REJECTED",
+        "detail": "All eight Phase 6.8.5 hypothetical simulations had negative realized net P/L, including ideal costs.",
+        "next_evidence": "Carry the adverse result into independent protocol review.",
+        "paths": [
+          "reports/research_phase_6_8_5/results.json",
+          "reports/research_phase_6_8_5/assumptions.json"
+        ],
+        "observed_on": null
+      },
+      "status": "REJECTED",
+      "issues": [
+        "REJECTED"
+      ],
+      "sources": [
+        {
+          "path": "reports/research_phase_6_8_5/results.json",
+          "expected_sha256": "b708a00c10fa4e79e82307a5dbb1589e7752eb8e4531083e7b485db064c197a3",
+          "actual_sha256": "b708a00c10fa4e79e82307a5dbb1589e7752eb8e4531083e7b485db064c197a3",
+          "issue": null
+        },
+        {
+          "path": "reports/research_phase_6_8_5/assumptions.json",
+          "expected_sha256": "6791cf8423af99e65756fc6a2356e8b5db0cee2ab26f2c61b24a2483a643177e",
+          "actual_sha256": "6791cf8423af99e65756fc6a2356e8b5db0cee2ab26f2c61b24a2483a643177e",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "prior_exposure",
+        "scope": "Strategy evidence / M15 and H1",
+        "kind": "Draft protocol",
+        "finding": "UNRESOLVED",
+        "detail": "Historical candles and diagnostics are exposed. The complete independently mapped exposure inventory is pending.",
+        "next_evidence": "Attest all viewed datasets and diagnostics with independently verified UTC bounds.",
+        "paths": [
+          "reports/validation_phase_6_8_6/readiness.md",
+          "reports/validation_phase_6_8_6/draft-protocol.md",
+          "reports/phase_6_9_5/verified-manifest.json"
+        ],
+        "observed_on": null
+      },
+      "status": "UNRESOLVED",
+      "issues": [
+        "UNRESOLVED"
+      ],
+      "sources": [
+        {
+          "path": "reports/validation_phase_6_8_6/readiness.md",
+          "expected_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "actual_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "issue": null
+        },
+        {
+          "path": "reports/validation_phase_6_8_6/draft-protocol.md",
+          "expected_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "actual_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "issue": null
+        },
+        {
+          "path": "reports/phase_6_9_5/verified-manifest.json",
+          "expected_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "actual_sha256": "fb29fbfbea0b7050e020a726fad1f27ad0c8df414bf8052fc4c658e9955d03f9",
+          "issue": null
+        }
+      ]
+    },
+    {
+      "requirement": {
+        "key": "prospective_protocol",
+        "scope": "Strategy evidence / M15 and H1",
+        "kind": "Draft protocol",
+        "finding": "MISSING",
+        "detail": "Exact UTC dates, independent approval, external pre-start receipt and audited intake are absent.",
+        "next_evidence": "Approve the frozen M15/H1 protocol and verify an external pre-start receipt before any separate authorization.",
+        "paths": [
+          "reports/validation_phase_6_8_6/readiness.md",
+          "reports/validation_phase_6_8_6/draft-protocol.md",
+          "reports/validation_phase_6_8_6/reference-freeze.json"
+        ],
+        "observed_on": null
+      },
+      "status": "MISSING",
+      "issues": [
+        "MISSING"
+      ],
+      "sources": [
+        {
+          "path": "reports/validation_phase_6_8_6/readiness.md",
+          "expected_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "actual_sha256": "4228b43a606f52ba131271ab36b7b2fcfed5f9d624bd524b405cb68c48eb4e8a",
+          "issue": null
+        },
+        {
+          "path": "reports/validation_phase_6_8_6/draft-protocol.md",
+          "expected_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "actual_sha256": "d2e28c78ab4472e78350c8e3cb40936000c92975df354d0cfc63cdeb776397fb",
+          "issue": null
+        },
+        {
+          "path": "reports/validation_phase_6_8_6/reference-freeze.json",
+          "expected_sha256": "aeb45b7a94fe43934541b0129e95b1d7a0e2ee5f1c58bf8b876b993867775544",
+          "actual_sha256": "aeb45b7a94fe43934541b0129e95b1d7a0e2ee5f1c58bf8b876b993867775544",
+          "issue": null
+        }
+      ]
+    }
+  ],
+  "archived_smoke": {
+    "manifest": {
+      "scope": {
+        "phase": "6.9.5",
+        "diagnostic_only": true,
+        "exposed": true,
+        "holdout_eligible": false,
+        "coverage": "UNKNOWN_NON_EXHAUSTIVE",
+        "production_utc_mapping": "UNVERIFIED"
+      },
+      "event_count": 30,
+      "chain_head_sha256": "876b4ff20e8d52e722a30fdff927ba1fe48ac71d594a1d896662def98eb4d511",
+      "unique_payloads": 8,
+      "interrupted_run_pending": false
+    },
+    "event_kinds": {
+      "start": 1,
+      "external_clock": 2,
+      "attach_attempt": 1,
+      "attached": 1,
+      "quote_snapshot": 8,
+      "bars": 16,
+      "finish": 1
+    },
+    "quote_snapshots": 8,
+    "quote_raw_seconds_bounds": [
+      1795012727,
+      1795012739
+    ],
+    "between_poll_tick_coverage": "UNKNOWN",
+    "bars": {
+      "M15": {
+        "reads": 8,
+        "returned": 16,
+        "excluded_pre_attachment": 16,
+        "admitted_observations": 0,
+        "raw_boundaries": [],
+        "unique_payloads": 0
+      },
+      "H1": {
+        "reads": 8,
+        "returned": 16,
+        "excluded_pre_attachment": 16,
+        "admitted_observations": 0,
+        "raw_boundaries": [],
+        "unique_payloads": 0
+      }
+    },
+    "clock_probe_results": {
+      "before": "ValueError",
+      "after": "SAMPLE_RETURNED"
+    },
+    "host_clock_assessment": {
+      "status": "INDEPENDENT_TIME_UNAVAILABLE"
+    },
+    "collector_status": "COMPLETE_BOUNDED_DIAGNOSTIC",
+    "status": "RECONCILED"
+  },
+  "boundary_diagnostic": {
+    "status": "JOURNAL_VERIFIED",
+    "holdout_eligible": false,
+    "exposed": true,
+    "source_sha256": {
+      "reports/phase_6_9_6/boundary.sqlite3": "1f7d42645c268a425669f9d6c0c00ae7a45c5e6f122156e356193b61c5db4884",
+      "reports/phase_6_9_6/boundary-run.txt": "1b2b92d272227852cb952eddf73eed0b409376f7cb2a42bc864e880a41f83487"
+    },
+    "manifest": {
+      "scope": {
+        "phase": "6.9.6",
+        "diagnostic_only": true,
+        "exposed": true,
+        "holdout_eligible": false,
+        "coverage": "UNKNOWN_NON_EXHAUSTIVE",
+        "production_utc_mapping": "UNVERIFIED"
+      },
+      "event_count": 30,
+      "chain_head_sha256": "32532d1e713af52a03c05913d9024720cab83e60c5c160f6014cd00daff57a6e",
+      "unique_payloads": 10,
+      "interrupted_run_pending": false
+    },
+    "event_kinds": {
+      "start": 1,
+      "external_clock": 2,
+      "attach_attempt": 1,
+      "attached": 1,
+      "quote_snapshot": 8,
+      "bars": 16,
+      "finish": 1
+    },
+    "quote_snapshots": 8,
+    "quote_raw_seconds_bounds": [
+      1795013981,
+      1795014026
+    ],
+    "between_poll_tick_coverage": "UNKNOWN",
+    "bars": {
+      "M15": {
+        "reads": 8,
+        "returned": 16,
+        "excluded_pre_attachment": 11,
+        "admitted_observations": 5,
+        "raw_boundaries": [
+          1795014000
+        ],
+        "unique_payloads": 1
+      },
+      "H1": {
+        "reads": 8,
+        "returned": 16,
+        "excluded_pre_attachment": 11,
+        "admitted_observations": 5,
+        "raw_boundaries": [
+          1795014000
+        ],
+        "unique_payloads": 1
+      }
+    },
+    "clock_probe_results": {
+      "before": "TimeoutError",
+      "after": "SAMPLE_RETURNED"
+    },
+    "host_clock_assessment": {
+      "status": "INDEPENDENT_TIME_UNAVAILABLE"
+    },
+    "collector_status": "COMPLETE_BOUNDED_DIAGNOSTIC"
+  }
+}

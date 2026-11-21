@@ -1,0 +1,89 @@
+{
+  "evidence_paths": [
+    "reports/phase_6_8_1/current-demo.json",
+    "reports/phase_6_8_2/current-demo.json",
+    "reports/phase_6_8_3/demo-session-metadata.json",
+    "reports/phase_6_8_4/demo-tick-samples.json"
+  ],
+  "execution_model": {
+    "fill_eligibility": "UNVERIFIED",
+    "slippage": "MODEL_ASSUMPTION"
+  },
+  "findings": [
+    {
+      "code": "TICK_RETRIEVAL_UNVERIFIED",
+      "detail": "No archived quote rows were recovered by the probes. Range errors or interrupted requests leave availability unverified and cannot establish a closure.",
+      "subject": "ticks"
+    },
+    {
+      "code": "SAMPLE_ONLY",
+      "detail": "The bounded probes cannot establish continuous coverage or original event ordering across unobserved periods. No archive completeness attestation was obtained.",
+      "subject": "ticks"
+    },
+    {
+      "code": "QUOTE_BASIS_UNVERIFIED",
+      "detail": "No effective-dated historical quote-basis or feed-lineage statement ties the original candle exports to the sampled bid/ask history. Current chart mode and sampled alignment cannot establish the historical basis.",
+      "subject": "candles_and_ticks"
+    },
+    {
+      "code": "UTC_UNVERIFIED",
+      "detail": "Broker-specific timestamp semantics, archive request precision and effective UTC offset windows are unresolved.",
+      "subject": "candles_and_ticks"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "No effective-dated historical contract or tick economics are verified. The Phase 6.8.1 current tick-value discrepancy remains open.",
+      "subject": "contract_and_tick_economics"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "Applicable historical charges, tiers, units and rounding are unavailable.",
+      "subject": "commission"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "Current swap fields cannot establish historical rates, units or rollover exceptions.",
+      "subject": "swap"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "Effective-dated leverage, margin model and scoped rates are unavailable.",
+      "subject": "margin"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "Current account currency cannot establish the historical currency treatment or conversion inputs and rules.",
+      "subject": "account_currency_and_conversion"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "No dated quote-session and exceptional closure intervals were verified.",
+      "subject": "quote_sessions"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "No dated trade-session and exceptional closure intervals were verified.",
+      "subject": "trade_sessions"
+    },
+    {
+      "code": "COVERAGE_HOLE",
+      "detail": "No approved account-scoped historical risk-day boundary schedule was verified.",
+      "subject": "policy_risk_days"
+    },
+    {
+      "code": "GAP_POLICY_UNVERIFIED",
+      "detail": "No approved scope-specific maximum open-session quote silence was supplied.",
+      "subject": "ticks"
+    }
+  ],
+  "historical_execution_ready": false,
+  "phase_6_8_5": "PENDING_REVIEW",
+  "scope": {
+    "datasets": [
+      "H1",
+      "M15"
+    ],
+    "server": "MetaQuotes-Demo",
+    "symbol": "XAUUSD"
+  }
+}

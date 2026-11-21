@@ -1,0 +1,162 @@
+{
+  "year": 2026,
+  "symbol": "XAUUSD",
+  "status": "UNVERIFIED",
+  "cme_proxy_reference": "https://www.cmegroup.com/trading/metals/files/metals-prod-guide-2022.pdf",
+  "broker_session_schedule": "UNAVAILABLE",
+  "broker_timestamp_convention": "UNVERIFIED",
+  "samples": [
+    {
+      "week": "2026-03-01",
+      "request_raw_s": [
+        1772193600,
+        1772452800
+      ],
+      "cme_proxy_open_utc": "2026-03-01T23:00:00+00:00",
+      "us_dst_hours": 0,
+      "eu_dst_hours": 0,
+      "bar_count": 1,
+      "first_raw_s": 1785834720,
+      "last_raw_s": 1785834720,
+      "status": "INSUFFICIENT_HISTORY"
+    },
+    {
+      "week": "2026-03-08",
+      "request_raw_s": [
+        1772798400,
+        1773057600
+      ],
+      "cme_proxy_open_utc": "2026-03-08T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 0,
+      "bar_count": 1,
+      "first_raw_s": 1785834720,
+      "last_raw_s": 1785834720,
+      "status": "INSUFFICIENT_HISTORY"
+    },
+    {
+      "week": "2026-03-15",
+      "request_raw_s": [
+        1773403200,
+        1773662400
+      ],
+      "cme_proxy_open_utc": "2026-03-15T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 0,
+      "bar_count": 1,
+      "first_raw_s": 1785834720,
+      "last_raw_s": 1785834720,
+      "status": "INSUFFICIENT_HISTORY"
+    },
+    {
+      "week": "2026-03-22",
+      "request_raw_s": [
+        1774008000,
+        1774267200
+      ],
+      "cme_proxy_open_utc": "2026-03-22T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 0,
+      "bar_count": 1,
+      "first_raw_s": 1785834720,
+      "last_raw_s": 1785834720,
+      "status": "INSUFFICIENT_HISTORY"
+    },
+    {
+      "week": "2026-03-29",
+      "request_raw_s": [
+        1774612800,
+        1774872000
+      ],
+      "cme_proxy_open_utc": "2026-03-29T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 1,
+      "bar_count": 1,
+      "first_raw_s": 1785834720,
+      "last_raw_s": 1785834720,
+      "status": "INSUFFICIENT_HISTORY"
+    },
+    {
+      "week": "2026-10-18",
+      "request_raw_s": [
+        1792152000,
+        1792411200
+      ],
+      "cme_proxy_open_utc": "2026-10-18T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 1,
+      "bar_count": 1320,
+      "first_raw_s": 1792152000,
+      "last_raw_s": 1792411200,
+      "status": "PROXY_SAMPLE",
+      "gap_raw_s": [
+        1792191540,
+        1792371600
+      ],
+      "raw_minus_cme_proxy_s": 10800
+    },
+    {
+      "week": "2026-10-25",
+      "request_raw_s": [
+        1792756800,
+        1793016000
+      ],
+      "cme_proxy_open_utc": "2026-10-25T22:00:00+00:00",
+      "us_dst_hours": 1,
+      "eu_dst_hours": 0,
+      "bar_count": 1381,
+      "first_raw_s": 1792756800,
+      "last_raw_s": 1793016000,
+      "status": "PROXY_SAMPLE",
+      "gap_raw_s": [
+        1792796340,
+        1792972800
+      ],
+      "raw_minus_cme_proxy_s": 7200
+    },
+    {
+      "week": "2026-11-01",
+      "request_raw_s": [
+        1793361600,
+        1793620800
+      ],
+      "cme_proxy_open_utc": "2026-11-01T23:00:00+00:00",
+      "us_dst_hours": 0,
+      "eu_dst_hours": 0,
+      "bar_count": 1321,
+      "first_raw_s": 1793361600,
+      "last_raw_s": 1793620800,
+      "status": "PROXY_SAMPLE",
+      "gap_raw_s": [
+        1793401140,
+        1793581200
+      ],
+      "raw_minus_cme_proxy_s": 7200
+    }
+  ],
+  "hypotheses": {
+    "US": {
+      "sample_count": 3,
+      "dst_states": [
+        0,
+        1
+      ],
+      "proxy_residuals_s": [
+        3600,
+        7200
+      ],
+      "proxy_pattern_matches": false
+    },
+    "EU": {
+      "sample_count": 3,
+      "dst_states": [
+        0,
+        1
+      ],
+      "proxy_residuals_s": [
+        7200
+      ],
+      "proxy_pattern_matches": true
+    }
+  }
+}

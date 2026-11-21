@@ -1,0 +1,11 @@
+# Phase 6.10.5.1 verification
+
+**Engineering completed. Broker acceptance blocked. GoldBot remains NO-GO.**
+
+- Two calculator-only passes produced identical precision and risk artifacts. The final pass used the existing encrypted local pin and the independently recovered enrollment record. The verified running installation returned build 6324 and matched Exness KE USD demo ending 9498 on ExnessKE-MT5Trial9. All 216 cases returned finite results, and all 216 matched the frozen separate-notional half-up model. No account switch, trade or order submission occurred.
+- The grid uses fixed synthetic price anchors and checks exact case disjointness against all three prior probe files. The archive observations are reported separately. The synthetic sizing illustration uses the existing sizer and both the analytical and empirical loss comparisons exclude actual booking and execution costs.
+- Phase 6.10.4 reconciled the current checkout with the staged report, reproduced all eight archived baseline summaries, rebuilt the comparison byte for byte, and passed all 208 tests. [Reconciliation test log](../phase_6_10_4/offline-regression.txt)
+- Phase 6.10.5.1 passed all 213 offline regression tests with OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1. Five deterministic tests cover rounding, side symmetry, case disjointness, sizing at the budget boundary, and fail-closed installation/account checks. The dashboard test regenerated and matched all 13 Phase 6.7 files by byte content. [Regression log](offline-regression.txt)
+- SHA-256 checks cover 142 protected files, including original data, earlier reports, and the risk and strategy modules. The earlier unsent support draft was preserved. This phase carries forward its text and adds questions about sub-cent losses, booked deals and balance postings. [Before](preserved-before.sha256) · [After](preserved-after.sha256)
+
+The artifact manifest lists the phase documentation, code, test changes and reports. Broker technical acceptance still requires authoritative clarification of the normalization sequence and tie rule, the treatment of sub-cent losses, and the relationship between estimates and booked P/L. The empirical fit supplies evidence about the tested calculator context.

@@ -1,0 +1,74 @@
+{
+  "archived_exness_mt5": {
+    "count_limit_reached": false,
+    "coverage": "UNVERIFIED",
+    "error_code": null,
+    "first_minus_request_ms": 262,
+    "first_raw_ms": 1795011300262,
+    "issues": [],
+    "largest_raw_spacing_ms": 1156,
+    "last_raw_ms": 1795011359755,
+    "nominal_raw_interval_s": [
+      1795011300,
+      1795011360
+    ],
+    "observations": {
+      "same_millisecond": 2
+    },
+    "observed_bid_m1_ohlc_match": true,
+    "repeated_payload_rows": 0,
+    "rows": 312,
+    "status": "RETURNED",
+    "utc_mapping": "UNVERIFIED"
+  },
+  "dukascopy": {
+    "inspected_ticks": 0,
+    "status": "HTTP_429_NO_PAYLOAD"
+  },
+  "gaps": "Unresolved unless scoped session and coverage evidence establish a cause.",
+  "histdata": {
+    "inspected_ticks": 0,
+    "status": "TRANSFER_DEADLINE_NO_PAYLOAD"
+  },
+  "new_exness_mt5": [
+    {
+      "count_limit_reached": false,
+      "coverage": "UNVERIFIED",
+      "error_code": -1,
+      "first_minus_request_ms": null,
+      "first_raw_ms": null,
+      "issues": [],
+      "largest_raw_spacing_ms": null,
+      "last_raw_ms": null,
+      "observations": {},
+      "repeated_payload_rows": 0,
+      "rows": 0,
+      "status": "UNAVAILABLE",
+      "utc_mapping": "UNVERIFIED"
+    },
+    {
+      "count_limit_reached": false,
+      "coverage": "UNVERIFIED",
+      "error_code": -1,
+      "first_minus_request_ms": null,
+      "first_raw_ms": null,
+      "issues": [],
+      "largest_raw_spacing_ms": null,
+      "last_raw_ms": null,
+      "observations": {},
+      "repeated_payload_rows": 0,
+      "rows": 0,
+      "status": "UNAVAILABLE",
+      "utc_mapping": "UNVERIFIED"
+    }
+  ],
+  "utc_aggregates": {
+    "empty_intervals_filled": false,
+    "frames": [
+      "M1",
+      "M15",
+      "H1"
+    ],
+    "status": "SYNTHETIC_TESTS_ONLY_NO_ADMITTED_UTC_SOURCE"
+  }
+}

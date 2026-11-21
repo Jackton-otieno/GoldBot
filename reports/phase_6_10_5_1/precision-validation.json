@@ -1,0 +1,2833 @@
+{
+  "account_suffix": "9498",
+  "archived_first_pass_model_matches": 840,
+  "archived_first_pass_observations": 840,
+  "broker_acceptance": "BLOCKED",
+  "calculator_model_matches": 216,
+  "calculator_observations": 216,
+  "context": {
+    "python_package": "5.0.6231",
+    "status": "QUERIED",
+    "terminal_build": 6324
+  },
+  "distinct_independent_cases": 216,
+  "engineering": "COMPLETED",
+  "readiness": "NO-GO",
+  "rows": [
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.08"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "-0.08",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.08"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "0.08",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.003",
+      "frozen_model_usd": "0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.004",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.008",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.004",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3740.998",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.004",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.06"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "-0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.06"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.06"
+      },
+      "entry": "3741.004",
+      "exit": "3740.995",
+      "frozen_model_usd": "0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.06"
+      },
+      "entry": "3741.004",
+      "exit": "3741.013",
+      "frozen_model_usd": "-0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.26"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "-0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.26"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.26"
+      },
+      "entry": "3741.004",
+      "exit": "3740.967",
+      "frozen_model_usd": "0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.26"
+      },
+      "entry": "3741.004",
+      "exit": "3741.041",
+      "frozen_model_usd": "-0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "0.00",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.005",
+      "exit": "3741.004",
+      "frozen_model_usd": "0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.005",
+      "exit": "3741.006",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "0.02",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.005",
+      "exit": "3741.009",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.005",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.05"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "-0.05",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.05"
+      },
+      "entry": "3741.005",
+      "exit": "3740.999",
+      "frozen_model_usd": "0.05",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.005",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.06"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.005",
+      "exit": "3740.996",
+      "frozen_model_usd": "0.07",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.06"
+      },
+      "entry": "3741.005",
+      "exit": "3741.014",
+      "frozen_model_usd": "-0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.26"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "-0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.25"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "0.25",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.26"
+      },
+      "entry": "3741.005",
+      "exit": "3740.968",
+      "frozen_model_usd": "0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.25"
+      },
+      "entry": "3741.005",
+      "exit": "3741.042",
+      "frozen_model_usd": "-0.25",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00100",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00400",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00600",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00900",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "0.04",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.01",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03700",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00200",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01000",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.02"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.02"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "-0.02",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.01800",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.08"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "0.08",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "0.07",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.08"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "-0.08",
+      "lots": "0.02",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.07400",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "0.00",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.0"
+      },
+      "entry": "3741.006",
+      "exit": "3741.005",
+      "frozen_model_usd": "-0.00",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.01"
+      },
+      "entry": "3741.006",
+      "exit": "3741.007",
+      "frozen_model_usd": "-0.01",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.00700",
+      "ticks": 1
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.002",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.010",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.02800",
+      "ticks": 4
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "-0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.03"
+      },
+      "entry": "3741.006",
+      "exit": "3741.001",
+      "frozen_model_usd": "0.03",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.011",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.03500",
+      "ticks": 5
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.000",
+      "frozen_model_usd": "0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.04"
+      },
+      "entry": "3741.006",
+      "exit": "3741.012",
+      "frozen_model_usd": "-0.04",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.04200",
+      "ticks": 6
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.06"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "-0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.07"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "0.07",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.06"
+      },
+      "entry": "3741.006",
+      "exit": "3740.997",
+      "frozen_model_usd": "0.06",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.07"
+      },
+      "entry": "3741.006",
+      "exit": "3741.015",
+      "frozen_model_usd": "-0.07",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.06300",
+      "ticks": 9
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.26"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "-0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.26"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "BUY",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "0.26"
+      },
+      "entry": "3741.006",
+      "exit": "3740.969",
+      "frozen_model_usd": "0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "0.25900",
+      "ticks": 37
+    },
+    {
+      "calculator": {
+        "observed_usd": "-0.26"
+      },
+      "entry": "3741.006",
+      "exit": "3741.043",
+      "frozen_model_usd": "-0.26",
+      "lots": "0.07",
+      "matches_model": true,
+      "side": "SELL",
+      "theoretical_usd": "-0.25900",
+      "ticks": 37
+    }
+  ],
+  "server": "ExnessKE-MT5Trial9",
+  "source_sha256": {
+    "phase_6_9_3/initial-probes.json": "e23f723a96627061a9f581ac1c684409f700540a47e2b08e509586c9dc497cb7",
+    "phase_6_9_3/probes.json": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+    "phase_6_9_3_1/probes.json": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26"
+  },
+  "symbol": "XAUUSD"
+}

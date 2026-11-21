@@ -1,0 +1,8 @@
+# Phase 6.10.2 verification
+
+- Two independent offline builds reproduced the Phase 6.10.1 audit and both Phase 6.8.5 upstream archives byte for byte. Both Phase 6.10.2 payloads matched. Their SHA-256 is `d13906184978aeccbb6061d99f42666f29ca27a9dd3c38b9ba4e2e1bf6bab4e7`. [Market regime payload](market-regimes.json)
+- All 13 Phase 6.7 files regenerated in scratch and matched the live originals by relative path and SHA-256. [Regenerated inventory](phase-6-7-regenerated.sha256)
+- All 111 earlier report files and both raw CSVs retained their SHA-256 digests. [Before](preserved-before.sha256) · [After](preserved-after.sha256)
+- The full offline regression passed all 202 tests with both OPENBLAS_NUM_THREADS and OMP_NUM_THREADS set to 1. The five new tests cover indicator seeds and updates, degenerate cases, gap restarts, prefix invariance, future perturbations, funnel arithmetic and overlap. Builds also enforce row-level and grouped reconciliation against the reproduced audit. [Full regression](offline-regression.txt)
+- The initial full run failed one Phase 6.7 inventory assertion because it included reports from Phases 6.10.1 and 6.10.2. The test's existing list of later report directories now includes those phases. The Phase 6.7 generator and its archived output were preserved. [Initial regression](offline-regression-initial.txt)
+- The first restricted launch could not start the virtual environment's Windows Store Python. The authorized full runs used the existing GoldBot virtual environment. The research results retain the archived NO-GO. [Readiness assessment](../phase_6_9_6/assessment.json)

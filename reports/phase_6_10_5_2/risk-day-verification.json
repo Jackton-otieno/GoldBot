@@ -1,0 +1,29 @@
+{
+  "scope": {
+    "entity": "Exness (KE) Limited",
+    "server": "ExnessKE-MT5Trial9",
+    "demo_suffix": "9498",
+    "symbol": "XAUUSD",
+    "currency": "USD"
+  },
+  "technical_acceptance": "BLOCKED",
+  "production_utc_mapping": "UNVERIFIED",
+  "approved_policy_reference": null,
+  "effective_policy_days": [],
+  "verified_opening_equity": null,
+  "opening_equity_collected": false,
+  "reset_authorized": false,
+  "existing_latches": "PRESERVED",
+  "requirements": [
+    "An approved account-scoped policy and explicit effective-dated UTC day intervals with an unambiguous direct successor.",
+    "An independent current clock bracket and a unique verified raw-to-UTC mapping covering it.",
+    "Independently attested positive opening equity for the same account and policy at the exact successor boundary, with floating P/L and cash movements reconciled.",
+    "An atomic update with the existing ledger only after the existing boundary validator accepts the evidence."
+  ],
+  "rollover_or_statement_day_selects_policy_boundary": false,
+  "midnight_reset_assumed": false,
+  "validator": "goldbot/risk/risk_day_verification.py",
+  "archived_readiness": "../phase_6_9_6/assessment.json",
+  "monetary_precision_blocker": "../phase_6_10_5_1/precision-validation.json",
+  "readiness": "NO-GO"
+}

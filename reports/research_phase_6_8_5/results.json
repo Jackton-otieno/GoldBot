@@ -1,0 +1,3145 @@
+{
+  "assumptions_sha256": "df4a6193e301bbc171ab2fcae13100c4607c9a5e2d22f2b9be1b12b68b96819c",
+  "genuine_unseen_holdout": false,
+  "mode": "RESEARCH",
+  "timeframes": {
+    "H1": {
+      "baseline": {
+        "account": {
+          "final_balance": "2956.88500",
+          "final_equity": "2956.88500",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.01437166666666666666666666666666666666667",
+          "realized_net_pnl": "-43.11500",
+          "realized_return": "-0.01437166666666666666666666666666666666667",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-11.04500",
+            "net_pnl": "-11.11500",
+            "position": {
+              "entry_row": 382,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3028.30",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.1150",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3017.355",
+                "stop_distance": "10.945",
+                "symbol": "XAUUSD",
+                "target": "3050.190",
+                "volume": "0.01"
+              },
+              "signal_row": 381
+            },
+            "price": "3017.255",
+            "reason": "STOP",
+            "row": 385
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-9.65000",
+            "net_pnl": "-9.72000",
+            "position": {
+              "entry_row": 404,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3023.520",
+                "loss_budget": "14.94442500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.7200",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3013.970",
+                "stop_distance": "9.550",
+                "symbol": "XAUUSD",
+                "target": "3042.620",
+                "volume": "0.01"
+              },
+              "signal_row": 403
+            },
+            "price": "3013.870",
+            "reason": "STOP",
+            "row": 422
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "16.16000",
+            "net_pnl": "16.09000",
+            "position": {
+              "entry_row": 441,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3025.660",
+                "loss_budget": "14.89582500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.2500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3017.580",
+                "stop_distance": "8.080",
+                "symbol": "XAUUSD",
+                "target": "3041.820",
+                "volume": "0.01"
+              },
+              "signal_row": 440
+            },
+            "price": "3041.820",
+            "reason": "TARGET",
+            "row": 450
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-13.78000",
+            "net_pnl": "-13.85000",
+            "position": {
+              "entry_row": 536,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3125.680",
+                "loss_budget": "14.97627500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.8500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3112.000",
+                "stop_distance": "13.680",
+                "symbol": "XAUUSD",
+                "target": "3153.040",
+                "volume": "0.01"
+              },
+              "signal_row": 535
+            },
+            "price": "3111.900",
+            "reason": "STOP",
+            "row": 537
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-14.32000",
+            "net_pnl": "-14.39000",
+            "position": {
+              "entry_row": 541,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3131.540",
+                "loss_budget": "14.90702500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "14.3900",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3117.320",
+                "stop_distance": "14.220",
+                "symbol": "XAUUSD",
+                "target": "3159.980",
+                "volume": "0.01"
+              },
+              "signal_row": 540
+            },
+            "price": "3117.220",
+            "reason": "STOP",
+            "row": 542
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-10.06000",
+            "net_pnl": "-10.13000",
+            "position": {
+              "entry_row": 2196,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3362.260",
+                "loss_budget": "10.92500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.1300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "3352.300",
+                "stop_distance": "9.960",
+                "symbol": "XAUUSD",
+                "target": "3382.180",
+                "volume": "0.01"
+              },
+              "signal_row": 2195
+            },
+            "price": "3352.200",
+            "reason": "STOP",
+            "row": 2202
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.42",
+          "realized_gross_pnl": "-42.69500",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 6,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 115,
+          "GAP_ENTRY": 6
+        },
+        "exit_reasons": {
+          "STOP": 5,
+          "TARGET": 1
+        },
+        "exposure": {
+          "intervals_with_position": 82,
+          "observed_interval_fraction": "0.004100205010250512525626281314065703285164",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4404,
+            "value": "43.11500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4404,
+            "value": "0.01437166666666666666666666666666666666667"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "59.20500",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "59.20500"
+        },
+        "scenario_id": "research-phase-6.8.5/H1/baseline",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-43.11500",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "H1",
+        "trades": {
+          "closed": 6,
+          "counts": {
+            "breakeven": 0,
+            "loss": 5,
+            "win": 1
+          },
+          "ending_streak": {
+            "length": 3,
+            "outcome": "loss"
+          },
+          "expectancy": "-7.185833333333333333333333333333333333333",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 3,
+            "win": 1
+          },
+          "mean_loss": "-11.84100",
+          "mean_win": "16.09000",
+          "net_loss_total": "-59.20500",
+          "net_win_total": "16.09000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.2717675871970272781015116966472426315345"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "ideal": {
+        "account": {
+          "final_balance": "2980.06500",
+          "final_equity": "2980.06500",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.006645",
+          "realized_net_pnl": "-19.93500",
+          "realized_return": "-0.006645",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-10.84500",
+            "net_pnl": "-10.84500",
+            "position": {
+              "entry_row": 382,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3028.05",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.8450",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3017.205",
+                "stop_distance": "10.845",
+                "symbol": "XAUUSD",
+                "target": "3049.740",
+                "volume": "0.01"
+              },
+              "signal_row": 381
+            },
+            "price": "3017.205",
+            "reason": "STOP",
+            "row": 385
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-9.45000",
+            "net_pnl": "-9.45000",
+            "position": {
+              "entry_row": 404,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3023.270",
+                "loss_budget": "14.94577500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.4500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3013.820",
+                "stop_distance": "9.450",
+                "symbol": "XAUUSD",
+                "target": "3042.170",
+                "volume": "0.01"
+              },
+              "signal_row": 403
+            },
+            "price": "3013.820",
+            "reason": "STOP",
+            "row": 422
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "15.96000",
+            "net_pnl": "15.96000",
+            "position": {
+              "entry_row": 441,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3025.410",
+                "loss_budget": "14.89852500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.9800",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3017.430",
+                "stop_distance": "7.980",
+                "symbol": "XAUUSD",
+                "target": "3041.370",
+                "volume": "0.01"
+              },
+              "signal_row": 440
+            },
+            "price": "3041.370",
+            "reason": "TARGET",
+            "row": 450
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-13.58000",
+            "net_pnl": "-13.58000",
+            "position": {
+              "entry_row": 536,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3125.430",
+                "loss_budget": "14.97832500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.5800",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3111.850",
+                "stop_distance": "13.580",
+                "symbol": "XAUUSD",
+                "target": "3152.590",
+                "volume": "0.01"
+              },
+              "signal_row": 535
+            },
+            "price": "3111.850",
+            "reason": "STOP",
+            "row": 537
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-14.12000",
+            "net_pnl": "-14.12000",
+            "position": {
+              "entry_row": 541,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3131.290",
+                "loss_budget": "14.91042500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "14.1200",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3117.170",
+                "stop_distance": "14.120",
+                "symbol": "XAUUSD",
+                "target": "3159.530",
+                "volume": "0.01"
+              },
+              "signal_row": 540
+            },
+            "price": "3117.170",
+            "reason": "STOP",
+            "row": 542
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "21.96000",
+            "net_pnl": "21.96000",
+            "position": {
+              "entry_row": 2087,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3325.0",
+                "loss_budget": "12.00500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.9800",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.0",
+                "status": "INDICATIVE",
+                "stop": "3335.980",
+                "stop_distance": "10.980",
+                "symbol": "XAUUSD",
+                "target": "3303.040",
+                "volume": "0.01"
+              },
+              "signal_row": 2086
+            },
+            "price": "3303.040",
+            "reason": "TARGET",
+            "row": 2089
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-9.86000",
+            "net_pnl": "-9.86000",
+            "position": {
+              "entry_row": 2196,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3362.010",
+                "loss_budget": "12.00500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.8600",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "3352.150",
+                "stop_distance": "9.860",
+                "symbol": "XAUUSD",
+                "target": "3381.730",
+                "volume": "0.01"
+              },
+              "signal_row": 2195
+            },
+            "price": "3352.150",
+            "reason": "STOP",
+            "row": 2202
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.00",
+          "realized_gross_pnl": "-19.93500",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 7,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "GAP_ENTRY": 6
+        },
+        "exit_reasons": {
+          "STOP": 5,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 87,
+          "observed_interval_fraction": "0.004350217510875543777188859442972148607430",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 763,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4174,
+            "value": "35.25500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 763,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4174,
+            "value": "0.01175166666666666666666666666666666666667"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "57.85500",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "57.85500"
+        },
+        "scenario_id": "research-phase-6.8.5/H1/ideal",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-19.93500",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "H1",
+        "trades": {
+          "closed": 7,
+          "counts": {
+            "breakeven": 0,
+            "loss": 5,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 1,
+            "outcome": "loss"
+          },
+          "expectancy": "-2.847857142857142857142857142857142857143",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 2,
+            "win": 1
+          },
+          "mean_loss": "-11.57100",
+          "mean_win": "18.96000",
+          "net_loss_total": "-57.85500",
+          "net_win_total": "37.92000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.6554316826549131449312937516204303863106"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "low": {
+        "account": {
+          "final_balance": "2979.55500",
+          "final_equity": "2979.55500",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.006815",
+          "realized_net_pnl": "-20.44500",
+          "realized_return": "-0.006815",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-10.94500",
+            "net_pnl": "-10.97500",
+            "position": {
+              "entry_row": 382,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3028.175",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.9750",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3017.280",
+                "stop_distance": "10.895",
+                "symbol": "XAUUSD",
+                "target": "3049.965",
+                "volume": "0.01"
+              },
+              "signal_row": 381
+            },
+            "price": "3017.230",
+            "reason": "STOP",
+            "row": 385
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-9.55000",
+            "net_pnl": "-9.58000",
+            "position": {
+              "entry_row": 404,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3023.395",
+                "loss_budget": "14.94512500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.5800",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3013.895",
+                "stop_distance": "9.500",
+                "symbol": "XAUUSD",
+                "target": "3042.395",
+                "volume": "0.01"
+              },
+              "signal_row": 403
+            },
+            "price": "3013.845",
+            "reason": "STOP",
+            "row": 422
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "16.06000",
+            "net_pnl": "16.03000",
+            "position": {
+              "entry_row": 441,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3025.535",
+                "loss_budget": "14.89722500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.1100",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3017.505",
+                "stop_distance": "8.030",
+                "symbol": "XAUUSD",
+                "target": "3041.595",
+                "volume": "0.01"
+              },
+              "signal_row": 440
+            },
+            "price": "3041.595",
+            "reason": "TARGET",
+            "row": 450
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-13.68000",
+            "net_pnl": "-13.71000",
+            "position": {
+              "entry_row": 536,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3125.555",
+                "loss_budget": "14.97737500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.7100",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3111.925",
+                "stop_distance": "13.630",
+                "symbol": "XAUUSD",
+                "target": "3152.815",
+                "volume": "0.01"
+              },
+              "signal_row": 535
+            },
+            "price": "3111.875",
+            "reason": "STOP",
+            "row": 537
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-14.22000",
+            "net_pnl": "-14.25000",
+            "position": {
+              "entry_row": 541,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3131.415",
+                "loss_budget": "14.90882500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "14.2500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3117.245",
+                "stop_distance": "14.170",
+                "symbol": "XAUUSD",
+                "target": "3159.755",
+                "volume": "0.01"
+              },
+              "signal_row": 540
+            },
+            "price": "3117.195",
+            "reason": "STOP",
+            "row": 542
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "22.06000",
+            "net_pnl": "22.03000",
+            "position": {
+              "entry_row": 2087,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3324.875",
+                "loss_budget": "11.48500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.1100",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3335.905",
+                "stop_distance": "11.030",
+                "symbol": "XAUUSD",
+                "target": "3302.815",
+                "volume": "0.01"
+              },
+              "signal_row": 2086
+            },
+            "price": "3302.815",
+            "reason": "TARGET",
+            "row": 2089
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-9.96000",
+            "net_pnl": "-9.99000",
+            "position": {
+              "entry_row": 2196,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3362.135",
+                "loss_budget": "11.48500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.9900",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "3352.225",
+                "stop_distance": "9.910",
+                "symbol": "XAUUSD",
+                "target": "3381.955",
+                "volume": "0.01"
+              },
+              "signal_row": 2195
+            },
+            "price": "3352.175",
+            "reason": "STOP",
+            "row": 2202
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.21",
+          "realized_gross_pnl": "-20.23500",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 7,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "GAP_ENTRY": 6
+        },
+        "exit_reasons": {
+          "STOP": 5,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 87,
+          "observed_interval_fraction": "0.004350217510875543777188859442972148607430",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4174,
+            "value": "35.90500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 4174,
+            "value": "0.01196833333333333333333333333333333333333"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "58.50500",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "58.50500"
+        },
+        "scenario_id": "research-phase-6.8.5/H1/low",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-20.44500",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "H1",
+        "trades": {
+          "closed": 7,
+          "counts": {
+            "breakeven": 0,
+            "loss": 5,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 1,
+            "outcome": "loss"
+          },
+          "expectancy": "-2.920714285714285714285714285714285714286",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 2,
+            "win": 1
+          },
+          "mean_loss": "-11.70100",
+          "mean_win": "19.03000",
+          "net_loss_total": "-58.50500",
+          "net_win_total": "38.06000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.6505426886590889667549782069908554824374"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "stress": {
+        "account": {
+          "final_balance": "2979.83500",
+          "final_equity": "2979.83500",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.006721666666666666666666666666666666666667",
+          "realized_net_pnl": "-20.16500",
+          "realized_return": "-0.006721666666666666666666666666666666666667",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-11.84500",
+            "net_pnl": "-11.99500",
+            "position": {
+              "entry_row": 382,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3029.05",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.9950",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3017.705",
+                "stop_distance": "11.345",
+                "symbol": "XAUUSD",
+                "target": "3051.740",
+                "volume": "0.01"
+              },
+              "signal_row": 381
+            },
+            "price": "3017.205",
+            "reason": "STOP",
+            "row": 385
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-10.45000",
+            "net_pnl": "-10.60000",
+            "position": {
+              "entry_row": 404,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3024.270",
+                "loss_budget": "14.94002500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.6000",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3014.320",
+                "stop_distance": "9.950",
+                "symbol": "XAUUSD",
+                "target": "3044.170",
+                "volume": "0.01"
+              },
+              "signal_row": 403
+            },
+            "price": "3013.820",
+            "reason": "STOP",
+            "row": 406
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "16.96000",
+            "net_pnl": "16.81000",
+            "position": {
+              "entry_row": 441,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3026.410",
+                "loss_budget": "14.88702500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.1300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3017.930",
+                "stop_distance": "8.480",
+                "symbol": "XAUUSD",
+                "target": "3043.370",
+                "volume": "0.01"
+              },
+              "signal_row": 440
+            },
+            "price": "3043.370",
+            "reason": "TARGET",
+            "row": 450
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-14.58000",
+            "net_pnl": "-14.73000",
+            "position": {
+              "entry_row": 536,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3126.430",
+                "loss_budget": "14.97107500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "14.7300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3112.350",
+                "stop_distance": "14.080",
+                "symbol": "XAUUSD",
+                "target": "3154.590",
+                "volume": "0.01"
+              },
+              "signal_row": 535
+            },
+            "price": "3111.850",
+            "reason": "STOP",
+            "row": 537
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "22.96000",
+            "net_pnl": "22.81000",
+            "position": {
+              "entry_row": 2087,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3324.00",
+                "loss_budget": "14.89742500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "12.1300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3335.480",
+                "stop_distance": "11.480",
+                "symbol": "XAUUSD",
+                "target": "3301.040",
+                "volume": "0.01"
+              },
+              "signal_row": 2086
+            },
+            "price": "3301.040",
+            "reason": "TARGET",
+            "row": 2089
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-10.86000",
+            "net_pnl": "-11.01000",
+            "position": {
+              "entry_row": 2196,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3363.010",
+                "loss_budget": "15.01147500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.0100",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3352.650",
+                "stop_distance": "10.360",
+                "symbol": "XAUUSD",
+                "target": "3383.730",
+                "volume": "0.01"
+              },
+              "signal_row": 2195
+            },
+            "price": "3352.150",
+            "reason": "STOP",
+            "row": 2202
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-11.30000",
+            "net_pnl": "-11.45000",
+            "position": {
+              "entry_row": 2757,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "3333.590",
+                "loss_budget": "11.66500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.4500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/H1/stress",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "3344.390",
+                "stop_distance": "10.800",
+                "symbol": "XAUUSD",
+                "target": "3311.990",
+                "volume": "0.01"
+              },
+              "signal_row": 2756
+            },
+            "price": "3344.890",
+            "reason": "STOP",
+            "row": 2775
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "1.05",
+          "realized_gross_pnl": "-19.11500",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 7,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "GAP_ENTRY": 6
+        },
+        "exit_reasons": {
+          "STOP": 5,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 89,
+          "observed_interval_fraction": "0.004450222511125556277813890694534726736337",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": 3416,
+            "recovery_event_index": 4178,
+            "status": "recovered",
+            "trough_event_index": 883,
+            "value": "25.96500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 762,
+            "peak_to_recovery_intervals": 3416,
+            "recovery_event_index": 4178,
+            "status": "recovered",
+            "trough_event_index": 883,
+            "value": "0.008655"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "59.78500",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "59.78500"
+        },
+        "scenario_id": "research-phase-6.8.5/H1/stress",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-20.16500",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "H1",
+        "trades": {
+          "closed": 7,
+          "counts": {
+            "breakeven": 0,
+            "loss": 5,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 2,
+            "outcome": "loss"
+          },
+          "expectancy": "-2.880714285714285714285714285714285714286",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 2,
+            "win": 1
+          },
+          "mean_loss": "-11.95700",
+          "mean_win": "19.81000",
+          "net_loss_total": "-59.78500",
+          "net_win_total": "39.62000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.6627080371330601321401689386969975746425"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      }
+    },
+    "M15": {
+      "baseline": {
+        "account": {
+          "final_balance": "2974.69000",
+          "final_equity": "2974.69000",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.008436666666666666666666666666666666666667",
+          "realized_net_pnl": "-25.31000",
+          "realized_return": "-0.008436666666666666666666666666666666666667",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-11.44500",
+            "net_pnl": "-11.51500",
+            "position": {
+              "entry_row": 292,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4332.180",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.5150",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4320.835",
+                "stop_distance": "11.345",
+                "symbol": "XAUUSD",
+                "target": "4354.870",
+                "volume": "0.01"
+              },
+              "signal_row": 291
+            },
+            "price": "4320.735",
+            "reason": "STOP",
+            "row": 299
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "20.40000",
+            "net_pnl": "20.33000",
+            "position": {
+              "entry_row": 306,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4326.370",
+                "loss_budget": "14.94242500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.3700",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4316.170",
+                "stop_distance": "10.200",
+                "symbol": "XAUUSD",
+                "target": "4346.770",
+                "volume": "0.01"
+              },
+              "signal_row": 305
+            },
+            "price": "4346.770",
+            "reason": "TARGET",
+            "row": 312
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-13.40500",
+            "net_pnl": "-13.47500",
+            "position": {
+              "entry_row": 343,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4344.820",
+                "loss_budget": "15.04407500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.4750",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4331.515",
+                "stop_distance": "13.305",
+                "symbol": "XAUUSD",
+                "target": "4371.430",
+                "volume": "0.01"
+              },
+              "signal_row": 342
+            },
+            "price": "4331.415",
+            "reason": "STOP",
+            "row": 346
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-9.90000",
+            "net_pnl": "-9.97000",
+            "position": {
+              "entry_row": 370,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4347.70",
+                "loss_budget": "14.97670000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.9700",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4337.900",
+                "stop_distance": "9.800",
+                "symbol": "XAUUSD",
+                "target": "4367.300",
+                "volume": "0.01"
+              },
+              "signal_row": 369
+            },
+            "price": "4337.800",
+            "reason": "STOP",
+            "row": 371
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-8.92000",
+            "net_pnl": "-8.99000",
+            "position": {
+              "entry_row": 407,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4329.290",
+                "loss_budget": "14.92685000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.9900",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4320.470",
+                "stop_distance": "8.820",
+                "symbol": "XAUUSD",
+                "target": "4346.930",
+                "volume": "0.01"
+              },
+              "signal_row": 406
+            },
+            "price": "4320.370",
+            "reason": "STOP",
+            "row": 413
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-8.51000",
+            "net_pnl": "-8.58000",
+            "position": {
+              "entry_row": 417,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4333.90",
+                "loss_budget": "14.88190000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.5800",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4325.490",
+                "stop_distance": "8.410",
+                "symbol": "XAUUSD",
+                "target": "4350.720",
+                "volume": "0.01"
+              },
+              "signal_row": 416
+            },
+            "price": "4325.390",
+            "reason": "STOP",
+            "row": 417
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "14.43000",
+            "net_pnl": "14.36000",
+            "position": {
+              "entry_row": 3024,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4031.540",
+                "loss_budget": "7.47000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.3850",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4038.755",
+                "stop_distance": "7.215",
+                "symbol": "XAUUSD",
+                "target": "4017.110",
+                "volume": "0.01"
+              },
+              "signal_row": 3023
+            },
+            "price": "4017.110",
+            "reason": "TARGET",
+            "row": 3032
+          },
+          {
+            "both_touched": false,
+            "commission": "0.07",
+            "gross_pnl": "-7.40000",
+            "net_pnl": "-7.47000",
+            "position": {
+              "entry_row": 7715,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4172.270",
+                "loss_budget": "7.47000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.4700",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/baseline",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.30",
+                "status": "INDICATIVE",
+                "stop": "4164.970",
+                "stop_distance": "7.300",
+                "symbol": "XAUUSD",
+                "target": "4186.870",
+                "volume": "0.01"
+              },
+              "signal_row": 7714
+            },
+            "price": "4164.870",
+            "reason": "STOP",
+            "row": 7717
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.56",
+          "realized_gross_pnl": "-24.75000",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 8,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 94,
+          "DAILY_LOSS_LIMIT": 29,
+          "GAP_ENTRY": 1
+        },
+        "exit_reasons": {
+          "STOP": 6,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 74,
+          "observed_interval_fraction": "0.003700185009250462523126156307815390769538",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "42.64500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "0.01417335396160947083818712682567721843982"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "60.00000",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": {
+              "event": "closed",
+              "row": 7717
+            },
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [
+            "DAILY_LOSS_LIMIT"
+          ],
+          "terminal_loss_budget_used_usd": "60.00000"
+        },
+        "scenario_id": "research-phase-6.8.5/M15/baseline",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-25.31000",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "M15",
+        "trades": {
+          "closed": 8,
+          "counts": {
+            "breakeven": 0,
+            "loss": 6,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 1,
+            "outcome": "loss"
+          },
+          "expectancy": "-3.16375",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 4,
+            "win": 1
+          },
+          "mean_loss": "-10.00000",
+          "mean_win": "17.34500",
+          "net_loss_total": "-60.00000",
+          "net_win_total": "34.69000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.5781666666666666666666666666666666666667"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "ideal": {
+        "account": {
+          "final_balance": "2976.05000",
+          "final_equity": "2976.05000",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.007983333333333333333333333333333333333333",
+          "realized_net_pnl": "-23.95000",
+          "realized_return": "-0.007983333333333333333333333333333333333333",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-11.24500",
+            "net_pnl": "-11.24500",
+            "position": {
+              "entry_row": 292,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4331.930",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.2450",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4320.685",
+                "stop_distance": "11.245",
+                "symbol": "XAUUSD",
+                "target": "4354.420",
+                "volume": "0.01"
+              },
+              "signal_row": 291
+            },
+            "price": "4320.685",
+            "reason": "STOP",
+            "row": 299
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "20.20000",
+            "net_pnl": "20.20000",
+            "position": {
+              "entry_row": 306,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4326.120",
+                "loss_budget": "14.94377500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.1000",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4316.020",
+                "stop_distance": "10.100",
+                "symbol": "XAUUSD",
+                "target": "4346.320",
+                "volume": "0.01"
+              },
+              "signal_row": 305
+            },
+            "price": "4346.320",
+            "reason": "TARGET",
+            "row": 312
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-13.20500",
+            "net_pnl": "-13.20500",
+            "position": {
+              "entry_row": 343,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4344.570",
+                "loss_budget": "15.04477500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.2050",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4331.365",
+                "stop_distance": "13.205",
+                "symbol": "XAUUSD",
+                "target": "4370.980",
+                "volume": "0.01"
+              },
+              "signal_row": 342
+            },
+            "price": "4331.365",
+            "reason": "STOP",
+            "row": 346
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-9.70000",
+            "net_pnl": "-9.70000",
+            "position": {
+              "entry_row": 370,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4347.45",
+                "loss_budget": "14.97875000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.7000",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4337.750",
+                "stop_distance": "9.700",
+                "symbol": "XAUUSD",
+                "target": "4366.850",
+                "volume": "0.01"
+              },
+              "signal_row": 369
+            },
+            "price": "4337.750",
+            "reason": "STOP",
+            "row": 372
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-8.72000",
+            "net_pnl": "-8.72000",
+            "position": {
+              "entry_row": 407,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4329.040",
+                "loss_budget": "14.93025000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.7200",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4320.320",
+                "stop_distance": "8.720",
+                "symbol": "XAUUSD",
+                "target": "4346.480",
+                "volume": "0.01"
+              },
+              "signal_row": 406
+            },
+            "price": "4320.320",
+            "reason": "STOP",
+            "row": 413
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-8.31000",
+            "net_pnl": "-8.31000",
+            "position": {
+              "entry_row": 417,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4333.65",
+                "loss_budget": "14.88665000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.3100",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4325.340",
+                "stop_distance": "8.310",
+                "symbol": "XAUUSD",
+                "target": "4350.270",
+                "volume": "0.01"
+              },
+              "signal_row": 416
+            },
+            "price": "4325.340",
+            "reason": "STOP",
+            "row": 417
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "14.23000",
+            "net_pnl": "14.23000",
+            "position": {
+              "entry_row": 3024,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4031.790",
+                "loss_budget": "8.82000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.1150",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4038.905",
+                "stop_distance": "7.115",
+                "symbol": "XAUUSD",
+                "target": "4017.560",
+                "volume": "0.01"
+              },
+              "signal_row": 3023
+            },
+            "price": "4017.560",
+            "reason": "TARGET",
+            "row": 3032
+          },
+          {
+            "both_touched": false,
+            "commission": "0.00",
+            "gross_pnl": "-7.20000",
+            "net_pnl": "-7.20000",
+            "position": {
+              "entry_row": 7715,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4172.020",
+                "loss_budget": "8.82000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.2000",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/ideal",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.00",
+                "status": "INDICATIVE",
+                "stop": "4164.820",
+                "stop_distance": "7.200",
+                "symbol": "XAUUSD",
+                "target": "4186.420",
+                "volume": "0.01"
+              },
+              "signal_row": 7714
+            },
+            "price": "4164.820",
+            "reason": "STOP",
+            "row": 7717
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.00",
+          "realized_gross_pnl": "-23.95000",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 8,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 123,
+          "GAP_ENTRY": 1
+        },
+        "exit_reasons": {
+          "STOP": 6,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 76,
+          "observed_interval_fraction": "0.003800190009500475023751187559377968898445",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 685,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "41.16500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 685,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "0.01368082939093472650804016676886161474665"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "58.38000",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "58.38000"
+        },
+        "scenario_id": "research-phase-6.8.5/M15/ideal",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-23.95000",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "M15",
+        "trades": {
+          "closed": 8,
+          "counts": {
+            "breakeven": 0,
+            "loss": 6,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 1,
+            "outcome": "loss"
+          },
+          "expectancy": "-2.99375",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 4,
+            "win": 1
+          },
+          "mean_loss": "-9.73000",
+          "mean_win": "17.21500",
+          "net_loss_total": "-58.38000",
+          "net_win_total": "34.43000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.5897567660157588215142171976704350805070"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "low": {
+        "account": {
+          "final_balance": "2975.41000",
+          "final_equity": "2975.41000",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.008196666666666666666666666666666666666667",
+          "realized_net_pnl": "-24.59000",
+          "realized_return": "-0.008196666666666666666666666666666666666667",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-11.34500",
+            "net_pnl": "-11.37500",
+            "position": {
+              "entry_row": 292,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4332.055",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.3750",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4320.760",
+                "stop_distance": "11.295",
+                "symbol": "XAUUSD",
+                "target": "4354.645",
+                "volume": "0.01"
+              },
+              "signal_row": 291
+            },
+            "price": "4320.710",
+            "reason": "STOP",
+            "row": 299
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "20.30000",
+            "net_pnl": "20.27000",
+            "position": {
+              "entry_row": 306,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4326.245",
+                "loss_budget": "14.94312500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.2300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4316.095",
+                "stop_distance": "10.150",
+                "symbol": "XAUUSD",
+                "target": "4346.545",
+                "volume": "0.01"
+              },
+              "signal_row": 305
+            },
+            "price": "4346.545",
+            "reason": "TARGET",
+            "row": 312
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-13.30500",
+            "net_pnl": "-13.33500",
+            "position": {
+              "entry_row": 343,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4344.695",
+                "loss_budget": "15.04447500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "13.3350",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4331.440",
+                "stop_distance": "13.255",
+                "symbol": "XAUUSD",
+                "target": "4371.205",
+                "volume": "0.01"
+              },
+              "signal_row": 342
+            },
+            "price": "4331.390",
+            "reason": "STOP",
+            "row": 346
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-9.80000",
+            "net_pnl": "-9.83000",
+            "position": {
+              "entry_row": 370,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4347.575",
+                "loss_budget": "14.97780000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.8300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4337.825",
+                "stop_distance": "9.750",
+                "symbol": "XAUUSD",
+                "target": "4367.075",
+                "volume": "0.01"
+              },
+              "signal_row": 369
+            },
+            "price": "4337.775",
+            "reason": "STOP",
+            "row": 371
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-8.82000",
+            "net_pnl": "-8.85000",
+            "position": {
+              "entry_row": 407,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4329.165",
+                "loss_budget": "14.92865000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.8500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4320.395",
+                "stop_distance": "8.770",
+                "symbol": "XAUUSD",
+                "target": "4346.705",
+                "volume": "0.01"
+              },
+              "signal_row": 406
+            },
+            "price": "4320.345",
+            "reason": "STOP",
+            "row": 413
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-8.41000",
+            "net_pnl": "-8.44000",
+            "position": {
+              "entry_row": 417,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4333.775",
+                "loss_budget": "14.88440000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "8.4400",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4325.415",
+                "stop_distance": "8.360",
+                "symbol": "XAUUSD",
+                "target": "4350.495",
+                "volume": "0.01"
+              },
+              "signal_row": 416
+            },
+            "price": "4325.365",
+            "reason": "STOP",
+            "row": 417
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "14.33000",
+            "net_pnl": "14.30000",
+            "position": {
+              "entry_row": 3024,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4031.665",
+                "loss_budget": "8.17000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.2450",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "SELL",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4038.830",
+                "stop_distance": "7.165",
+                "symbol": "XAUUSD",
+                "target": "4017.335",
+                "volume": "0.01"
+              },
+              "signal_row": 3023
+            },
+            "price": "4017.335",
+            "reason": "TARGET",
+            "row": 3032
+          },
+          {
+            "both_touched": false,
+            "commission": "0.03",
+            "gross_pnl": "-7.30000",
+            "net_pnl": "-7.33000",
+            "position": {
+              "entry_row": 7715,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4172.145",
+                "loss_budget": "8.17000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "7.3300",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/low",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "0.150",
+                "status": "INDICATIVE",
+                "stop": "4164.895",
+                "stop_distance": "7.250",
+                "symbol": "XAUUSD",
+                "target": "4186.645",
+                "volume": "0.01"
+              },
+              "signal_row": 7714
+            },
+            "price": "4164.845",
+            "reason": "STOP",
+            "row": 7717
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.24",
+          "realized_gross_pnl": "-24.35000",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 8,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 123,
+          "GAP_ENTRY": 1
+        },
+        "exit_reasons": {
+          "STOP": 6,
+          "TARGET": 2
+        },
+        "exposure": {
+          "intervals_with_position": 74,
+          "observed_interval_fraction": "0.003700185009250462523126156307815390769538",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "41.88500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 6048,
+            "value": "0.01392039270230433431542144209086724528440"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "59.16000",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "59.16000"
+        },
+        "scenario_id": "research-phase-6.8.5/M15/low",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-24.59000",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "M15",
+        "trades": {
+          "closed": 8,
+          "counts": {
+            "breakeven": 0,
+            "loss": 6,
+            "win": 2
+          },
+          "ending_streak": {
+            "length": 1,
+            "outcome": "loss"
+          },
+          "expectancy": "-3.07375",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 4,
+            "win": 1
+          },
+          "mean_loss": "-9.86000",
+          "mean_win": "17.28500",
+          "net_loss_total": "-59.16000",
+          "net_win_total": "34.57000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.5843475321162947937795807978363759296822"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      },
+      "stress": {
+        "account": {
+          "final_balance": "2964.12000",
+          "final_equity": "2964.12000",
+          "first_insolvent_event_index": null,
+          "marked_return": "-0.01196",
+          "realized_net_pnl": "-35.88000",
+          "realized_return": "-0.01196",
+          "starting_balance": "3000",
+          "starting_equity": "3000",
+          "unrealized_pnl": "0"
+        },
+        "closed_trades": [
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-12.24500",
+            "net_pnl": "-12.39500",
+            "position": {
+              "entry_row": 292,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4332.930",
+                "loss_budget": "15.000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "12.3950",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4321.185",
+                "stop_distance": "11.745",
+                "symbol": "XAUUSD",
+                "target": "4356.420",
+                "volume": "0.01"
+              },
+              "signal_row": 291
+            },
+            "price": "4320.685",
+            "reason": "STOP",
+            "row": 296
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "21.20000",
+            "net_pnl": "21.05000",
+            "position": {
+              "entry_row": 306,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4327.120",
+                "loss_budget": "14.93802500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "11.2500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4316.520",
+                "stop_distance": "10.600",
+                "symbol": "XAUUSD",
+                "target": "4348.320",
+                "volume": "0.01"
+              },
+              "signal_row": 305
+            },
+            "price": "4348.320",
+            "reason": "TARGET",
+            "row": 320
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-14.20500",
+            "net_pnl": "-14.35500",
+            "position": {
+              "entry_row": 343,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4345.570",
+                "loss_budget": "15.04327500",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "14.3550",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4331.865",
+                "stop_distance": "13.705",
+                "symbol": "XAUUSD",
+                "target": "4372.980",
+                "volume": "0.01"
+              },
+              "signal_row": 342
+            },
+            "price": "4331.365",
+            "reason": "STOP",
+            "row": 346
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-10.70000",
+            "net_pnl": "-10.85000",
+            "position": {
+              "entry_row": 370,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4348.45",
+                "loss_budget": "14.97150000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "10.8500",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4338.250",
+                "stop_distance": "10.200",
+                "symbol": "XAUUSD",
+                "target": "4368.850",
+                "volume": "0.01"
+              },
+              "signal_row": 369
+            },
+            "price": "4337.750",
+            "reason": "STOP",
+            "row": 371
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-9.72000",
+            "net_pnl": "-9.87000",
+            "position": {
+              "entry_row": 407,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4330.040",
+                "loss_budget": "14.91725000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.8700",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4320.820",
+                "stop_distance": "9.220",
+                "symbol": "XAUUSD",
+                "target": "4348.480",
+                "volume": "0.01"
+              },
+              "signal_row": 406
+            },
+            "price": "4320.320",
+            "reason": "STOP",
+            "row": 412
+          },
+          {
+            "both_touched": false,
+            "commission": "0.15",
+            "gross_pnl": "-9.31000",
+            "net_pnl": "-9.46000",
+            "position": {
+              "entry_row": 417,
+              "plan": {
+                "caveat": "Gaps, spread changes and slippage can produce losses above the modeled amount.",
+                "entry": "4334.65",
+                "loss_budget": "12.53000",
+                "modeled_margin": "2.00",
+                "modeled_stop_loss": "9.4600",
+                "risk_day_id": "research-full-run",
+                "scenario_id": "research-phase-6.8.5/M15/stress",
+                "side": "BUY",
+                "sources": [
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state",
+                  "RESEARCH-only hypothetical scenario inputs and synthetic account state"
+                ],
+                "spread": "1.00",
+                "status": "INDICATIVE",
+                "stop": "4325.840",
+                "stop_distance": "8.810",
+                "symbol": "XAUUSD",
+                "target": "4352.270",
+                "volume": "0.01"
+              },
+              "signal_row": 416
+            },
+            "price": "4325.340",
+            "reason": "STOP",
+            "row": 417
+          }
+        ],
+        "costs": {
+          "commission_due_on_exit": "0",
+          "commission_paid": "0.90",
+          "realized_gross_pnl": "-34.98000",
+          "slippage_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          },
+          "spread_cost": {
+            "reason": "no_separate_cost_ledger",
+            "value": null
+          }
+        },
+        "currency": "USD",
+        "entries": 6,
+        "entry_rejections": {
+          "BELOW_MINIMUM_VOLUME": 125,
+          "GAP_ENTRY": 1
+        },
+        "exit_reasons": {
+          "STOP": 5,
+          "TARGET": 1
+        },
+        "exposure": {
+          "intervals_with_position": 60,
+          "observed_interval_fraction": "0.003000150007500375018750937546877343867193",
+          "observed_intervals": 19999
+        },
+        "max_drawdown": {
+          "drawdown": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 834,
+            "value": "44.53500"
+          },
+          "drawdown_fraction": {
+            "peak_event_index": 684,
+            "peak_to_recovery_intervals": null,
+            "recovery_event_index": null,
+            "status": "unrecovered",
+            "trough_event_index": 834,
+            "value": "0.01480229537783494618026992127711552171984"
+          }
+        },
+        "risk": {
+          "boundary_open_rows": [
+            1
+          ],
+          "cumulative_realized_losses_usd": "56.93000",
+          "first_latch_events": {
+            "DAILY_LOSS_LIMIT": null,
+            "DRAWDOWN_LIMIT": null,
+            "INSOLVENT": null,
+            "MARGIN_DEFICIT": null
+          },
+          "terminal_flags": [],
+          "terminal_loss_budget_used_usd": "56.93000"
+        },
+        "scenario_id": "research-phase-6.8.5/M15/stress",
+        "schema_version": 1,
+        "terminal_marked_pnl": "-35.88000",
+        "terminal_pending_signal": null,
+        "terminal_signal_row": null,
+        "timeframe": "M15",
+        "trades": {
+          "closed": 6,
+          "counts": {
+            "breakeven": 0,
+            "loss": 5,
+            "win": 1
+          },
+          "ending_streak": {
+            "length": 4,
+            "outcome": "loss"
+          },
+          "expectancy": "-5.98000",
+          "longest_streaks": {
+            "breakeven": 0,
+            "loss": 4,
+            "win": 1
+          },
+          "mean_loss": "-11.38600",
+          "mean_win": "21.05000",
+          "net_loss_total": "-56.93000",
+          "net_win_total": "21.05000",
+          "profit_factor": {
+            "reason": null,
+            "status": "finite",
+            "value": "0.3697523274196381521166344633760758826629"
+          }
+        },
+        "unavailable": {
+          "annualized_sharpe": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "calendar_returns": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "day_metrics": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          },
+          "elapsed_exposure": {
+            "reason": "unverified_time_or_sampling_boundaries",
+            "value": null
+          }
+        },
+        "unresolved_position": null
+      }
+    }
+  },
+  "trading_readiness_established": false,
+  "verified_broker_attestation": false,
+  "verified_historical_execution": false
+}

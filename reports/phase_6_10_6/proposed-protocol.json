@@ -1,0 +1,24 @@
+{
+  "allowed_protocol_violations": 0,
+  "horizon_policy": "Fixed end; no peeks, extensions, early success, or replacements",
+  "maximum_chunk_duration_hours": 24,
+  "maximum_custody_attestation_delay_hours": 24,
+  "maximum_observed_drawdown_fraction": "<0.10",
+  "minimum_closed_trades_per_cohort": 100,
+  "net_after_all_costs_usd": ">0",
+  "profit_factor": ">=1.3; positive wins with zero losses are +infinity",
+  "thresholds_status": "PROPOSED_REQUIRES_INDEPENDENT_APPROVAL",
+  "version": "phase-6.10.6-draft-1",
+  "violations": [
+    "lookahead, premature evaluation access, or retrospective sampling",
+    "unapproved code, data, costs, risk, dates, or configuration changes",
+    "unknown source identity, unexplained coverage, or unverified timestamps",
+    "missing/contradictory receipts, lineage, cost evidence, or risk records",
+    "unsupported fill or sizing, risk-limit breach, or unresolved terminal exposure"
+  ],
+  "window_includes_warmup": true,
+  "window_utc": [
+    "2027-02-01T00:00:00+00:00",
+    "2028-02-01T00:00:00+00:00"
+  ]
+}

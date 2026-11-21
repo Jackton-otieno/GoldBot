@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title description" font-family="system-ui,sans-serif">
+<title id="title">Hypothetical synthetic · Baseline · Drawdown (USD)</title>
+<desc id="description">17 observations, event index 0 through 16, values range from 0.00 to 95.76 USD. See summary.json for all event values.</desc>
+<rect width="720" height="300" rx="12" fill="#fff"/>
+<text x="24" y="34" font-size="19" fill="#152735">Hypothetical synthetic · Baseline · Drawdown (USD)</text>
+<path d="M 116,62 V 217 H 688" fill="none" stroke="#586a76"/>
+<polyline points="116.00,217.00 151.75,217.00 187.50,217.00 223.25,211.92 259.00,211.92 294.75,70.08 330.50,70.08 366.25,70.08 402.00,70.08 437.75,70.08 473.50,70.08 509.25,65.00 545.00,65.00 580.75,65.00 616.50,109.83 652.25,104.75 688.00,111.10" fill="none" stroke="#166e68" stroke-width="3"/>
+<text x="24" y="223" fill="#152735">0.00</text>
+<text x="116" y="242" fill="#152735">0</text>
+<text x="688" y="242" text-anchor="end" fill="#152735">16</text>
+<text x="402" y="271" text-anchor="middle" fill="#152735">Synthetic ledger event index</text>
+<text x="24" y="71" fill="#152735">95.76</text>
+<circle cx="116.00" cy="217.00" r="2.8" fill="#166e68"/>
+<circle cx="151.75" cy="217.00" r="2.8" fill="#166e68"/>
+<circle cx="187.50" cy="217.00" r="2.8" fill="#166e68"/>
+<circle cx="223.25" cy="211.92" r="2.8" fill="#166e68"/>
+<circle cx="259.00" cy="211.92" r="2.8" fill="#166e68"/>
+<circle cx="294.75" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="330.50" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="366.25" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="402.00" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="437.75" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="473.50" cy="70.08" r="2.8" fill="#166e68"/>
+<circle cx="509.25" cy="65.00" r="2.8" fill="#166e68"/>
+<circle cx="545.00" cy="65.00" r="2.8" fill="#166e68"/>
+<circle cx="580.75" cy="65.00" r="2.8" fill="#166e68"/>
+<circle cx="616.50" cy="109.83" r="2.8" fill="#166e68"/>
+<circle cx="652.25" cy="104.75" r="2.8" fill="#166e68"/>
+<circle cx="688.00" cy="111.10" r="2.8" fill="#166e68"/>
+</svg>

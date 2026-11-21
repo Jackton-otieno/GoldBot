@@ -1,0 +1,214 @@
+{
+  "manifest": {
+    "alternative_signal_gap_policy": "Restart in each contiguous segment",
+    "baseline_freeze_sha256": "ed9ea8a63046a5e6ed09e22e3c963c6971ff4bd94fc8c247efd114e6993ef94b",
+    "candidate_parameters": {
+      "baseline": {
+        "atr_period": 14,
+        "ema": [
+          9,
+          21,
+          50,
+          200
+        ],
+        "entry": "EMA 9/21 cross with EMA 50/200 trend, RSI band and MACD sign",
+        "first_valid_rows": {
+          "atr_14": 14,
+          "ema_200": 200,
+          "ema_21": 21,
+          "ema_50": 50,
+          "ema_9": 9,
+          "macd_histogram": 34,
+          "rsi_14": 15
+        },
+        "gap_crossovers": "HOLD",
+        "macd": [
+          12,
+          26,
+          9
+        ],
+        "rsi_bounds": [
+          30,
+          50,
+          70
+        ],
+        "rsi_period": 14,
+        "rules": {
+          "hold_gap_crossovers": true
+        },
+        "version": "Phase 6.6 frozen baseline"
+      },
+      "breakout_donchian": {
+        "entry": "Strict close above prior highs or below prior lows",
+        "first_segment_bar": 21,
+        "prior_candles": 20,
+        "version": "Phase 6.10.3"
+      },
+      "mean_reversion_bollinger_rsi": {
+        "bollinger_period": 20,
+        "entry": "Strict band excursion and inclusive RSI extreme",
+        "first_segment_bar": 20,
+        "population_stddev_multiple": 2,
+        "rsi_bounds": [
+          30,
+          70
+        ],
+        "rsi_period": 14,
+        "version": "Phase 6.10.3"
+      },
+      "trend_pullback_ema_rsi": {
+        "ema_period": 20,
+        "entry": "EMA slope, close reclaims EMA and RSI confirms",
+        "first_segment_bar": 21,
+        "rsi_midpoint": 50,
+        "rsi_period": 14,
+        "version": "Phase 6.10.3"
+      }
+    },
+    "cohorts": [
+      {
+        "entrypoint": "evaluate",
+        "implementation": "goldbot/strategy/strategy.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "baseline",
+        "timeframe": "M15"
+      },
+      {
+        "entrypoint": "evaluate",
+        "implementation": "goldbot/strategy/strategy.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "baseline",
+        "timeframe": "H1"
+      },
+      {
+        "entrypoint": "trend_pullback",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "trend_pullback_ema_rsi",
+        "timeframe": "M15"
+      },
+      {
+        "entrypoint": "trend_pullback",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "trend_pullback_ema_rsi",
+        "timeframe": "H1"
+      },
+      {
+        "entrypoint": "donchian_breakout",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "breakout_donchian",
+        "timeframe": "M15"
+      },
+      {
+        "entrypoint": "donchian_breakout",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "breakout_donchian",
+        "timeframe": "H1"
+      },
+      {
+        "entrypoint": "bollinger_reversion",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "mean_reversion_bollinger_rsi",
+        "timeframe": "M15"
+      },
+      {
+        "entrypoint": "bollinger_reversion",
+        "implementation": "tools/research_strategies_phase_6103.py",
+        "isolated_reference_equity_usd": "3000",
+        "risk_atr_period": 14,
+        "strategy": "mean_reversion_bollinger_rsi",
+        "timeframe": "H1"
+      }
+    ],
+    "comparison_sha256": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df",
+    "prospective_cost_rules": "UNVERIFIED_MUST_FREEZE_BEFORE_APPROVAL",
+    "retrospective_cost_references_only": {
+      "baseline": {
+        "entry_slippage_usd_per_oz": "0.1",
+        "fixed_margin_usd_per_lot": "200",
+        "funding_modeled": false,
+        "lot_step": "0.01",
+        "minimum_lot": "0.01",
+        "price_grid": "0.005",
+        "round_trip_commission_usd_per_lot": "7",
+        "spread_usd_per_oz": "0.3",
+        "stop_slippage_usd_per_oz": "0.1"
+      },
+      "ideal": {
+        "entry_slippage_usd_per_oz": "0",
+        "fixed_margin_usd_per_lot": "200",
+        "funding_modeled": false,
+        "lot_step": "0.01",
+        "minimum_lot": "0.01",
+        "price_grid": "0.005",
+        "round_trip_commission_usd_per_lot": "0",
+        "spread_usd_per_oz": "0",
+        "stop_slippage_usd_per_oz": "0"
+      },
+      "low": {
+        "entry_slippage_usd_per_oz": "0.05",
+        "fixed_margin_usd_per_lot": "200",
+        "funding_modeled": false,
+        "lot_step": "0.01",
+        "minimum_lot": "0.01",
+        "price_grid": "0.005",
+        "round_trip_commission_usd_per_lot": "3",
+        "spread_usd_per_oz": "0.15",
+        "stop_slippage_usd_per_oz": "0.05"
+      },
+      "stress": {
+        "entry_slippage_usd_per_oz": "0.5",
+        "fixed_margin_usd_per_lot": "200",
+        "funding_modeled": false,
+        "lot_step": "0.01",
+        "minimum_lot": "0.01",
+        "price_grid": "0.005",
+        "round_trip_commission_usd_per_lot": "15",
+        "spread_usd_per_oz": "1",
+        "stop_slippage_usd_per_oz": "0.5"
+      }
+    },
+    "risk": {
+      "ILLUSTRATIVE_EQUITY": "3000",
+      "MAX_DAILY_LOSS": "0.02",
+      "MAX_DRAWDOWN": "0.1",
+      "MAX_POSITIONS": 1,
+      "RISK_PER_TRADE": "0.005",
+      "STOP_ATR_MULTIPLE": "1.5",
+      "SYMBOL": "XAUUSD",
+      "TARGET_STOP_MULTIPLE": "2"
+    },
+    "schema": "goldbot.prospective.candidates.v2",
+    "source_sha256": {
+      "goldbot/analysis/data_analysis.py": "ac15296a1836f50be2290e1b830bb37b589a915fdcb8b43b5bb3a8c5db0f0990",
+      "goldbot/analysis/indicators.py": "c43ecdf7e2d2b6f5adce4630375d36fe906dcb83463fe48ae7b36657058a7bbc",
+      "goldbot/backtesting/execution_simulator.py": "b367a1684218adb3841aec59236d0afd4e3ba4c683f0100cc83b70e9a32b9f4b",
+      "goldbot/backtesting/historical_replay.py": "72f00c4c451447d4313e7dd635898b0aaf71c6da39f90be46f78b9ee1bedff08",
+      "goldbot/backtesting/portfolio_coordinator.py": "1c1c0bd0d098f6b916d01452087479e2f6e1b9781af374f22a681fa5aa2ef863",
+      "goldbot/backtesting/sensitivity_analysis.py": "30bfc2517102bd0641eef550375b8276fefe3113fde9b680b21c461a02a8cbd6",
+      "goldbot/backtesting/strategy_validation.py": "aed86eec42b93dca12a1d167850e6cd109921bd9640c950d9a5bb0803b8b54f0",
+      "goldbot/risk/position_sizing.py": "611584369b2c3907d56db8681caf14bfeadfc92568a21963121361a73b064a96",
+      "goldbot/risk/risk_config.py": "36d5b48c4865a95e6911b0d13152bf096f6bda677f09a6dbed9c0376cc8c0e17",
+      "goldbot/risk/risk_manager.py": "c2bceba9fb3a750efc0399ee4c61cb4740546cdc2ab62a44a8a279d50b1d9bcd",
+      "goldbot/risk/trade_plan.py": "03a019022eba1bbd946510c6c3756a71688ffaf8784ca3240f64cd18a2d160cb",
+      "goldbot/strategy/signals.py": "ed8adc4bb28bbb6c04ae6f22863902dcc171daa009af812a72af672e1d5fb867",
+      "goldbot/strategy/strategy.py": "3ca319ecd18227e3b5e29ba3248c74ca9a168f7e77b128059471659ebea44430",
+      "goldbot/strategy/strategy_config.py": "16f2d98d49d25020e3fbde9affa93997fa87950b9d1df0a80c484ca5a9aa092e",
+      "tools/research_strategies_phase_6103.py": "a7292bb9c47673efed29909d15b326cec8b0c4aa6a41e2295c81708466cb75fb"
+    },
+    "symbol": "XAUUSD",
+    "winner_selected": false
+  },
+  "sha256": "59f9ba69157cbb596dd792e29e8bd4d466602b5043332287a9cb709de175e2cd"
+}

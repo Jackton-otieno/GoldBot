@@ -1,0 +1,22 @@
+{
+  "decisions": {
+    "BUY": 53,
+    "HOLD": 9868,
+    "SELL": 79
+  },
+  "raw_label_gaps": 114,
+  "reasons": {
+    "BUY_SETUP": 53,
+    "GAP_CROSSOVER": 6,
+    "MACD_FILTER": 59,
+    "NO_CROSSOVER": 9382,
+    "RSI_FILTER": 5,
+    "SELL_SETUP": 79,
+    "TREND_FILTER": 237,
+    "WARMUP": 199
+  },
+  "rows": 10000,
+  "source": "XAUUSD_M15_indicators_phase_3_3.csv",
+  "source_sha256": "7229889388e90375aa3aaf30d85d20e4aaf9556282d423d8943be49216208fa5",
+  "timeframe": "M15"
+}

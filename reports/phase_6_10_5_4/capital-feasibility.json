@@ -1,0 +1,1258 @@
+{
+  "equity_levels_usd": [
+    "100",
+    "500",
+    "1000",
+    "3000",
+    "5000",
+    "10000"
+  ],
+  "fresh_unencumbered_budget": true,
+  "friction_model": "Immediate flat-midpoint round trip. Includes full spread, both slips and commission. Separate from modeled stop distance.",
+  "inputs_sha256": {
+    "reports/phase_6_10_1/audit.json": "635882d9e2055c8c5c9ed7aef88d1302e34b17867055b57abebf32c53f10da70",
+    "reports/phase_6_10_4/comparison.json": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df",
+    "reports/phase_6_10_5_1/risk-impact.json": "fad993feb56e1f58d51ea2fbffba7fd0d8860d9be9a4bc780d9f0f12f040abea",
+    "reports/phase_6_10_5_2/timestamp-verification.json": "0e8ccb596a0dbc000b3a097060e9a1af1afc66f06a01a260f36b80bf21770166",
+    "reports/phase_6_9_3_1/probes.json": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+    "reports/phase_6_9_4_1/diagnostic.json": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+    "reports/phase_6_9_6/assessment.json": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb"
+  },
+  "margin_model": "Minimum lot only. Static entry margin, assumes all equity is free margin for the comparison.",
+  "midpoint_usd_per_oz": "3800",
+  "mode": "OFFLINE_RESEARCH",
+  "observed_sample": {
+    "minimum_lot_margin_usd": {
+      "count": 8,
+      "max": "38.26",
+      "min": "37.5",
+      "p10": "37.5",
+      "p25": "37.5",
+      "p50": "37.88",
+      "p75": "37.89",
+      "p90": "38.26",
+      "p95": "38.26",
+      "p99": "38.26"
+    },
+    "quote_spread_usd_per_oz": {
+      "count": 14,
+      "max": "0.168",
+      "min": "0.168",
+      "p10": "0.168",
+      "p25": "0.168",
+      "p50": "0.168",
+      "p75": "0.168",
+      "p90": "0.168",
+      "p95": "0.168",
+      "p99": "0.168"
+    },
+    "scope": "Previously observed demo snapshots, no historical applicability"
+  },
+  "policy": {
+    "daily_loss": "0.02",
+    "drawdown": "0.10",
+    "reward_risk": "2",
+    "risk": "0.005",
+    "stop_atr": "1.5"
+  },
+  "precision": {
+    "additive_sensitivity_usd": "0.01",
+    "archived": {
+      "adverse_cases": 108,
+      "max_overestimate_usd": "0.00900",
+      "max_underestimate_usd": "0.00900",
+      "overestimates": 52,
+      "underestimates": 50,
+      "zero_reported_loss": 23
+    },
+    "booked_profit_loss": "UNVERIFIED"
+  },
+  "raw_csv_sha256": {
+    "H1": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541",
+    "M15": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+  },
+  "readiness": "NO-GO",
+  "reference_account_balance_changed": false,
+  "reference_equity_usd": "3000",
+  "scenarios": {
+    "baseline": {
+      "immediate_round_trip_friction_usd": "0.5700",
+      "margin": [
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "frozen_replay_flat_per_lot",
+          "required_free_margin_usd": "2.00"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.0025",
+          "required_free_margin_usd": "9.500000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.01",
+          "required_free_margin_usd": "38.0000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": false,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.05",
+          "required_free_margin_usd": "190.0000"
+        }
+      ],
+      "minimum_lots": "0.01",
+      "price_tick": "0.005",
+      "round_trip_commission_usd_per_lot": "7",
+      "slippage_usd_per_oz": "0.10",
+      "spread_usd_per_oz": "0.30"
+    },
+    "ideal": {
+      "immediate_round_trip_friction_usd": "0.00",
+      "margin": [
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "frozen_replay_flat_per_lot",
+          "required_free_margin_usd": "2.00"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.0025",
+          "required_free_margin_usd": "9.500000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.01",
+          "required_free_margin_usd": "38.0000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": false,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.05",
+          "required_free_margin_usd": "190.0000"
+        }
+      ],
+      "minimum_lots": "0.01",
+      "price_tick": "0.005",
+      "round_trip_commission_usd_per_lot": "0",
+      "slippage_usd_per_oz": "0",
+      "spread_usd_per_oz": "0"
+    },
+    "low": {
+      "immediate_round_trip_friction_usd": "0.2800",
+      "margin": [
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "frozen_replay_flat_per_lot",
+          "required_free_margin_usd": "2.00"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.0025",
+          "required_free_margin_usd": "9.500000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.01",
+          "required_free_margin_usd": "38.0000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": false,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.05",
+          "required_free_margin_usd": "190.0000"
+        }
+      ],
+      "minimum_lots": "0.01",
+      "price_tick": "0.005",
+      "round_trip_commission_usd_per_lot": "3",
+      "slippage_usd_per_oz": "0.05",
+      "spread_usd_per_oz": "0.15"
+    },
+    "stress": {
+      "immediate_round_trip_friction_usd": "2.1500",
+      "margin": [
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "frozen_replay_flat_per_lot",
+          "required_free_margin_usd": "2.00"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.0025",
+          "required_free_margin_usd": "9.500000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": true,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.01",
+          "required_free_margin_usd": "38.0000"
+        },
+        {
+          "feasible_if_free_margin_equals_equity": {
+            "100": false,
+            "1000": true,
+            "10000": true,
+            "3000": true,
+            "500": true,
+            "5000": true
+          },
+          "model": "illustrative_notional_rate",
+          "rate": "0.05",
+          "required_free_margin_usd": "190.0000"
+        }
+      ],
+      "minimum_lots": "0.01",
+      "price_tick": "0.005",
+      "round_trip_commission_usd_per_lot": "15",
+      "slippage_usd_per_oz": "0.50",
+      "spread_usd_per_oz": "1.00"
+    }
+  },
+  "stop_model": "Existing executable-side price_levels, including grid rounding and admission.",
+  "timeframes": {
+    "H1": {
+      "baseline": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9406,
+              "planner": 9445,
+              "precision_cent_sensitivity": 9444
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 1625,
+              "planner": 1937,
+              "precision_cent_sensitivity": 1931
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 4667,
+              "planner": 5078,
+              "precision_cent_sensitivity": 5074
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "188.6250",
+          "min": "7.6050",
+          "p10": "12.0350",
+          "p25": "16.9550",
+          "p50": "24.8050",
+          "p75": "31.4900",
+          "p90": "40.6850",
+          "p95": "51.3200",
+          "p99": "96.8100"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "37925.00",
+            "min": "1721.00",
+            "p10": "2607.00",
+            "p25": "3591.00",
+            "p50": "5161.00",
+            "p75": "6498.00",
+            "p90": "8337.00",
+            "p95": "10464.00",
+            "p99": "19562.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "37725.00",
+            "min": "1521.00",
+            "p10": "2407.00",
+            "p25": "3391.00",
+            "p50": "4961.00",
+            "p75": "6298.00",
+            "p90": "8137.00",
+            "p95": "10264.00",
+            "p99": "19362.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "37727.00",
+            "min": "1523.00",
+            "p10": "2409.00",
+            "p25": "3393.00",
+            "p50": "4963.00",
+            "p75": "6300.00",
+            "p90": "8139.00",
+            "p95": "10266.00",
+            "p99": "19364.00"
+          }
+        }
+      },
+      "ideal": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9417,
+              "planner": 9457,
+              "precision_cent_sensitivity": 9456
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 1721,
+              "planner": 2011,
+              "precision_cent_sensitivity": 2002
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 4767,
+              "planner": 5224,
+              "precision_cent_sensitivity": 5219
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "188.3550",
+          "min": "7.3350",
+          "p10": "11.7650",
+          "p25": "16.6850",
+          "p50": "24.5350",
+          "p75": "31.2200",
+          "p90": "40.4150",
+          "p95": "51.0500",
+          "p99": "96.5400"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "37871.00",
+            "min": "1667.00",
+            "p10": "2553.00",
+            "p25": "3537.00",
+            "p50": "5107.00",
+            "p75": "6444.00",
+            "p90": "8283.00",
+            "p95": "10410.00",
+            "p99": "19508.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "37671.00",
+            "min": "1467.00",
+            "p10": "2353.00",
+            "p25": "3337.00",
+            "p50": "4907.00",
+            "p75": "6244.00",
+            "p90": "8083.00",
+            "p95": "10210.00",
+            "p99": "19308.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "37673.00",
+            "min": "1469.00",
+            "p10": "2355.00",
+            "p25": "3339.00",
+            "p50": "4909.00",
+            "p75": "6246.00",
+            "p90": "8085.00",
+            "p95": "10212.00",
+            "p99": "19310.00"
+          }
+        }
+      },
+      "low": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9412,
+              "planner": 9451,
+              "precision_cent_sensitivity": 9451
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 1674,
+              "planner": 1973,
+              "precision_cent_sensitivity": 1972
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 4722,
+              "planner": 5145,
+              "precision_cent_sensitivity": 5139
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "188.4850",
+          "min": "7.4650",
+          "p10": "11.8950",
+          "p25": "16.8150",
+          "p50": "24.6650",
+          "p75": "31.3500",
+          "p90": "40.5450",
+          "p95": "51.1800",
+          "p99": "96.6700"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "37897.00",
+            "min": "1693.00",
+            "p10": "2579.00",
+            "p25": "3563.00",
+            "p50": "5133.00",
+            "p75": "6470.00",
+            "p90": "8309.00",
+            "p95": "10436.00",
+            "p99": "19534.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "37697.00",
+            "min": "1493.00",
+            "p10": "2379.00",
+            "p25": "3363.00",
+            "p50": "4933.00",
+            "p75": "6270.00",
+            "p90": "8109.00",
+            "p95": "10236.00",
+            "p99": "19334.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "37699.00",
+            "min": "1495.00",
+            "p10": "2381.00",
+            "p25": "3365.00",
+            "p50": "4935.00",
+            "p75": "6272.00",
+            "p90": "8111.00",
+            "p95": "10238.00",
+            "p99": "19336.00"
+          }
+        }
+      },
+      "stress": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9375,
+              "planner": 9412,
+              "precision_cent_sensitivity": 9412
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 1349,
+              "planner": 1672,
+              "precision_cent_sensitivity": 1670
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 4357,
+              "planner": 4712,
+              "precision_cent_sensitivity": 4709
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "189.5050",
+          "min": "8.4850",
+          "p10": "12.9150",
+          "p25": "17.8350",
+          "p50": "25.6850",
+          "p75": "32.3700",
+          "p90": "41.5650",
+          "p95": "52.2000",
+          "p99": "97.6900"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "38101.00",
+            "min": "1897.00",
+            "p10": "2783.00",
+            "p25": "3767.00",
+            "p50": "5337.00",
+            "p75": "6674.00",
+            "p90": "8513.00",
+            "p95": "10640.00",
+            "p99": "19738.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "37901.00",
+            "min": "1697.00",
+            "p10": "2583.00",
+            "p25": "3567.00",
+            "p50": "5137.00",
+            "p75": "6474.00",
+            "p90": "8313.00",
+            "p95": "10440.00",
+            "p99": "19538.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "37903.00",
+            "min": "1699.00",
+            "p10": "2585.00",
+            "p25": "3569.00",
+            "p50": "5139.00",
+            "p75": "6476.00",
+            "p90": "8315.00",
+            "p95": "10442.00",
+            "p99": "19540.00"
+          }
+        }
+      }
+    },
+    "M15": {
+      "baseline": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9987,
+              "planner": 9987,
+              "precision_cent_sensitivity": 9987
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 6586,
+              "planner": 7491,
+              "precision_cent_sensitivity": 7483
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9804,
+              "planner": 9839,
+              "precision_cent_sensitivity": 9839
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "35.8400",
+          "min": "5.8400",
+          "p10": "9.5750",
+          "p25": "10.8250",
+          "p50": "12.6050",
+          "p75": "15.0000",
+          "p90": "17.8800",
+          "p95": "20.1300",
+          "p99": "26.6800"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "7368.00",
+            "min": "1368.00",
+            "p10": "2115.00",
+            "p25": "2365.00",
+            "p50": "2721.00",
+            "p75": "3200.00",
+            "p90": "3776.00",
+            "p95": "4226.00",
+            "p99": "5536.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "7168.00",
+            "min": "1168.00",
+            "p10": "1915.00",
+            "p25": "2165.00",
+            "p50": "2521.00",
+            "p75": "3000.00",
+            "p90": "3576.00",
+            "p95": "4026.00",
+            "p99": "5336.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "7170.00",
+            "min": "1170.00",
+            "p10": "1917.00",
+            "p25": "2167.00",
+            "p50": "2523.00",
+            "p75": "3002.00",
+            "p90": "3578.00",
+            "p95": "4028.00",
+            "p99": "5338.00"
+          }
+        }
+      },
+      "ideal": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9987,
+              "planner": 9987,
+              "precision_cent_sensitivity": 9987
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 6860,
+              "planner": 7726,
+              "precision_cent_sensitivity": 7720
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9812,
+              "planner": 9849,
+              "precision_cent_sensitivity": 9849
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "35.5700",
+          "min": "5.5700",
+          "p10": "9.3050",
+          "p25": "10.5550",
+          "p50": "12.3350",
+          "p75": "14.7300",
+          "p90": "17.6100",
+          "p95": "19.8600",
+          "p99": "26.4100"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "7314.00",
+            "min": "1314.00",
+            "p10": "2061.00",
+            "p25": "2311.00",
+            "p50": "2667.00",
+            "p75": "3146.00",
+            "p90": "3722.00",
+            "p95": "4172.00",
+            "p99": "5482.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "7114.00",
+            "min": "1114.00",
+            "p10": "1861.00",
+            "p25": "2111.00",
+            "p50": "2467.00",
+            "p75": "2946.00",
+            "p90": "3522.00",
+            "p95": "3972.00",
+            "p99": "5282.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "7116.00",
+            "min": "1116.00",
+            "p10": "1863.00",
+            "p25": "2113.00",
+            "p50": "2469.00",
+            "p75": "2948.00",
+            "p90": "3524.00",
+            "p95": "3974.00",
+            "p99": "5284.00"
+          }
+        }
+      },
+      "low": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9987,
+              "planner": 9987,
+              "precision_cent_sensitivity": 9987
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 6726,
+              "planner": 7605,
+              "precision_cent_sensitivity": 7599
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9806,
+              "planner": 9845,
+              "precision_cent_sensitivity": 9845
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "35.7000",
+          "min": "5.7000",
+          "p10": "9.4350",
+          "p25": "10.6850",
+          "p50": "12.4650",
+          "p75": "14.8600",
+          "p90": "17.7400",
+          "p95": "19.9900",
+          "p99": "26.5400"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "7340.00",
+            "min": "1340.00",
+            "p10": "2087.00",
+            "p25": "2337.00",
+            "p50": "2693.00",
+            "p75": "3172.00",
+            "p90": "3748.00",
+            "p95": "4198.00",
+            "p99": "5508.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "7140.00",
+            "min": "1140.00",
+            "p10": "1887.00",
+            "p25": "2137.00",
+            "p50": "2493.00",
+            "p75": "2972.00",
+            "p90": "3548.00",
+            "p95": "3998.00",
+            "p99": "5308.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "7142.00",
+            "min": "1142.00",
+            "p10": "1889.00",
+            "p25": "2139.00",
+            "p50": "2495.00",
+            "p75": "2974.00",
+            "p90": "3550.00",
+            "p95": "4000.00",
+            "p99": "5310.00"
+          }
+        }
+      },
+      "stress": {
+        "atr_rows": 9987,
+        "equity_levels": {
+          "100": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "2.00",
+            "drawdown_limit_usd": "10.00",
+            "per_trade_budget_usd": "0.500"
+          },
+          "1000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "20.00",
+            "drawdown_limit_usd": "100.00",
+            "per_trade_budget_usd": "5.000"
+          },
+          "10000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9987,
+              "planner": 9987,
+              "precision_cent_sensitivity": 9987
+            },
+            "daily_limit_usd": "200.00",
+            "drawdown_limit_usd": "1000.00",
+            "per_trade_budget_usd": "50.000"
+          },
+          "3000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 5637,
+              "planner": 6710,
+              "precision_cent_sensitivity": 6699
+            },
+            "daily_limit_usd": "60.00",
+            "drawdown_limit_usd": "300.00",
+            "per_trade_budget_usd": "15.000"
+          },
+          "500": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 0,
+              "planner": 0,
+              "precision_cent_sensitivity": 0
+            },
+            "daily_limit_usd": "10.00",
+            "drawdown_limit_usd": "50.00",
+            "per_trade_budget_usd": "2.500"
+          },
+          "5000": {
+            "cases_passing_risk_by_sensitivity": {
+              "carry_usd_1_sensitivity": 9761,
+              "planner": 9806,
+              "precision_cent_sensitivity": 9806
+            },
+            "daily_limit_usd": "100.00",
+            "drawdown_limit_usd": "500.00",
+            "per_trade_budget_usd": "25.000"
+          }
+        },
+        "invalid_geometry_either_side": 0,
+        "minimum_lot_stop_loss_usd": {
+          "count": 9987,
+          "max": "36.7200",
+          "min": "6.7200",
+          "p10": "10.4550",
+          "p25": "11.7050",
+          "p50": "13.4850",
+          "p75": "15.8800",
+          "p90": "18.7600",
+          "p95": "21.0100",
+          "p99": "27.5600"
+        },
+        "risk_minimum_equity_usd": {
+          "carry_usd_1_sensitivity": {
+            "count": 9987,
+            "max": "7544.00",
+            "min": "1544.00",
+            "p10": "2291.00",
+            "p25": "2541.00",
+            "p50": "2897.00",
+            "p75": "3376.00",
+            "p90": "3952.00",
+            "p95": "4402.00",
+            "p99": "5712.00"
+          },
+          "planner": {
+            "count": 9987,
+            "max": "7344.00",
+            "min": "1344.00",
+            "p10": "2091.00",
+            "p25": "2341.00",
+            "p50": "2697.00",
+            "p75": "3176.00",
+            "p90": "3752.00",
+            "p95": "4202.00",
+            "p99": "5512.00"
+          },
+          "precision_cent_sensitivity": {
+            "count": 9987,
+            "max": "7346.00",
+            "min": "1346.00",
+            "p10": "2093.00",
+            "p25": "2343.00",
+            "p50": "2699.00",
+            "p75": "3178.00",
+            "p90": "3754.00",
+            "p95": "4204.00",
+            "p99": "5514.00"
+          }
+        }
+      }
+    }
+  }
+}

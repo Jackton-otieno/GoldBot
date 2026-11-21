@@ -1,0 +1,88 @@
+{
+  "event_kinds": {
+    "start": 1,
+    "external_clock": 2,
+    "attach_attempt": 1,
+    "attached": 1,
+    "quote_snapshot": 8,
+    "bars": 16,
+    "finish": 1
+  },
+  "identity": {
+    "algo_trading": false,
+    "currency": "USD",
+    "entity": "Exness (KE) Limited",
+    "mode": "demo",
+    "server": "ExnessKE-MT5Trial9",
+    "suffix": "9498",
+    "symbol": "XAUUSD",
+    "terminal_build": 6324
+  },
+  "quote_snapshots": 8,
+  "quote_unique_payloads": 8,
+  "quote_host_utc_unix_ns_bounds": [
+    1795012728237418200,
+    1795012740067569300
+  ],
+  "bars": {
+    "M15": {
+      "reads": 8,
+      "returned": 16,
+      "excluded_pre_attachment": 16,
+      "admitted_observations": 0,
+      "raw_missing_ranges": []
+    },
+    "H1": {
+      "reads": 8,
+      "returned": 16,
+      "excluded_pre_attachment": 16,
+      "admitted_observations": 0,
+      "raw_missing_ranges": []
+    }
+  },
+  "external_clock": [
+    {
+      "address": "162.159.200.1",
+      "after": {
+        "monotonic": 121311.437,
+        "wall_utc": "2026-11-18T14:38:46.762024+00:00"
+      },
+      "before": {
+        "monotonic": 121311.437,
+        "wall_utc": "2026-11-18T14:38:46.758883+00:00"
+      },
+      "error": "ValueError",
+      "protocol": "NTPv4 UDP",
+      "source": "Cloudflare"
+    },
+    {
+      "address": "162.159.200.1",
+      "after": {
+        "monotonic": 121325.187,
+        "wall_utc": "2026-11-18T14:39:00.507590+00:00"
+      },
+      "before": {
+        "monotonic": 121325.171,
+        "wall_utc": "2026-11-18T14:39:00.500435+00:00"
+      },
+      "correction_bounds_s": [
+        -0.1701448917388916,
+        0.17641911506652833
+      ],
+      "protocol": "NTPv4 UDP",
+      "round_trip_s": 0.007083415985107422,
+      "source": "Cloudflare",
+      "stratum": 3
+    }
+  ],
+  "finish": {
+    "external_clock_authenticated": false,
+    "host_clock_assessment": {
+      "status": "INDEPENDENT_TIME_UNAVAILABLE"
+    },
+    "objects": [],
+    "poll_attempts": 8,
+    "status": "COMPLETE_BOUNDED_DIAGNOSTIC",
+    "tail_coverage": "UNKNOWN"
+  }
+}

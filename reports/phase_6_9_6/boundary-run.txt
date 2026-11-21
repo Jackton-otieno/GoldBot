@@ -1,0 +1,2 @@
+Nominal boundary scheduling hint (UTC): 2026-11-18T15:00:00.0000000+00:00
+{"chain_head_sha256":"32532d1e713af52a03c05913d9024720cab83e60c5c160f6014cd00daff57a6e","event_count":30,"interrupted_run_pending":false,"scope":{"coverage":"UNKNOWN_NON_EXHAUSTIVE","diagnostic_only":true,"exposed":true,"holdout_eligible":false,"phase":"6.9.6","production_utc_mapping":"UNVERIFIED"},"status":"COMPLETE_BOUNDED_DIAGNOSTIC","unique_payloads":10}

@@ -1,0 +1,3152 @@
+{
+  "observed_at_utc": "2026-11-17T22:20:01.655412+00:00",
+  "symbol": "XAUUSD",
+  "status": "REJECTED",
+  "errors": [
+    {
+      "reason": "INCONSISTENT_TICK_VALUE_METADATA"
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 0
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 1
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 2
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 3
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 4
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 5
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 6
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 7
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 8
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 9
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 10
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 11
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 12
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 13
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 14
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 15
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 16
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 17
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 18
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 19
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 20
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 21
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 22
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 23
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 24
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 25
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 26
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 27
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 28
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 29
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 30
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 31
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 32
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 33
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 34
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 35
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 36
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 37
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 38
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 39
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 40
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 41
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 42
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 43
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 44
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 45
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 46
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 47
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 48
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 49
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 50
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 51
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 52
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 53
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 54
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 55
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 56
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 57
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 58
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 59
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 60
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 61
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 62
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 63
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 64
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 65
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 66
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 67
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 68
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 69
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 70
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 71
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 72
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 73
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 74
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 75
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 76
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 77
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 78
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 79
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 80
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 81
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 82
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 83
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 84
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 85
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 86
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 87
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 88
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 89
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 90
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 91
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 92
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 93
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 94
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 95
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 96
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 97
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 98
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 99
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 100
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 101
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 102
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 103
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 104
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 105
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 106
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 107
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 108
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 109
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 110
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 111
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 112
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 113
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 114
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 115
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 116
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 117
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 118
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 119
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 120
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 121
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 122
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 123
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 124
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 125
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 126
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 127
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 128
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 129
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 130
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 131
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 132
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 133
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 134
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 135
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 136
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 137
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 138
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 139
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 140
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 141
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 142
+    },
+    {
+      "reason": "PROFIT_PROBE_FAILED",
+      "profit_row": 143
+    }
+  ],
+  "historical_applicability": "UNVERIFIED",
+  "profit": [
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "BUY",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.92",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.94",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3808.83",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3809.03",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3807.93",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "exit": "3809.93",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.40",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.42",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.31",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3847.51",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3846.41",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "exit": "3848.41",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.63",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.65",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.54",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3847.74",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3846.64",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "exit": "3848.64",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "0.01000",
+      "metadata_usd": "0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "-0.01000",
+      "metadata_usd": "-0.001",
+      "normalized_tolerance": "0.500001",
+      "observed_usd": "-0.01",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "0.02000",
+      "metadata_usd": "0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "-0.02000",
+      "metadata_usd": "-0.002",
+      "normalized_tolerance": "0.2500005",
+      "observed_usd": "-0.02",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "0.20000",
+      "metadata_usd": "0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "-0.20000",
+      "metadata_usd": "-0.020",
+      "normalized_tolerance": "0.02500005",
+      "observed_usd": "-0.2",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "2.00000",
+      "metadata_usd": "0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "-2.00000",
+      "metadata_usd": "-0.200",
+      "normalized_tolerance": "0.002500005",
+      "observed_usd": "-2.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.10",
+      "ticks": 1,
+      "formula_usd": "0.10000",
+      "metadata_usd": "0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.12",
+      "ticks": 1,
+      "formula_usd": "-0.10000",
+      "metadata_usd": "-0.010",
+      "normalized_tolerance": "0.0500001",
+      "observed_usd": "-0.1",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.01",
+      "ticks": 10,
+      "formula_usd": "1.00000",
+      "metadata_usd": "0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3886.21",
+      "ticks": 10,
+      "formula_usd": "-1.00000",
+      "metadata_usd": "-0.100",
+      "normalized_tolerance": "0.00500001",
+      "observed_usd": "-1.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "PROFIT",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3885.11",
+      "ticks": 100,
+      "formula_usd": "10.00000",
+      "metadata_usd": "1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    },
+    {
+      "side": "SELL",
+      "outcome": "LOSS",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "exit": "3887.11",
+      "ticks": 100,
+      "formula_usd": "-10.00000",
+      "metadata_usd": "-1.000",
+      "normalized_tolerance": "0.000500001",
+      "observed_usd": "-10.0",
+      "errors": [
+        "PROFIT_METADATA_MISMATCH"
+      ],
+      "implied_usd_per_tick_per_lot": "1"
+    }
+  ],
+  "margin": [
+    {
+      "side": "BUY",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "observed_usd": "38.09",
+      "usd_per_lot": "3809"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "observed_usd": "76.18",
+      "usd_per_lot": "3809"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "observed_usd": "380.89",
+      "usd_per_lot": "3808.9"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "observed_usd": "38.47",
+      "usd_per_lot": "3847"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "observed_usd": "76.95",
+      "usd_per_lot": "3847.5"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "observed_usd": "384.74",
+      "usd_per_lot": "3847.4"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "observed_usd": "38.48",
+      "usd_per_lot": "3848"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "observed_usd": "76.95",
+      "usd_per_lot": "3847.5"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "observed_usd": "384.76",
+      "usd_per_lot": "3847.6"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "observed_usd": "38.86",
+      "usd_per_lot": "3886"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "observed_usd": "77.72",
+      "usd_per_lot": "3886"
+    },
+    {
+      "side": "BUY",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "observed_usd": "388.61",
+      "usd_per_lot": "3886.1"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.01",
+      "entry": "3808.93",
+      "observed_usd": "38.09",
+      "usd_per_lot": "3809"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.02",
+      "entry": "3808.93",
+      "observed_usd": "76.18",
+      "usd_per_lot": "3809"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.10",
+      "entry": "3808.93",
+      "observed_usd": "380.89",
+      "usd_per_lot": "3808.9"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.01",
+      "entry": "3847.41",
+      "observed_usd": "38.47",
+      "usd_per_lot": "3847"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.02",
+      "entry": "3847.41",
+      "observed_usd": "76.95",
+      "usd_per_lot": "3847.5"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.10",
+      "entry": "3847.41",
+      "observed_usd": "384.74",
+      "usd_per_lot": "3847.4"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.01",
+      "entry": "3847.64",
+      "observed_usd": "38.48",
+      "usd_per_lot": "3848"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.02",
+      "entry": "3847.64",
+      "observed_usd": "76.95",
+      "usd_per_lot": "3847.5"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.10",
+      "entry": "3847.64",
+      "observed_usd": "384.76",
+      "usd_per_lot": "3847.6"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.01",
+      "entry": "3886.11",
+      "observed_usd": "38.86",
+      "usd_per_lot": "3886"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.02",
+      "entry": "3886.11",
+      "observed_usd": "77.72",
+      "usd_per_lot": "3886"
+    },
+    {
+      "side": "SELL",
+      "lots": "0.10",
+      "entry": "3886.11",
+      "observed_usd": "388.61",
+      "usd_per_lot": "3886.1"
+    }
+  ],
+  "provenance": {
+    "account_mode": "DEMO",
+    "mt5_package": "5.0.6231",
+    "terminal_version": [
+      500,
+      6320,
+      "13 Nov 2026"
+    ],
+    "leverage": 100,
+    "expected_server_matched": true,
+    "account_currency_digits": 2
+  },
+  "symbol_identity": {
+    "name": "XAUUSD",
+    "custom": false
+  },
+  "currencies": {
+    "base": "XAU",
+    "profit": "USD",
+    "margin": "USD",
+    "account": "USD"
+  },
+  "margin_metadata": {
+    "margin_initial": 0.0,
+    "margin_maintenance": 0.0,
+    "margin_hedged": 100.0,
+    "hedged_use_leg": true
+  },
+  "raw_numeric_fields": {
+    "point": 0.01,
+    "trade_tick_size": 0.01,
+    "trade_tick_value_loss": 0.1,
+    "trade_contract_size": 100.0,
+    "volume_min": 0.01,
+    "volume_max": 100.0,
+    "volume_step": 0.01,
+    "trade_tick_value": 0.1,
+    "trade_tick_value_profit": 0.1,
+    "volume_limit": 0.0,
+    "trade_freeze_level": 0,
+    "trade_calc_mode": 4,
+    "digits": 2,
+    "trade_mode": 4,
+    "trade_stops_level": 0,
+    "bid": 3847.41,
+    "ask": 3847.64,
+    "time": 1794956399
+  },
+  "calc_mode": "CFDINDEX",
+  "formula_usd_per_tick_per_lot": "1.000",
+  "tick_value_comparison": {
+    "formula_usd_per_point_per_lot": "1.000",
+    "formula_usd_per_tick_at_minimum_volume": "0.01000",
+    "fields": {
+      "generic": {
+        "reported": "0.1",
+        "formula_tick_per_lot_to_reported_ratio": "10.00",
+        "implied_lots_if_value_is_usd_per_tick": "0.1",
+        "matches_point_per_lot_exactly": false,
+        "matches_tick_at_minimum_volume_exactly": false
+      },
+      "profit": {
+        "reported": "0.1",
+        "formula_tick_per_lot_to_reported_ratio": "10.00",
+        "implied_lots_if_value_is_usd_per_tick": "0.1",
+        "matches_point_per_lot_exactly": false,
+        "matches_tick_at_minimum_volume_exactly": false
+      },
+      "loss": {
+        "reported": "0.1",
+        "formula_tick_per_lot_to_reported_ratio": "10.00",
+        "implied_lots_if_value_is_usd_per_tick": "0.1",
+        "matches_point_per_lot_exactly": false,
+        "matches_tick_at_minimum_volume_exactly": false
+      }
+    },
+    "interpretation": "Arithmetic comparisons only; broker field units remain unconfirmed."
+  },
+  "cash_tolerance_usd": "0.00500001",
+  "metadata_tick_value_tolerance": "0 (Phase 5.1 exact formula check)",
+  "final_metadata_recheck_passed": true,
+  "probe_counts": {
+    "profit": 144,
+    "margin": 24,
+    "profit_errors": {
+      "PROFIT_METADATA_MISMATCH": 144
+    },
+    "margin_errors": {}
+  }
+}

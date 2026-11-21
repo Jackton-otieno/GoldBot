@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "derived_results": "All prior partitions, strategy comparisons and analyses inherit source exposure.",
+    "groups": {
+      "exness_broker_diagnostics": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": null,
+        "sources": {
+          "reports/phase_6_10_5_1/precision-validation.json": "8946c573024c626328b3248f42873ed1b16dd65247487c5442c14b14412e255b",
+          "reports/phase_6_9_2/connectivity.json": "0c2d7c622624e72908216fce85a07151ffb68e227f07d8ac972f0b3eb5386ac3",
+          "reports/phase_6_9_3/initial-probes.json": "e23f723a96627061a9f581ac1c684409f700540a47e2b08e509586c9dc497cb7",
+          "reports/phase_6_9_3/probes.json": "9b7a01e99829a12cbd0c18f809214d8ad9e2b6718cef21f3f006a9458f223b30",
+          "reports/phase_6_9_3_1/probes.json": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+          "reports/phase_6_9_4/diagnostic.json": "aa6b45cb882615293c8673a3893dfed24e2455049337d11c298d5d36d89a0fa2",
+          "reports/phase_6_9_4_1/diagnostic.json": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410"
+        },
+        "verified_utc": null
+      },
+      "exness_read_only_journals": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": null,
+        "sources": {
+          "reports/phase_6_9_5/diagnostic.sqlite3": "edb4a74ad094bd6f02cc1773b5c2fc71bfacc73e863c9b3af8f366d055340578",
+          "reports/phase_6_9_6/boundary.sqlite3": "1f7d42645c268a425669f9d6c0c00ae7a45c5e6f122156e356193b61c5db4884"
+        },
+        "verified_utc": null
+      },
+      "exness_timestamp_and_history_pilots": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": null,
+        "sources": {
+          "historical_data/phase_6_10_5_3/exness-mt5/xauusd-raw-ticks.json": "ccfd69fdd76854f32e1f4cfe3a4206cf6430fc28d0c9e0e4670fac03d54b0dd2",
+          "reports/phase_6_10_5_2/timestamp-verification.json": "0e8ccb596a0dbc000b3a097060e9a1af1afc66f06a01a260f36b80bf21770166",
+          "reports/phase_6_10_5_3/data-manifest.json": "965f9f2bdc21f2c276ec1fa417fd8b84c630390d4704f564c1c205517a01f3c1"
+        },
+        "verified_utc": null
+      },
+      "legacy_H1": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": [
+          1740704400,
+          1794927600
+        ],
+        "sources": {
+          "data/XAUUSD_H1.csv": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+        },
+        "verified_utc": null
+      },
+      "legacy_M15": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": [
+          1781128800,
+          1794930300
+        ],
+        "sources": {
+          "data/XAUUSD_M15.csv": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+        },
+        "verified_utc": null
+      },
+      "metaquotes_diagnostics": {
+        "prospective_eligible": false,
+        "raw_label_endpoints": null,
+        "sources": {
+          "reports/phase_5_2_broker_diagnostic.json": "47784f7dce545957f8976c9bcd902b39299aba21de9e5086a42f641bfc835794",
+          "reports/phase_6_8_1/current-demo.json": "a6097cae9c9094f2d4a3dc955c97f0b50187699c5a05f65cc6a527fc87bc9979",
+          "reports/phase_6_8_2/current-demo.json": "63df1a47e6cefd0893a407513e0dc35355be94c24912a0b457bada877b901cf7",
+          "reports/phase_6_8_2/dst-2025.json": "907abbfb66d1b86aa4aec0ee28c2c1abea68380496d7e490704f28fb8fcba421",
+          "reports/phase_6_8_2/dst-2026.json": "10ef69c6b7a993359ee6f997982bcb0c618d2c4ef19f96696d9ea4211dbb7612",
+          "reports/phase_6_8_2/initial-demo.json": "69a95f2bc4f141faa4ed127aa9da74c94a05afdf47e77de9ca436f14bc8ed0a8",
+          "reports/phase_6_8_2/repeat-demo.json": "cf34dec93ba2080f3fe1fb0414258baf789ca4d91c662d61fc3b90621974e995",
+          "reports/phase_6_8_3/demo-session-metadata.json": "0afd1f47d8b9cff15a09cbc29c1a52774ad71a41eefc54e110661b9a11573009",
+          "reports/phase_6_8_4/demo-tick-samples.json": "2cd0b863705d61806c72adecb03b2b224f2eaaffa0bb2dc8148da0d8075b2911"
+        },
+        "verified_utc": null
+      }
+    },
+    "known_inventory_only": true,
+    "outside_repository_attested": false,
+    "raw_boundary_policy": "Supply attested coverage including final bar span and every diagnostic interval."
+  },
+  "sha256": "3d6aef1ff140cb73445ba7ea37b74798ebe7d168260c5fc3afb8ca736c0f758a"
+}

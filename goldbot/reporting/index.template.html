@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' file:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>GoldBot Phase 6.7 | Offline report</title>
+<style>
+:root { color-scheme: light; font: 16px/1.55 system-ui,sans-serif; color: #152735; background: #f3f6f6; }
+body { margin: 0; }
+header, main, footer { max-width: 74rem; margin: auto; padding: 1.5rem clamp(1rem,4vw,3rem); }
+header { border-bottom: 1px solid #afc2c4; }
+h1 { font-size: clamp(2rem,5vw,3.7rem); line-height: 1.08; margin: .35rem 0 1rem; }
+h2 { line-height: 1.2; }
+h3 { margin-top: 1.5rem; }
+section { background: #fff; border: 1px solid #ccd8da; border-radius: 1rem; padding: clamp(.9rem,3vw,1.75rem); margin-bottom: 1.5rem; }
+#synthetic { border-top: .35rem solid #166e68; }
+#blocked { border-top: .35rem solid #92570d; }
+a { color: #005c59; text-underline-offset: .18em; overflow-wrap: anywhere; }
+a:focus-visible, summary:focus-visible, .table:focus-visible { outline: 3px solid #ad5900; outline-offset: 3px; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; }
+.table { overflow: auto; margin: 1rem 0; }
+table { border-collapse: collapse; width: 100%; }
+caption { text-align: left; font-weight: 700; padding: .35rem 0; }
+th, td { text-align: left; padding: .45rem .65rem; border-bottom: 1px solid #d5dfe0; vertical-align: top; font-variant-numeric: tabular-nums; }
+thead { background: #e8efef; }
+figure { margin: 0; min-width: 0; }
+figcaption { margin: .35rem 0 1.3rem; }
+img { display: block; width: 100%; height: auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,29rem),1fr)); gap: 1rem; }
+details { margin: 1rem 0; }
+summary { cursor: pointer; font-weight: 650; }
+code { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<header>
+<p>GoldBot · Phase 6.7</p>
+<h1>XAUUSD offline report</h1>
+<nav aria-label="Report sections">
+<a href="#historical">Historical observations</a>
+<a href="#synthetic">Hypothetical synthetic results</a>
+<a href="#blocked">Readiness blockers</a>
+<a href="#sources">Sources</a>
+<a href="summary.json">JSON summary</a>
+</nav>
+</header>
+<main>
+$historical
+$synthetic
+$blocked
+$sources
+</main>
+<footer><a href="../../docs/phases/phase-6-7.md">Phase 6.7 notes and verification</a></footer>
+</body>
+</html>

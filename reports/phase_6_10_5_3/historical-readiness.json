@@ -1,0 +1,61 @@
+{
+  "blockers": [
+    "Verified provider-specific byte inventory, quality and reuse scope across the target period.",
+    "Exact Exness account feed identity and executable tick coverage across dated quote and trade sessions.",
+    "Effective-dated Exness raw timestamp mapping and quote basis.",
+    "Authoritative monetary precision and booked P/L rules.",
+    "Historically applicable costs, margin and fill eligibility.",
+    "Approved daily risk boundaries and exact opening equity.",
+    "Precommitment, independent intake review and nonoverlap with all exposed data for prospective use."
+  ],
+  "datasets": {
+    "dukascopy": {
+      "basis": "No acquired payload. Hourly schema and coverage require live validation.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "UNVERIFIED"
+    },
+    "exness_mt5_archived_minute": {
+      "basis": "Exposed sample, verified identity and bid M1 comparison. No accepted UTC mapping or complete coverage.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "RAW_COORDINATE_DIAGNOSTIC_ONLY"
+    },
+    "exness_mt5_new_probe": {
+      "basis": "Two failures and zero historical market rows.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "UNVERIFIED"
+    },
+    "exness_public": {
+      "basis": "Archive bytes and applicable time/coverage evidence unavailable. MT4 real feed differs from the pinned MT5 demo.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "UNVERIFIED"
+    },
+    "histdata": {
+      "basis": "Provider lists the archive and describes fixed EST. Complete bytes were not obtained.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "UNVERIFIED"
+    },
+    "legacy_metaquotes_ohlc": {
+      "basis": "Frozen exposed candle exports with unresolved UTC and execution applicability.",
+      "execution_grade": false,
+      "prospective_eligible": false,
+      "research_data": "PREVIOUS_RETROSPECTIVE_RESEARCH_ONLY"
+    }
+  },
+  "engineering": "COMPLETED",
+  "execution_grade_historical_acceptance": "BLOCKED",
+  "preserved_gate_sources": [
+    "../phase_6_9_6/assessment.json",
+    "../phase_6_10_5_1/precision-validation.json",
+    "../phase_6_10_5_2/timestamp-verification.json",
+    "../phase_6_10_5_2/session-evidence.json",
+    "../phase_6_10_5_2/risk-day-verification.json"
+  ],
+  "prospective_validation_authorized": false,
+  "readiness": "NO-GO",
+  "research_source_acceptance": "BLOCKED"
+}

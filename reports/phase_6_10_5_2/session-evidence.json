@@ -1,0 +1,50 @@
+{
+  "scope": {
+    "entity": "Exness (KE) Limited",
+    "server": "ExnessKE-MT5Trial9",
+    "demo_suffix": "9498",
+    "symbol": "XAUUSD"
+  },
+  "review_date_africa_nairobi": "2026-11-19",
+  "technical_acceptance": "BLOCKED",
+  "public_broker_policy": {
+    "authority": "Exness Help Center, public instrument-level guidance",
+    "dst_effective_date": "2026-11-01",
+    "dst_notice": "https://get.exness.help/hc/en-us/articles/31342732737180-Trading-Hours-Update-End-of-US-Daylight-Saving-Time-01-Nov-2026",
+    "schedule_coordinates": "UTC",
+    "xauusd_transition_times_utc": {
+      "summer": {
+        "sunday_close_only": "22:01:30",
+        "sunday_open": "22:05:00",
+        "monday_to_thursday_break": "20:58:00",
+        "monday_to_thursday_close_only": "22:00:30",
+        "monday_to_thursday_open": "22:02:00",
+        "friday_close": "20:58:00"
+      },
+      "winter": {
+        "sunday_close_only": "23:01:30",
+        "sunday_open": "23:05:00",
+        "monday_to_thursday_break": "21:58:00",
+        "monday_to_thursday_close_only": "23:00:30",
+        "monday_to_thursday_open": "23:02:00",
+        "friday_close": "21:58:00"
+      },
+      "saturday": "CLOSED"
+    },
+    "general_hours": "https://get.exness.help/hc/en-us/articles/4405235684498-Instrument-trading-hours",
+    "holiday_notice": "https://get.exness.help/hc/en-us/articles/17923046759836-Holiday-trading-hours",
+    "listed_holiday_dates": ["2026-11-26", "2026-12-25"],
+    "applicable_dated_xauusd_exceptions": "UNVERIFIED",
+    "applicable_maintenance_and_exception_history": "UNVERIFIED"
+  },
+  "terminal_observations": {
+    "source": "timestamp-verification.json",
+    "quote_snapshot_activity": "OBSERVED",
+    "quote_session_bounds": "UNVERIFIED",
+    "trade_permission_or_session_query": "NOT_PERFORMED",
+    "between_poll_coverage": "UNKNOWN"
+  },
+  "accepted_quote_intervals": [],
+  "accepted_trade_intervals": [],
+  "close_only_policy": "Published close-only periods confer no new-entry authorization. Quote availability and scope-specific trade permissions require separate evidence."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "UNVERIFIED",
+  "scope": "diagnostic only",
+  "samples": [],
+  "terminal_failure": "Exness KE demo profile is disabled.",
+  "external_clock_probes": [
+    {
+      "source": "time.nist.gov",
+      "protocol": "TCP Daytime",
+      "before": {
+        "monotonic": 119474.875,
+        "wall_utc": "2026-11-18T14:08:10.196618+00:00"
+      },
+      "after": {
+        "monotonic": 119477.89,
+        "wall_utc": "2026-11-18T14:08:13.208254+00:00"
+      },
+      "error": "TimeoutError"
+    },
+    {
+      "source": "time.nist.gov",
+      "protocol": "TCP Daytime",
+      "before": {
+        "monotonic": 119477.89,
+        "wall_utc": "2026-11-18T14:08:13.208254+00:00"
+      },
+      "after": {
+        "monotonic": 119480.906,
+        "wall_utc": "2026-11-18T14:08:16.229432+00:00"
+      },
+      "error": "TimeoutError"
+    }
+  ],
+  "clock": {
+    "status": "INDEPENDENT_TIME_UNAVAILABLE"
+  },
+  "quote_state": "DISCONNECTED_OR_UNAVAILABLE"
+}

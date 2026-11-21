@@ -1,0 +1,860 @@
+{
+  "clock": {
+    "correction_bounds_s": [
+      -0.2587427616119385,
+      0.2875859260559082
+    ],
+    "status": "UTC_WITHIN_TOLERANCE",
+    "tolerance_s": 2.0
+  },
+  "engineering": "COMPLETED",
+  "external_clock_probes": [
+    {
+      "address": "162.159.200.1",
+      "after": {
+        "monotonic": 147270.953,
+        "wall_utc": "2026-11-18T21:51:26.366615+00:00"
+      },
+      "before": {
+        "monotonic": 147270.937,
+        "wall_utc": "2026-11-18T21:51:26.358880+00:00"
+      },
+      "correction_bounds_s": [
+        -0.15874276161193848,
+        0.1875859260559082
+      ],
+      "protocol": "NTPv4 UDP",
+      "round_trip_s": 0.00768733024597168,
+      "source": "Cloudflare",
+      "stratum": 3
+    },
+    {
+      "address": "162.159.200.1",
+      "after": {
+        "monotonic": 147273.515,
+        "wall_utc": "2026-11-18T21:51:28.926271+00:00"
+      },
+      "before": {
+        "monotonic": 147273.5,
+        "wall_utc": "2026-11-18T21:51:28.921425+00:00"
+      },
+      "correction_bounds_s": [
+        -0.15820846557617188,
+        0.18513045310974122
+      ],
+      "protocol": "NTPv4 UDP",
+      "round_trip_s": 0.004773855209350586,
+      "source": "Cloudflare",
+      "stratum": 3
+    }
+  ],
+  "head_polls": [
+    {
+      "quote_raw_bracket_s": [
+        1795038686,
+        1795038686
+      ],
+      "timeframes": {
+        "H1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795035600,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3725.07,
+              "high": 3733.065,
+              "low": 3719.918,
+              "open": 3722.446,
+              "raw_open": 1795032000
+            },
+            {
+              "close": 3724.185,
+              "high": 3728.171,
+              "low": 3722.972,
+              "open": 3724.902,
+              "raw_open": 1795035600
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038660,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3723.749,
+              "high": 3723.842,
+              "low": 3722.972,
+              "open": 3723.58,
+              "raw_open": 1795038600
+            },
+            {
+              "close": 3724.185,
+              "high": 3724.751,
+              "low": 3723.677,
+              "open": 3723.779,
+              "raw_open": 1795038660
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M15": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038300,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3724.06,
+              "high": 3727.878,
+              "low": 3723.01,
+              "open": 3726.362,
+              "raw_open": 1795037400
+            },
+            {
+              "close": 3724.185,
+              "high": 3724.873,
+              "low": 3722.972,
+              "open": 3724.143,
+              "raw_open": 1795038300
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        }
+      }
+    },
+    {
+      "quote_raw_bracket_s": [
+        1795038686,
+        1795038686
+      ],
+      "timeframes": {
+        "H1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795035600,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3725.07,
+              "high": 3733.065,
+              "low": 3719.918,
+              "open": 3722.446,
+              "raw_open": 1795032000
+            },
+            {
+              "close": 3724.282,
+              "high": 3728.171,
+              "low": 3722.972,
+              "open": 3724.902,
+              "raw_open": 1795035600
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038660,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3723.749,
+              "high": 3723.842,
+              "low": 3722.972,
+              "open": 3723.58,
+              "raw_open": 1795038600
+            },
+            {
+              "close": 3724.282,
+              "high": 3724.751,
+              "low": 3723.677,
+              "open": 3723.779,
+              "raw_open": 1795038660
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M15": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038300,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3724.06,
+              "high": 3727.878,
+              "low": 3723.01,
+              "open": 3726.362,
+              "raw_open": 1795037400
+            },
+            {
+              "close": 3724.282,
+              "high": 3724.873,
+              "low": 3722.972,
+              "open": 3724.143,
+              "raw_open": 1795038300
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        }
+      }
+    },
+    {
+      "quote_raw_bracket_s": [
+        1795038687,
+        1795038687
+      ],
+      "timeframes": {
+        "H1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795035600,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3725.07,
+              "high": 3733.065,
+              "low": 3719.918,
+              "open": 3722.446,
+              "raw_open": 1795032000
+            },
+            {
+              "close": 3724.252,
+              "high": 3728.171,
+              "low": 3722.972,
+              "open": 3724.902,
+              "raw_open": 1795035600
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M1": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038660,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3723.749,
+              "high": 3723.842,
+              "low": 3722.972,
+              "open": 3723.58,
+              "raw_open": 1795038600
+            },
+            {
+              "close": 3724.252,
+              "high": 3724.751,
+              "low": 3723.677,
+              "open": 3723.779,
+              "raw_open": 1795038660
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        },
+        "M15": {
+          "closed_by_first_quote": true,
+          "closed_nominal_raw": 1795038300,
+          "current_contains_both_quotes": true,
+          "raw_label_gap_seconds": 0,
+          "rows": [
+            {
+              "close": 3724.06,
+              "high": 3727.878,
+              "low": 3723.01,
+              "open": 3726.362,
+              "raw_open": 1795037400
+            },
+            {
+              "close": 3724.252,
+              "high": 3724.873,
+              "low": 3722.972,
+              "open": 3724.143,
+              "raw_open": 1795038300
+            }
+          ],
+          "status": "RAW_COORDINATES_ONLY"
+        }
+      }
+    }
+  ],
+  "identity": {
+    "algo_trading": false,
+    "currency": "USD",
+    "entity": "Exness (KE) Limited",
+    "mode": "demo",
+    "server": "ExnessKE-MT5Trial9",
+    "suffix": "9498",
+    "symbol": "XAUUSD",
+    "terminal_build": 6324
+  },
+  "initial_attempt": {
+    "clock": {
+      "status": "INDEPENDENT_TIME_UNAVAILABLE"
+    },
+    "engineering": "COMPLETED",
+    "external_clock_probes": [
+      {
+        "address": "162.159.200.1",
+        "after": {
+          "monotonic": 147233.0,
+          "wall_utc": "2026-11-18T21:50:48.417121+00:00"
+        },
+        "before": {
+          "monotonic": 147233.0,
+          "wall_utc": "2026-11-18T21:50:48.411412+00:00"
+        },
+        "error": "ValueError",
+        "protocol": "NTPv4 UDP",
+        "source": "Cloudflare"
+      },
+      {
+        "address": "162.159.200.1",
+        "after": {
+          "monotonic": 147236.078,
+          "wall_utc": "2026-11-18T21:50:51.488704+00:00"
+        },
+        "before": {
+          "monotonic": 147236.046,
+          "wall_utc": "2026-11-18T21:50:51.468127+00:00"
+        },
+        "correction_bounds_s": [
+          -0.1731194019317627,
+          0.1859806537628174
+        ],
+        "protocol": "NTPv4 UDP",
+        "round_trip_s": 0.020519733428955078,
+        "source": "Cloudflare",
+        "stratum": 3
+      }
+    ],
+    "head_polls": [
+      {
+        "quote_raw_bracket_s": [
+          1795038648,
+          1795038648
+        ],
+        "timeframes": {
+          "H1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795035600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3725.07,
+                "high": 3733.065,
+                "low": 3719.918,
+                "open": 3722.446,
+                "raw_open": 1795032000
+              },
+              {
+                "close": 3723.619,
+                "high": 3728.171,
+                "low": 3722.972,
+                "open": 3724.902,
+                "raw_open": 1795035600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3723.58,
+                "high": 3724.015,
+                "low": 3723.424,
+                "open": 3724.009,
+                "raw_open": 1795038540
+              },
+              {
+                "close": 3723.619,
+                "high": 3723.842,
+                "low": 3722.972,
+                "open": 3723.58,
+                "raw_open": 1795038600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M15": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038300,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3724.06,
+                "high": 3727.878,
+                "low": 3723.01,
+                "open": 3726.362,
+                "raw_open": 1795037400
+              },
+              {
+                "close": 3723.619,
+                "high": 3724.873,
+                "low": 3722.972,
+                "open": 3724.143,
+                "raw_open": 1795038300
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          }
+        }
+      },
+      {
+        "quote_raw_bracket_s": [
+          1795038649,
+          1795038649
+        ],
+        "timeframes": {
+          "H1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795035600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3725.07,
+                "high": 3733.065,
+                "low": 3719.918,
+                "open": 3722.446,
+                "raw_open": 1795032000
+              },
+              {
+                "close": 3723.737,
+                "high": 3728.171,
+                "low": 3722.972,
+                "open": 3724.902,
+                "raw_open": 1795035600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3723.58,
+                "high": 3724.015,
+                "low": 3723.424,
+                "open": 3724.009,
+                "raw_open": 1795038540
+              },
+              {
+                "close": 3723.737,
+                "high": 3723.842,
+                "low": 3722.972,
+                "open": 3723.58,
+                "raw_open": 1795038600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M15": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038300,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3724.06,
+                "high": 3727.878,
+                "low": 3723.01,
+                "open": 3726.362,
+                "raw_open": 1795037400
+              },
+              {
+                "close": 3723.737,
+                "high": 3724.873,
+                "low": 3722.972,
+                "open": 3724.143,
+                "raw_open": 1795038300
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          }
+        }
+      },
+      {
+        "quote_raw_bracket_s": [
+          1795038649,
+          1795038649
+        ],
+        "timeframes": {
+          "H1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795035600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3725.07,
+                "high": 3733.065,
+                "low": 3719.918,
+                "open": 3722.446,
+                "raw_open": 1795032000
+              },
+              {
+                "close": 3723.737,
+                "high": 3728.171,
+                "low": 3722.972,
+                "open": 3724.902,
+                "raw_open": 1795035600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M1": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038600,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3723.58,
+                "high": 3724.015,
+                "low": 3723.424,
+                "open": 3724.009,
+                "raw_open": 1795038540
+              },
+              {
+                "close": 3723.737,
+                "high": 3723.842,
+                "low": 3722.972,
+                "open": 3723.58,
+                "raw_open": 1795038600
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          },
+          "M15": {
+            "closed_by_first_quote": true,
+            "closed_nominal_raw": 1795038300,
+            "current_contains_both_quotes": true,
+            "raw_label_gap_seconds": 0,
+            "rows": [
+              {
+                "close": 3724.06,
+                "high": 3727.878,
+                "low": 3723.01,
+                "open": 3726.362,
+                "raw_open": 1795037400
+              },
+              {
+                "close": 3723.737,
+                "high": 3724.873,
+                "low": 3722.972,
+                "open": 3724.143,
+                "raw_open": 1795038300
+              }
+            ],
+            "status": "RAW_COORDINATES_ONLY"
+          }
+        }
+      }
+    ],
+    "identity": {
+      "algo_trading": false,
+      "currency": "USD",
+      "entity": "Exness (KE) Limited",
+      "mode": "demo",
+      "server": "ExnessKE-MT5Trial9",
+      "suffix": "9498",
+      "symbol": "XAUUSD",
+      "terminal_build": 6324
+    },
+    "production_mapping": "UNVERIFIED",
+    "quote_state": "TIMESTAMP_AND_PRICES_ADVANCED_FRESHNESS_UNVERIFIED",
+    "readiness": "NO-GO",
+    "samples": [
+      {
+        "after": {
+          "monotonic": 147233.703,
+          "wall_utc": "2026-11-18T21:50:49.116682+00:00"
+        },
+        "before": {
+          "monotonic": 147233.671,
+          "wall_utc": "2026-11-18T21:50:49.084695+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.787,
+          "bid": 3723.619,
+          "flags": 6,
+          "raw_ms": 1795038648289,
+          "raw_s": 1795038648
+        }
+      },
+      {
+        "after": {
+          "monotonic": 147233.921,
+          "wall_utc": "2026-11-18T21:50:49.338958+00:00"
+        },
+        "before": {
+          "monotonic": 147233.921,
+          "wall_utc": "2026-11-18T21:50:49.338958+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.787,
+          "bid": 3723.619,
+          "flags": 6,
+          "raw_ms": 1795038648289,
+          "raw_s": 1795038648
+        }
+      },
+      {
+        "after": {
+          "monotonic": 147234.937,
+          "wall_utc": "2026-11-18T21:50:50.350056+00:00"
+        },
+        "before": {
+          "monotonic": 147234.937,
+          "wall_utc": "2026-11-18T21:50:50.350056+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.905,
+          "bid": 3723.737,
+          "flags": 6,
+          "raw_ms": 1795038649771,
+          "raw_s": 1795038649
+        }
+      },
+      {
+        "after": {
+          "monotonic": 147234.968,
+          "wall_utc": "2026-11-18T21:50:50.388357+00:00"
+        },
+        "before": {
+          "monotonic": 147234.968,
+          "wall_utc": "2026-11-18T21:50:50.384832+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.905,
+          "bid": 3723.737,
+          "flags": 6,
+          "raw_ms": 1795038649771,
+          "raw_s": 1795038649
+        }
+      },
+      {
+        "after": {
+          "monotonic": 147235.984,
+          "wall_utc": "2026-11-18T21:50:51.398199+00:00"
+        },
+        "before": {
+          "monotonic": 147235.984,
+          "wall_utc": "2026-11-18T21:50:51.398199+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.905,
+          "bid": 3723.737,
+          "flags": 6,
+          "raw_ms": 1795038649771,
+          "raw_s": 1795038649
+        }
+      },
+      {
+        "after": {
+          "monotonic": 147236.046,
+          "wall_utc": "2026-11-18T21:50:51.458399+00:00"
+        },
+        "before": {
+          "monotonic": 147236.046,
+          "wall_utc": "2026-11-18T21:50:51.458399+00:00"
+        },
+        "connected_after": true,
+        "connected_before": true,
+        "tick": {
+          "ask": 3723.905,
+          "bid": 3723.737,
+          "flags": 6,
+          "raw_ms": 1795038649771,
+          "raw_s": 1795038649
+        }
+      }
+    ],
+    "source_sha256": {
+      "docs/phases/phase-6-8-2.md": "aaf0ea0405d64f03ea2da1827871d33b8eb4f0aa4e337d74b98eabce27a87554",
+      "docs/phases/phase-6-8-3.md": "309709b27571af948874a81644ab3d10e6ec8df3aafbf6c093aeb6573a4d8ec2",
+      "reports/phase_6_10_5_1/precision-validation.json": "8946c573024c626328b3248f42873ed1b16dd65247487c5442c14b14412e255b",
+      "reports/phase_6_9_4/verification.md": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+      "reports/phase_6_9_4_1/diagnostic.json": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+      "reports/phase_6_9_5/live-summary.json": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+      "reports/phase_6_9_6/assessment.json": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb"
+    },
+    "technical_acceptance": "BLOCKED"
+  },
+  "production_mapping": "UNVERIFIED",
+  "quote_state": "TIMESTAMP_AND_PRICES_ADVANCED_FRESHNESS_UNVERIFIED",
+  "readiness": "NO-GO",
+  "samples": [
+    {
+      "after": {
+        "monotonic": 147271.359,
+        "wall_utc": "2026-11-18T21:51:26.775354+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.07961106300354004,
+        0.6259398460388184
+      ],
+      "before": {
+        "monotonic": 147271.359,
+        "wall_utc": "2026-11-18T21:51:26.775354+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.353,
+        "bid": 3724.185,
+        "flags": 6,
+        "raw_ms": 1795038686437,
+        "raw_s": 1795038686
+      }
+    },
+    {
+      "after": {
+        "monotonic": 147271.406,
+        "wall_utc": "2026-11-18T21:51:26.818428+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.12268519401550293,
+        0.6690139770507812
+      ],
+      "before": {
+        "monotonic": 147271.406,
+        "wall_utc": "2026-11-18T21:51:26.818428+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.353,
+        "bid": 3724.185,
+        "flags": 6,
+        "raw_ms": 1795038686437,
+        "raw_s": 1795038686
+      }
+    },
+    {
+      "after": {
+        "monotonic": 147272.421,
+        "wall_utc": "2026-11-18T21:51:27.833981+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.6162381172180176,
+        1.162566900253296
+      ],
+      "before": {
+        "monotonic": 147272.421,
+        "wall_utc": "2026-11-18T21:51:27.833981+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.45,
+        "bid": 3724.282,
+        "flags": 6,
+        "raw_ms": 1795038686959,
+        "raw_s": 1795038686
+      }
+    },
+    {
+      "after": {
+        "monotonic": 147272.453,
+        "wall_utc": "2026-11-18T21:51:27.862447+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.6447041034698486,
+        1.191032886505127
+      ],
+      "before": {
+        "monotonic": 147272.453,
+        "wall_utc": "2026-11-18T21:51:27.862447+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.45,
+        "bid": 3724.282,
+        "flags": 6,
+        "raw_ms": 1795038686959,
+        "raw_s": 1795038686
+      }
+    },
+    {
+      "after": {
+        "monotonic": 147273.468,
+        "wall_utc": "2026-11-18T21:51:28.878616+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.6588733196258545,
+        1.2052021026611328
+      ],
+      "before": {
+        "monotonic": 147273.468,
+        "wall_utc": "2026-11-18T21:51:28.878616+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.42,
+        "bid": 3724.252,
+        "flags": 6,
+        "raw_ms": 1795038687961,
+        "raw_s": 1795038687
+      }
+    },
+    {
+      "after": {
+        "monotonic": 147273.5,
+        "wall_utc": "2026-11-18T21:51:28.915279+00:00"
+      },
+      "age_s_if_raw_utc": [
+        0.6955361366271973,
+        1.2418649196624756
+      ],
+      "before": {
+        "monotonic": 147273.5,
+        "wall_utc": "2026-11-18T21:51:28.915279+00:00"
+      },
+      "connected_after": true,
+      "connected_before": true,
+      "tick": {
+        "ask": 3724.42,
+        "bid": 3724.252,
+        "flags": 6,
+        "raw_ms": 1795038687961,
+        "raw_s": 1795038687
+      }
+    }
+  ],
+  "source_sha256": {
+    "docs/phases/phase-6-8-2.md": "aaf0ea0405d64f03ea2da1827871d33b8eb4f0aa4e337d74b98eabce27a87554",
+    "docs/phases/phase-6-8-3.md": "309709b27571af948874a81644ab3d10e6ec8df3aafbf6c093aeb6573a4d8ec2",
+    "reports/phase_6_10_5_1/precision-validation.json": "8946c573024c626328b3248f42873ed1b16dd65247487c5442c14b14412e255b",
+    "reports/phase_6_9_4/verification.md": "6674da483fd00dbdd4bcbbd2e3ac3efc99b1581fa49ea01c45e750bfa2b60564",
+    "reports/phase_6_9_4_1/diagnostic.json": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+    "reports/phase_6_9_5/live-summary.json": "c8f3c00b19cdd7c4a7fced6fff58134967ef0ded17f53206286001a4442da29a",
+    "reports/phase_6_9_6/assessment.json": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb"
+  },
+  "technical_acceptance": "BLOCKED"
+}

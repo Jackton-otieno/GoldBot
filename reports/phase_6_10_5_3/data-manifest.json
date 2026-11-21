@@ -1,0 +1,76 @@
+{
+  "archived_capture": {
+    "acquisition_date_africa_nairobi": "2026-11-18",
+    "actual_raw_ms_span": [
+      1795011300262,
+      1795011359755
+    ],
+    "byte_count": 69073,
+    "exposed": true,
+    "path": "reports/phase_6_9_4_1/diagnostic.json",
+    "raw_interval_s": [
+      1795011300,
+      1795011360
+    ],
+    "record_count": 312,
+    "sha256": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+    "source": "Phase 6.9.4.1 pinned Exness KE MT5 demo",
+    "verified_utc_interval": null
+  },
+  "assessment_date_africa_nairobi": "2026-11-19",
+  "external_candidates": [
+    {
+      "sha256": null,
+      "source": "Exness public tick archive",
+      "status": "PUBLIC_SELECTOR_REVIEWED_NO_ARCHIVE_BYTES",
+      "url": "https://www.exness.ke/tick-history/",
+      "verified_coverage": null
+    },
+    {
+      "sha256": null,
+      "source": "Dukascopy",
+      "status": "HTTP_429_NO_PAYLOAD",
+      "url": "https://datafeed.dukascopy.com/datafeed/XAUUSD/2022/10/17/12h_ticks.bi5",
+      "verified_coverage": null
+    },
+    {
+      "listed_file": "HISTDATA_COM_ASCII_XAUUSD_T_202610.zip",
+      "sha256": null,
+      "source": "HistData",
+      "status": "LISTED_HTTP_200_ARCHIVE_TRANSFER_DEADLINE",
+      "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/2026/10",
+      "verified_coverage": null
+    }
+  ],
+  "new_capture": {
+    "byte_count": 536,
+    "coverage": null,
+    "exposed": true,
+    "market_rows": 0,
+    "path": "historical_data/phase_6_10_5_3/exness-mt5/xauusd-raw-ticks.json",
+    "requested_count_per_anchor": 256,
+    "requested_raw_s": [
+      1668686400,
+      1794916800
+    ],
+    "result_written_host_utc": "2026-11-19T05:01:37.347863+00:00",
+    "sha256": "ccfd69fdd76854f32e1f4cfe3a4206cf6430fc28d0c9e0e4670fac03d54b0dd2",
+    "source": "Pinned Exness KE MT5 demo"
+  },
+  "original_ohlc": [
+    {
+      "byte_count": 532462,
+      "exposed": true,
+      "path": "data/XAUUSD_H1.csv",
+      "sha256": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541"
+    },
+    {
+      "byte_count": 529413,
+      "exposed": true,
+      "path": "data/XAUUSD_M15.csv",
+      "sha256": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+    }
+  ],
+  "prospective_eligible": false,
+  "symbol": "XAU/USD"
+}

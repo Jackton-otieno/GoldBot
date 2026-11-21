@@ -1,0 +1,769 @@
+{
+  "archived_baseline": {
+    "H1": {
+      "baseline": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 115,
+            "max": "55.22240432861184",
+            "min": "5.398837122262249",
+            "p10": "8.476661301534007",
+            "p25": "11.78218494680893",
+            "p50": "16.35015378652669",
+            "p75": "19.140027049181832",
+            "p90": "24.151949210630885",
+            "p95": "35.3412473107861",
+            "p99": "37.51374681270588"
+          },
+          "FILLED": {
+            "count": 6,
+            "max": "9.412572366645326",
+            "min": "5.319015353000933",
+            "p10": "5.319015353000933",
+            "p25": "6.2987010051128",
+            "p50": "6.571809413329277",
+            "p75": "9.05296394092717",
+            "p90": "9.412572366645326",
+            "p95": "9.412572366645326",
+            "p99": "9.412572366645326"
+          },
+          "GAP_ENTRY": {
+            "count": 6,
+            "max": "25.870995950667346",
+            "min": "15.601681705447923",
+            "p10": "15.601681705447923",
+            "p25": "15.72729889060754",
+            "p50": "16.11944860871586",
+            "p75": "23.238418131827856",
+            "p90": "25.870995950667346",
+            "p95": "25.870995950667346",
+            "p99": "25.870995950667346"
+          }
+        },
+        "attempts": 127,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 115,
+          "FILLED": 6,
+          "GAP_ENTRY": 6
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 101,
+          "fits_fresh_budget": 14
+        }
+      },
+      "ideal": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 114,
+            "max": "55.22240432861184",
+            "min": "5.398837122262249",
+            "p10": "9.582017015307299",
+            "p25": "11.826806206446042",
+            "p50": "16.35015378652669",
+            "p75": "19.140027049181832",
+            "p90": "24.151949210630885",
+            "p95": "35.3412473107861",
+            "p99": "37.51374681270588"
+          },
+          "FILLED": {
+            "count": 7,
+            "max": "9.412572366645326",
+            "min": "5.319015353000933",
+            "p10": "5.319015353000933",
+            "p25": "6.2987010051128",
+            "p50": "7.22917975627441",
+            "p75": "9.05296394092717",
+            "p90": "9.412572366645326",
+            "p95": "9.412572366645326",
+            "p99": "9.412572366645326"
+          },
+          "GAP_ENTRY": {
+            "count": 6,
+            "max": "25.870995950667346",
+            "min": "15.601681705447923",
+            "p10": "15.601681705447923",
+            "p25": "15.72729889060754",
+            "p50": "16.11944860871586",
+            "p75": "23.238418131827856",
+            "p90": "25.870995950667346",
+            "p95": "25.870995950667346",
+            "p99": "25.870995950667346"
+          }
+        },
+        "attempts": 127,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "FILLED": 7,
+          "GAP_ENTRY": 6
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 99,
+          "fits_fresh_budget": 15
+        }
+      },
+      "low": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 114,
+            "max": "55.22240432861184",
+            "min": "5.398837122262249",
+            "p10": "9.582017015307299",
+            "p25": "11.826806206446042",
+            "p50": "16.35015378652669",
+            "p75": "19.140027049181832",
+            "p90": "24.151949210630885",
+            "p95": "35.3412473107861",
+            "p99": "37.51374681270588"
+          },
+          "FILLED": {
+            "count": 7,
+            "max": "9.412572366645326",
+            "min": "5.319015353000933",
+            "p10": "5.319015353000933",
+            "p25": "6.2987010051128",
+            "p50": "7.22917975627441",
+            "p75": "9.05296394092717",
+            "p90": "9.412572366645326",
+            "p95": "9.412572366645326",
+            "p99": "9.412572366645326"
+          },
+          "GAP_ENTRY": {
+            "count": 6,
+            "max": "25.870995950667346",
+            "min": "15.601681705447923",
+            "p10": "15.601681705447923",
+            "p25": "15.72729889060754",
+            "p50": "16.11944860871586",
+            "p75": "23.238418131827856",
+            "p90": "25.870995950667346",
+            "p95": "25.870995950667346",
+            "p99": "25.870995950667346"
+          }
+        },
+        "attempts": 127,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "FILLED": 7,
+          "GAP_ENTRY": 6
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 101,
+          "fits_fresh_budget": 13
+        }
+      },
+      "stress": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 114,
+            "max": "55.22240432861184",
+            "min": "5.398837122262249",
+            "p10": "9.582017015307299",
+            "p25": "11.826806206446042",
+            "p50": "16.35015378652669",
+            "p75": "19.140027049181832",
+            "p90": "24.151949210630885",
+            "p95": "35.3412473107861",
+            "p99": "37.51374681270588"
+          },
+          "FILLED": {
+            "count": 7,
+            "max": "9.05296394092717",
+            "min": "5.319015353000933",
+            "p10": "5.319015353000933",
+            "p25": "6.2987010051128",
+            "p50": "6.8651969500523595",
+            "p75": "7.316936917972624",
+            "p90": "9.05296394092717",
+            "p95": "9.05296394092717",
+            "p99": "9.05296394092717"
+          },
+          "GAP_ENTRY": {
+            "count": 6,
+            "max": "25.870995950667346",
+            "min": "15.601681705447923",
+            "p10": "15.601681705447923",
+            "p25": "15.72729889060754",
+            "p50": "16.11944860871586",
+            "p75": "23.238418131827856",
+            "p90": "25.870995950667346",
+            "p95": "25.870995950667346",
+            "p99": "25.870995950667346"
+          }
+        },
+        "attempts": 127,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 114,
+          "FILLED": 7,
+          "GAP_ENTRY": 6
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 104,
+          "fits_fresh_budget": 10
+        }
+      }
+    },
+    "M15": {
+      "baseline": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 94,
+            "max": "14.318848827170077",
+            "min": "6.198425060810168",
+            "p10": "6.714544640245547",
+            "p25": "7.2173146404185475",
+            "p50": "8.169309170468766",
+            "p75": "9.255140039662084",
+            "p90": "10.58851653818672",
+            "p95": "11.335431133471179",
+            "p99": "14.318848827170077"
+          },
+          "DAILY_LOSS_LIMIT": {
+            "count": 29,
+            "max": "11.276605120479253",
+            "min": "4.782533217016576",
+            "p10": "5.5938014414310055",
+            "p25": "6.576632506027388",
+            "p50": "7.143643574044323",
+            "p75": "8.456006263032776",
+            "p90": "10.14213838304962",
+            "p95": "10.564027386342085",
+            "p99": "11.276605120479253"
+          },
+          "FILLED": {
+            "count": 8,
+            "max": "8.802685328726204",
+            "min": "4.741712993160437",
+            "p10": "4.741712993160437",
+            "p25": "4.798298512993701",
+            "p50": "5.812292024141512",
+            "p75": "6.730726335156035",
+            "p90": "8.802685328726204",
+            "p95": "8.802685328726204",
+            "p99": "8.802685328726204"
+          },
+          "GAP_ENTRY": {
+            "count": 1,
+            "max": "8.690872104001311",
+            "min": "8.690872104001311",
+            "p10": "8.690872104001311",
+            "p25": "8.690872104001311",
+            "p50": "8.690872104001311",
+            "p75": "8.690872104001311",
+            "p90": "8.690872104001311",
+            "p95": "8.690872104001311",
+            "p99": "8.690872104001311"
+          }
+        },
+        "attempts": 132,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 94,
+          "DAILY_LOSS_LIMIT": 29,
+          "FILLED": 8,
+          "GAP_ENTRY": 1
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 18,
+          "fits_fresh_budget": 76
+        }
+      },
+      "ideal": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 123,
+            "max": "14.318848827170077",
+            "min": "4.782533217016576",
+            "p10": "6.508277978628712",
+            "p25": "7.095664531724034",
+            "p50": "7.947032408301837",
+            "p75": "9.06068069475899",
+            "p90": "10.35731677012608",
+            "p95": "11.067354503416558",
+            "p99": "13.338495104784425"
+          },
+          "FILLED": {
+            "count": 8,
+            "max": "8.802685328726204",
+            "min": "4.741712993160437",
+            "p10": "4.741712993160437",
+            "p25": "4.798298512993701",
+            "p50": "5.812292024141512",
+            "p75": "6.730726335156035",
+            "p90": "8.802685328726204",
+            "p95": "8.802685328726204",
+            "p99": "8.802685328726204"
+          },
+          "GAP_ENTRY": {
+            "count": 1,
+            "max": "8.690872104001311",
+            "min": "8.690872104001311",
+            "p10": "8.690872104001311",
+            "p25": "8.690872104001311",
+            "p50": "8.690872104001311",
+            "p75": "8.690872104001311",
+            "p90": "8.690872104001311",
+            "p95": "8.690872104001311",
+            "p99": "8.690872104001311"
+          }
+        },
+        "attempts": 132,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 123,
+          "FILLED": 8,
+          "GAP_ENTRY": 1
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 18,
+          "fits_fresh_budget": 105
+        }
+      },
+      "low": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 123,
+            "max": "14.318848827170077",
+            "min": "4.782533217016576",
+            "p10": "6.508277978628712",
+            "p25": "7.095664531724034",
+            "p50": "7.947032408301837",
+            "p75": "9.06068069475899",
+            "p90": "10.35731677012608",
+            "p95": "11.067354503416558",
+            "p99": "13.338495104784425"
+          },
+          "FILLED": {
+            "count": 8,
+            "max": "8.802685328726204",
+            "min": "4.741712993160437",
+            "p10": "4.741712993160437",
+            "p25": "4.798298512993701",
+            "p50": "5.812292024141512",
+            "p75": "6.730726335156035",
+            "p90": "8.802685328726204",
+            "p95": "8.802685328726204",
+            "p99": "8.802685328726204"
+          },
+          "GAP_ENTRY": {
+            "count": 1,
+            "max": "8.690872104001311",
+            "min": "8.690872104001311",
+            "p10": "8.690872104001311",
+            "p25": "8.690872104001311",
+            "p50": "8.690872104001311",
+            "p75": "8.690872104001311",
+            "p90": "8.690872104001311",
+            "p95": "8.690872104001311",
+            "p99": "8.690872104001311"
+          }
+        },
+        "attempts": 132,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 123,
+          "FILLED": 8,
+          "GAP_ENTRY": 1
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 19,
+          "fits_fresh_budget": 104
+        }
+      },
+      "stress": {
+        "atr_usd_per_oz_by_status": {
+          "BELOW_MINIMUM_VOLUME": {
+            "count": 125,
+            "max": "14.318848827170077",
+            "min": "4.741712993160437",
+            "p10": "6.435983612077767",
+            "p25": "7.083703011931678",
+            "p50": "7.927260254582908",
+            "p75": "9.03595257004645",
+            "p90": "10.35731677012608",
+            "p95": "11.067354503416558",
+            "p99": "13.338495104784425"
+          },
+          "FILLED": {
+            "count": 6,
+            "max": "8.802685328726204",
+            "min": "5.537607803053319",
+            "p10": "5.537607803053319",
+            "p25": "5.812292024141512",
+            "p50": "6.465658853068116",
+            "p75": "7.494614104323558",
+            "p90": "8.802685328726204",
+            "p95": "8.802685328726204",
+            "p99": "8.802685328726204"
+          },
+          "GAP_ENTRY": {
+            "count": 1,
+            "max": "8.690872104001311",
+            "min": "8.690872104001311",
+            "p10": "8.690872104001311",
+            "p25": "8.690872104001311",
+            "p50": "8.690872104001311",
+            "p75": "8.690872104001311",
+            "p90": "8.690872104001311",
+            "p95": "8.690872104001311",
+            "p99": "8.690872104001311"
+          }
+        },
+        "attempts": 132,
+        "first_status_counts": {
+          "BELOW_MINIMUM_VOLUME": 125,
+          "FILLED": 6,
+          "GAP_ENTRY": 1
+        },
+        "minimum_volume_vs_fresh_3000_budget": {
+          "exceeds_fresh_budget": 28,
+          "fits_fresh_budget": 97
+        }
+      }
+    }
+  },
+  "frozen_comparison": {
+    "H1": {
+      "baseline": {
+        "baseline": {
+          "attempts": 127,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 115,
+            "GAP_ENTRY": 6
+          },
+          "terminal_marked_pnl_usd": "-43.11500"
+        },
+        "ideal": {
+          "attempts": 127,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 114,
+            "GAP_ENTRY": 6
+          },
+          "terminal_marked_pnl_usd": "-19.93500"
+        },
+        "low": {
+          "attempts": 127,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 114,
+            "GAP_ENTRY": 6
+          },
+          "terminal_marked_pnl_usd": "-20.44500"
+        },
+        "stress": {
+          "attempts": 127,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 114,
+            "GAP_ENTRY": 6
+          },
+          "terminal_marked_pnl_usd": "-20.16500"
+        }
+      },
+      "breakout_donchian": {
+        "baseline": {
+          "attempts": 100,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 55,
+            "GAP_ENTRY": 37,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "1.45500"
+        },
+        "ideal": {
+          "attempts": 100,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 53,
+            "GAP_ENTRY": 37,
+            "POSITION_LIMIT": 3
+          },
+          "terminal_marked_pnl_usd": "-7.58000"
+        },
+        "low": {
+          "attempts": 100,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 55,
+            "GAP_ENTRY": 37,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "1.89500"
+        },
+        "stress": {
+          "attempts": 100,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 56,
+            "GAP_ENTRY": 36,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "2.71000"
+        }
+      },
+      "mean_reversion_bollinger_rsi": {
+        "baseline": {
+          "attempts": 61,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 40,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 1
+          },
+          "terminal_marked_pnl_usd": "5.83000"
+        },
+        "ideal": {
+          "attempts": 61,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 40,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 1
+          },
+          "terminal_marked_pnl_usd": "6.65000"
+        },
+        "low": {
+          "attempts": 61,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 40,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 1
+          },
+          "terminal_marked_pnl_usd": "6.27000"
+        },
+        "stress": {
+          "attempts": 61,
+          "entries": 4,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 43,
+            "GAP_ENTRY": 14
+          },
+          "terminal_marked_pnl_usd": "-55.79000"
+        }
+      },
+      "trend_pullback_ema_rsi": {
+        "baseline": {
+          "attempts": 52,
+          "entries": 4,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 32,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "-53.29500"
+        },
+        "ideal": {
+          "attempts": 52,
+          "entries": 4,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 32,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "-52.21500"
+        },
+        "low": {
+          "attempts": 52,
+          "entries": 4,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 32,
+            "GAP_ENTRY": 14,
+            "POSITION_LIMIT": 2
+          },
+          "terminal_marked_pnl_usd": "-52.73500"
+        },
+        "stress": {
+          "attempts": 52,
+          "entries": 5,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 32,
+            "GAP_ENTRY": 15
+          },
+          "terminal_marked_pnl_usd": "-28.54500"
+        }
+      }
+    },
+    "M15": {
+      "baseline": {
+        "baseline": {
+          "attempts": 132,
+          "entries": 8,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 94,
+            "DAILY_LOSS_LIMIT": 29,
+            "GAP_ENTRY": 1
+          },
+          "terminal_marked_pnl_usd": "-25.31000"
+        },
+        "ideal": {
+          "attempts": 132,
+          "entries": 8,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 123,
+            "GAP_ENTRY": 1
+          },
+          "terminal_marked_pnl_usd": "-23.95000"
+        },
+        "low": {
+          "attempts": 132,
+          "entries": 8,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 123,
+            "GAP_ENTRY": 1
+          },
+          "terminal_marked_pnl_usd": "-24.59000"
+        },
+        "stress": {
+          "attempts": 132,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 125,
+            "GAP_ENTRY": 1
+          },
+          "terminal_marked_pnl_usd": "-35.88000"
+        }
+      },
+      "breakout_donchian": {
+        "baseline": {
+          "attempts": 841,
+          "entries": 5,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 814,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 12
+          },
+          "terminal_marked_pnl_usd": "-58.73000"
+        },
+        "ideal": {
+          "attempts": 841,
+          "entries": 5,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 814,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 12
+          },
+          "terminal_marked_pnl_usd": "-57.38000"
+        },
+        "low": {
+          "attempts": 841,
+          "entries": 5,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 814,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 12
+          },
+          "terminal_marked_pnl_usd": "-58.03000"
+        },
+        "stress": {
+          "attempts": 841,
+          "entries": 4,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 816,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 11
+          },
+          "terminal_marked_pnl_usd": "-53.05000"
+        }
+      },
+      "mean_reversion_bollinger_rsi": {
+        "baseline": {
+          "attempts": 344,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 327,
+            "GAP_ENTRY": 6,
+            "POSITION_LIMIT": 4
+          },
+          "terminal_marked_pnl_usd": "-11.78000"
+        },
+        "ideal": {
+          "attempts": 344,
+          "entries": 8,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 326,
+            "GAP_ENTRY": 6,
+            "POSITION_LIMIT": 4
+          },
+          "terminal_marked_pnl_usd": "15.89000"
+        },
+        "low": {
+          "attempts": 344,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 327,
+            "GAP_ENTRY": 6,
+            "POSITION_LIMIT": 4
+          },
+          "terminal_marked_pnl_usd": "-11.20000"
+        },
+        "stress": {
+          "attempts": 344,
+          "entries": 5,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 330,
+            "GAP_ENTRY": 6,
+            "POSITION_LIMIT": 3
+          },
+          "terminal_marked_pnl_usd": "-25.11500"
+        }
+      },
+      "trend_pullback_ema_rsi": {
+        "baseline": {
+          "attempts": 718,
+          "entries": 7,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 696,
+            "GAP_ENTRY": 11,
+            "POSITION_LIMIT": 4
+          },
+          "terminal_marked_pnl_usd": "-7.97000"
+        },
+        "ideal": {
+          "attempts": 718,
+          "entries": 9,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 690,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 9
+          },
+          "terminal_marked_pnl_usd": "45.52000"
+        },
+        "low": {
+          "attempts": 718,
+          "entries": 8,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 692,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 8
+          },
+          "terminal_marked_pnl_usd": "22.85000"
+        },
+        "stress": {
+          "attempts": 718,
+          "entries": 6,
+          "first_rejections": {
+            "BELOW_MINIMUM_VOLUME": 696,
+            "GAP_ENTRY": 10,
+            "POSITION_LIMIT": 6
+          },
+          "terminal_marked_pnl_usd": "-34.46500"
+        }
+      }
+    }
+  },
+  "inputs_sha256": {
+    "reports/phase_6_10_1/audit.json": "635882d9e2055c8c5c9ed7aef88d1302e34b17867055b57abebf32c53f10da70",
+    "reports/phase_6_10_4/comparison.json": "4829ae1bb824ac289a3328b92ad2bccb99c78d2b883a548fb24d9e08064dc5df",
+    "reports/phase_6_10_5_1/risk-impact.json": "fad993feb56e1f58d51ea2fbffba7fd0d8860d9be9a4bc780d9f0f12f040abea",
+    "reports/phase_6_10_5_2/timestamp-verification.json": "0e8ccb596a0dbc000b3a097060e9a1af1afc66f06a01a260f36b80bf21770166",
+    "reports/phase_6_9_3_1/probes.json": "75d55e303f010fbba3d1aa8a94dd475bfc2bf7dd72af8954c8ecaa545d534b26",
+    "reports/phase_6_9_4_1/diagnostic.json": "51105ca8252f0e773b81a4ec4e3d2e59968bde11a8b4e78c31155f74da811410",
+    "reports/phase_6_9_6/assessment.json": "2fe1c592f86cc84cbb722dab14b5c3d853b6e863c91aaad28e4317c45a2b8adb"
+  },
+  "mode": "OFFLINE_RESEARCH",
+  "raw_csv_sha256": {
+    "H1": "a0ec85476a9cf5b5186c69dfed2d65bb6ccd100e5a05044bf1c041d94ad32541",
+    "M15": "a8611beccee72e10e8774a299b2fd1752521d04c755543d87f187d36b9ab986e"
+  },
+  "readiness": "NO-GO"
+}

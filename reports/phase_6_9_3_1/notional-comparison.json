@@ -1,0 +1,9 @@
+{
+  "observations": 1680,
+  "matches": {
+    "ROUND_HALF_EVEN": 1492,
+    "ROUND_HALF_UP": 1680,
+    "ROUND_HALF_DOWN": 1380,
+    "ROUND_DOWN": 1020
+  }
+}

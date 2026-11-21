@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-21",
+  "automated_demo_authorization": {
+    "authorized": false,
+    "status": "BLOCKED"
+  },
+  "engineering_completion": "PASS",
+  "live_trading_authorization": {
+    "authorized": false,
+    "status": "BLOCKED"
+  },
+  "overall": "NO-GO",
+  "prospective_data_intake_admission": {
+    "authorized": false,
+    "inherited_blockers": [
+      "broker_identity_and_product",
+      "monetary_precision_and_booked_pnl",
+      "utc_mapping_and_freshness",
+      "quote_trade_sessions_and_exceptions",
+      "risk_day_and_opening_equity",
+      "historical_provenance_and_coverage",
+      "costs_margin_and_slippage",
+      "minimum_volume_feasibility",
+      "prospective_registration_and_exposure"
+    ],
+    "reason": "Unapproved protocol; no trusted receipt, verified source or sealed prospective payload",
+    "status": "BLOCKED"
+  },
+  "protocol_approval": {
+    "reason": "Independent approval and registration absent",
+    "status": "BLOCKED"
+  },
+  "protocol_preparation": {
+    "missing": [
+      "attested_complete_prior_exposure",
+      "environment",
+      "evaluator",
+      "execution_cost_rules",
+      "source_scope"
+    ],
+    "registration_ready": false,
+    "status": "DRAFT_READY"
+  }
+}
