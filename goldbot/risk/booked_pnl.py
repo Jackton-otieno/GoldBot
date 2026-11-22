@@ -189,12 +189,29 @@ def _held_over_saturday(open_ms, close_ms):
     return False
 
 
-def protocol_check(deals, orders, *, start_msc, now_msc, limits=ProtocolLimits(), symbol=SYMBOL):
+def _stop_geometry(entry, stop, contract):
+    """Actual distance from the entry fill to the recorded stop, and the loss at
+    an exact stop fill. A BUY's stop must sit below its fill, a SELL's above."""
+    if not stop:
+        return None
+    price, stop = _d(entry["price"]), _d(stop)
+    distance = price - stop if entry["type"] == DEAL_BUY else stop - price
+    return {"stop_price": str(stop), "distance_from_fill": str(distance),
+            "loss_at_exact_stop_fill_usd": str(distance * contract * _d(entry["volume"])),
+            "correct_side": distance > 0}
+
+
+def protocol_check(deals, orders, *, start_msc, now_msc, limits=ProtocolLimits(), symbol=SYMBOL,
+                   contract_size=100):
     """Check positions opened at or after ``start_msc`` against the experiment limits.
 
     Times are raw server labels. ``orders`` maps order ticket to its record;
     an entry without a recorded stop, or whose order is missing, is flagged.
+    The recorded stop is compared with the actual entry fill, so the loss it
+    implies can be checked against the cap. This assumes the stop stayed
+    where it was entered; later modifications are not visible here.
     """
+    contract = _d(contract_size)
     positions = defaultdict(list)
     for row in deals:
         if row.get("type") in (DEAL_BUY, DEAL_SELL) and row.get("symbol") == symbol:
@@ -218,6 +235,7 @@ def protocol_check(deals, orders, *, start_msc, now_msc, limits=ProtocolLimits()
         rows.append({
             "position_id": position_id, "open_msc": entry["time_msc"], "close_msc": close_ms,
             "volume": str(volume), "stop_at_entry": stop, "order_found": order is not None,
+            "stop_geometry": _stop_geometry(entry, stop, contract),
             "net_usd": str(net) if close_ms is not None else None, "overnight": overnight,
             "loss_cap_usd": str(cap),
             "weekend_hold": _held_over_saturday(entry["time_msc"], held_until),
@@ -250,6 +268,11 @@ def protocol_check(deals, orders, *, start_msc, now_msc, limits=ProtocolLimits()
     flag("STOP_UNVERIFIED", [r["position_id"] for r in rows if not r["order_found"]])
     flag("ENTRY_WITHOUT_STOP", [r["position_id"] for r in rows if r["order_found"] and not r["stop_at_entry"]])
     flag("WEEKEND_HOLD", [r["position_id"] for r in rows if r["weekend_hold"]])
+    flag("WRONG_SIDE_STOP", [r["position_id"] for r in rows
+                             if r["stop_geometry"] and not r["stop_geometry"]["correct_side"]])
+    flag("STOP_IMPLIES_LOSS_ABOVE_CAP", [
+        r["position_id"] for r in rows if r["stop_geometry"] and r["stop_geometry"]["correct_side"]
+        and _d(r["stop_geometry"]["loss_at_exact_stop_fill_usd"]) > _d(r["loss_cap_usd"])])
     flag("PER_TRADE_CAP_EXCEEDED", [r["position_id"] for r in rows if r["net_usd"] is not None
                                     and _d(r["net_usd"]) < -_d(r["loss_cap_usd"])])
     flag("TRADED_AFTER_LOSS_CAP", after_cap)

@@ -15,7 +15,7 @@ import os
 import sys
 from collections.abc import Mapping
 from datetime import datetime, timedelta, timezone
-from decimal import Decimal
+from decimal import ROUND_CEILING, Decimal
 from hashlib import sha256
 from pathlib import Path
 
@@ -104,21 +104,124 @@ def _boundaries(values, offset_hours=None):
     return labels
 
 
-def _opening_equity(boundary, issues, account, deals):
-    """Fail closed: report SUPPORTED only when nothing could make equity differ
-    from the reconstructed balance at the boundary."""
+MT5_SUCCESS = 1
+# Planned protective stops from docs/evidence/manual-demo-trades.md:
+# (trades, volume, stop distance in price, loss cap in USD).
+PLANNED_STOPS = (
+    ("1-6", "0.01", "2.50", "3"), ("7", "0.02", "1.20", "3"), ("8", "0.03", "0.70", "3"),
+    ("9", "0.01", "1.00", "3"), ("10-11", "0.01", "4.50", "5"),
+)
+MAX_ENTRY_SPREAD = Decimal("0.60")
+
+
+def _history(mt5, query, start, end):
+    """MT5 may report an empty history as None with a success code; any other
+    None is a failed read."""
+    rows = query(start, end)
+    if rows is not None:
+        return rows
+    code = mt5.last_error()
+    if code and code[0] == MT5_SUCCESS:
+        return ()
+    raise VerificationError("MT5 history request failed.")
+
+
+def planned_stop_check(economics):
+    """Check each planned stop against MT5 order mechanics at the current spread.
+
+    The stop distance is measured from the entry price: the ask for a BUY,
+    the bid for a SELL. A BUY's stop triggers when the bid reaches it, and a
+    SELL's when the ask does, so the exit-side price must move
+    ``distance - spread`` to trigger. The broker minimum applies to that
+    trigger distance. The loss at an exact stop fill is
+    ``distance * contract * volume``, because the spread was already paid at
+    entry. Slippage adds to it, and a gap or fast market can exceed it.
+    """
+    try:
+        point = Decimal(str(economics["point"]))
+        contract = Decimal(str(economics["trade_contract_size"]))
+        minimum = int(economics["trade_stops_level"]) * point
+        spread = int(economics["spread"]) * point
+    except (KeyError, TypeError, ValueError, ArithmeticError):
+        return {"status": "UNKNOWN_SPECIFICATION", "trades": []}
+    rows = []
+    for trades, volume, distance, cap in PLANNED_STOPS:
+        distance, volume, cap = Decimal(distance), Decimal(volume), Decimal(cap)
+        trigger = distance - spread
+        loss = (distance * contract * volume).quantize(Decimal("0.01"), ROUND_CEILING)
+        reasons = [code for code, failed in (
+            ("TRIGGER_NOT_BEYOND_SPREAD", trigger <= 0),
+            ("BELOW_BROKER_MINIMUM_STOP", trigger < minimum),
+            ("EXCEEDS_LOSS_CAP", loss > cap),
+            ("SPREAD_ABOVE_ENTRY_LIMIT", spread > MAX_ENTRY_SPREAD),
+        ) if failed]
+        rows.append({"trades": trades, "volume": str(volume),
+                     "stop_distance_from_entry": str(distance),
+                     "exit_side_trigger_distance": str(trigger),
+                     "loss_at_exact_stop_fill_usd": str(loss), "loss_cap_usd": str(cap),
+                     "slippage_allowance_usd": str(cap - loss),
+                     "ok": not reasons, "reasons": reasons})
+    return {"status": "OK" if all(r["ok"] for r in rows) else "ATTENTION",
+            "broker_minimum_stop_distance": str(minimum), "current_spread": str(spread),
+            "trades": rows,
+            "note": "Read-time estimate. Losses exclude slippage; a stop does not guarantee its "
+                    "price in a gap or fast market."}
+
+
+DEAL_CORRECTION = 5
+ARCHIVED_DEALS_COMMENT = "Archived deals"
+AMOUNT_FIELDS = ("profit", "commission", "swap", "fee")
+ARCHIVED_DEALS_WARNING = (
+    "An Exness 'Archived deals' correction is present. Its recorded amounts are zero, but "
+    "historical completeness cannot be independently established from the MT5 ledger alone: "
+    "archived history may be absent from what the terminal returns."
+)
+
+
+def archived_deals_entry(deal, comment):
+    """Describe a type-5 correction whose comment is exactly 'Archived deals'.
+
+    Returns None for any other deal. ``accepted`` is true only when every
+    amount field is exactly zero. Only this exact comment is ever exported.
+    """
+    if deal.get("type") != DEAL_CORRECTION or comment != ARCHIVED_DEALS_COMMENT:
+        return None
+    amounts = {k: str(Decimal(str(deal.get(k) if deal.get(k) is not None else 0)))
+               for k in AMOUNT_FIELDS}
+    zero = all(Decimal(v) == 0 for v in amounts.values())
+    return {"ticket": deal.get("ticket"), "time_msc": deal.get("time_msc"),
+            "type": DEAL_CORRECTION, "comment": comment, "amounts": amounts,
+            "accepted": zero, "reason": None if zero else "NONZERO_AMOUNT"}
+
+
+def _opening_equity(boundary, issues, account, deals, ledger_reconciled, archived=()):
+    """Fail closed. UNRESOLVED if anything could make equity differ from the
+    reconstructed balance. CONDITIONAL if the only remaining concern is an
+    accepted 'Archived deals' correction. SUPPORTED otherwise."""
+    accepted = {e["ticket"] for e in archived if e["accepted"]}
     reasons = []
     if boundary["positions_open_across_boundary"]:
         reasons.append("POSITION_OPEN_ACROSS_BOUNDARY")
     if any(i["issue"] in ("MISSING_ENTRY", "UNSUPPORTED_POSITION_SHAPE") for i in issues):
         reasons.append("INCOMPLETE_POSITION_HISTORY")
-    if any(d["type"] not in (DEAL_BUY, DEAL_SELL, DEAL_BALANCE) for d in deals):
+    if any(d["type"] not in (DEAL_BUY, DEAL_SELL, DEAL_BALANCE) and d["ticket"] not in accepted
+           for d in deals):
         reasons.append("UNVERIFIED_LEDGER_ENTRY_TYPE")
+    if not ledger_reconciled:
+        reasons.append("LEDGER_DOES_NOT_SUM_TO_BALANCE")
     if getattr(account, "margin", None) != 0:
         reasons.append("POSITIONS_OPEN_AT_COLLECTION")
     if getattr(account, "credit", None) not in (0, 0.0):
         reasons.append("NONZERO_OR_UNKNOWN_CREDIT")
-    return {"status": "UNRESOLVED" if reasons else "SUPPORTED", "reasons": reasons}
+    conditions = ["ARCHIVED_DEALS_CORRECTION_PRESENT"] if accepted else []
+    if reasons:
+        status = "UNRESOLVED"
+    elif conditions:
+        status = "CONDITIONAL"
+    else:
+        status = "SUPPORTED"
+    return {"status": status, "reasons": reasons, "conditions": conditions,
+            "warnings": [ARCHIVED_DEALS_WARNING] if accepted else []}
 
 
 def collect(mt5, profile, *, start, boundaries=(), quotes=True, discover=running_terminals,
@@ -140,12 +243,16 @@ def collect(mt5, profile, *, start, boundaries=(), quotes=True, discover=running
             if getattr(symbol, "name", None) != SYMBOL or getattr(symbol, "custom", None) is not False:
                 raise VerificationError("The exact non-custom XAUUSD symbol is unavailable.")
             window_end = observed + HISTORY_MARGIN
-            raw = mt5.history_deals_get(window_start, window_end)
-            if raw is None:
-                raise VerificationError("MT5 returned no deal history for the window.")
-            deals = [_record(row, DEAL_FIELDS) for row in raw]
+            deals, archived = [], []
+            for row in _history(mt5, mt5.history_deals_get, window_start, window_end):
+                deal = _record(row, DEAL_FIELDS)
+                deals.append(deal)
+                entry = archived_deals_entry(deal, _record(row, ("comment",))["comment"])
+                if entry is not None:
+                    archived.append(entry)
             orders = {o["ticket"]: o for o in (
-                _record(row, ORDER_FIELDS) for row in mt5.history_orders_get(window_start, window_end) or ()
+                _record(row, ORDER_FIELDS)
+                for row in _history(mt5, mt5.history_orders_get, window_start, window_end)
             )}
             nearby = {}
             if quotes:
@@ -193,7 +300,8 @@ def collect(mt5, profile, *, start, boundaries=(), quotes=True, discover=running
                 "side_compared": "ask" if deal["type"] == DEAL_BUY else "bid",
             },
         }
-    window_sum = sum(_amount(d) for d in deals)
+    window_sum = sum((_amount(d) for d in deals), Decimal(0))
+    reconciled = window_sum == Decimal(str(account.balance))
     return {
         "observed_utc": observed.isoformat(),
         "server": profile.server,
@@ -205,22 +313,29 @@ def collect(mt5, profile, *, start, boundaries=(), quotes=True, discover=running
         "ledger_check": {
             "sum_of_window_deals": str(window_sum),
             "account_balance": str(Decimal(str(account.balance))),
-            "window_includes_account_opening": window_sum == Decimal(str(account.balance)),
+            "sums_to_current_balance": reconciled,
+            "note": "True means the window's deals sum exactly to the current balance, so there is "
+                    "no aggregate discrepancy. It cannot prove every historical entry is present: "
+                    "omitted entries whose effects cancel leave the sum unchanged.",
         },
         "symbol_economics": economics,
+        "planned_stop_check": planned_stop_check(economics),
         "deal_count": len(deals),
         "deals": deals,
         "orders": list(orders.values()),
+        "archived_deals_corrections": archived,
         "fill_timing": timing,
         "max_quote_age_ms": MAX_QUOTE_AGE_MS,
         "reconciliation": result,
         "protocol_check": dict(
             protocol_check(deals, orders, start_msc=start_label_ms,
-                           now_msc=int(observed.timestamp() * 1000) + start_offset * 3_600_000),
+                           now_msc=int(observed.timestamp() * 1000) + start_offset * 3_600_000,
+                           contract_size=economics["trade_contract_size"]),
             experiment_start_label_ms=start_label_ms, limits_source="docs/evidence/manual-demo-trades.md"),
         "risk_day_boundaries": [
             dict(boundary, boundary_utc=utc, offset=offset,
-                 opening_equity=_opening_equity(boundary, result["issues"], account, deals))
+                 opening_equity=_opening_equity(boundary, result["issues"], account, deals,
+                                                reconciled, archived))
             for utc, label, offset in boundaries
             for boundary in (balance_at(deals, label, current_balance=account.balance),)
         ],

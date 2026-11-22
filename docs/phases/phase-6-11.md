@@ -53,6 +53,10 @@ and only booked deals can test the hypothesis.
   every experiment position against the protocol's limits.
 - `goldbot/core/server_clock.py` holds the measured offset rule: UTC+2 or
   UTC+3, switching on EU dates.
+- `goldbot/research/news_calendar.py` holds the point-in-time US release
+  blackout (NFP, CPI, FOMC), built from dated Wayback captures and
+  backtested against the frozen Phase 6.10.4 runs. It is research only. See
+  [news-blackout.md](../evidence/news-blackout.md).
 - `goldbot/research/exposure_log.py` keeps the append-only, hash-chained
   record of examined data for the [personal research track](../evidence/research-track.md).
   Both tools write to it automatically.

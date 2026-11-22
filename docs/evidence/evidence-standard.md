@@ -126,7 +126,9 @@ UTC is fixed, while server midnight moves with EU daylight saving.
 Opening equity at a boundary is **established** only by one of these:
 
 - **Ledger reconstruction:** current balance minus every later deal, and
-  only when the reader reports `opening_equity.status = SUPPORTED`. That
+  only when the reader reports `opening_equity.status = SUPPORTED`.
+  `CONDITIONAL`, for example when an Exness "Archived deals" correction is
+  present, does not establish opening equity. That
   status requires that no position was open across the boundary, that
   position history in the window is complete, that no position was open at
   the read, and that credit is 0.

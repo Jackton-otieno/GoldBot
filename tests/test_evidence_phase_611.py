@@ -1,9 +1,10 @@
+import copy
 import io
 import json
 import tempfile
 import unittest
 from collections import namedtuple
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from hashlib import sha256
 from pathlib import Path
 from types import SimpleNamespace
@@ -328,7 +329,7 @@ class ReadOnlyReaderTests(unittest.TestCase):
         self.mt5.symbol_info.return_value = SimpleNamespace(
             name="XAUUSD", custom=False, digits=2, point=0.01, trade_tick_size=0.01,
             trade_tick_value=0.1, trade_contract_size=100.0, volume_min=0.01, volume_step=0.01,
-            swap_long=-50.0, swap_short=10.0)
+            swap_long=-50.0, swap_short=10.0, spread=25, trade_stops_level=0)
         base = self.base = int(datetime(2026, 11, 23, 10, tzinfo=timezone.utc).timestamp() * 1000)
         self.mt5.history_deals_get.return_value = (
             Deal(*deal(1, 0, 2, 0, 0, 0, 3000.0, time_msc=base).values(), "deposit 987654321", "x", 0),
@@ -370,10 +371,12 @@ class ReadOnlyReaderTests(unittest.TestCase):
                           entry["prior_quote"]["side_compared"]), (1000, True, "ask"))
         self.assertEqual((exit_["prior_quote"]["age_ms"], exit_["prior_quote"]["used"],
                           exit_["prior_quote"]["side_compared"]), (3000, False, "bid"))
-        self.assertTrue(evidence["ledger_check"]["window_includes_account_opening"])
+        self.assertTrue(evidence["ledger_check"]["sums_to_current_balance"])
         open_, flat, early = evidence["risk_day_boundaries"]
         self.assertEqual(open_["opening_equity"],
-                         {"status": "UNRESOLVED", "reasons": ["POSITION_OPEN_ACROSS_BOUNDARY"]})
+                         {"status": "UNRESOLVED", "reasons": ["POSITION_OPEN_ACROSS_BOUNDARY"],
+                          "conditions": [], "warnings": []})
+        self.assertEqual(evidence["archived_deals_corrections"], [])
         self.assertEqual((flat["balance"], flat["opening_equity"]["status"]), ("3000.93", "SUPPORTED"))
         self.assertEqual(early["balance"], "3000.00")
         text = json.dumps(evidence, default=str)
@@ -389,10 +392,110 @@ class ReadOnlyReaderTests(unittest.TestCase):
         bonus = Deal(*deal(9, 0, 6, 0, 0, 0, 50.0, time_msc=self.base + 400_000).values(), "", "", 0)
         self.mt5.history_deals_get.return_value = self.mt5.history_deals_get.return_value[2:] + (bonus,)
         evidence = self.collect(boundaries=[("flat", self.base + 350_000, {})])
-        self.assertFalse(evidence["ledger_check"]["window_includes_account_opening"])
+        self.assertFalse(evidence["ledger_check"]["sums_to_current_balance"])
         self.assertEqual(evidence["risk_day_boundaries"][0]["opening_equity"]["reasons"],
                          ["INCOMPLETE_POSITION_HISTORY", "UNVERIFIED_LEDGER_ENTRY_TYPE",
-                          "POSITIONS_OPEN_AT_COLLECTION", "NONZERO_OR_UNKNOWN_CREDIT"])
+                          "LEDGER_DOES_NOT_SUM_TO_BALANCE", "POSITIONS_OPEN_AT_COLLECTION",
+                          "NONZERO_OR_UNKNOWN_CREDIT"])
+
+    def test_stable_account_with_no_new_deals(self):
+        self.mt5.account_info.return_value.balance = 3000.0
+        self.mt5.account_info.return_value.equity = 3000.0
+        self.mt5.history_deals_get.return_value = self.mt5.history_deals_get.return_value[:1]
+        self.mt5.history_orders_get.return_value = ()
+        evidence = self.collect(boundaries=[("after", self.base + 60_000, {})])
+        self.assertEqual(evidence["reconciliation"]["exits"], [])
+        self.assertEqual(evidence["reconciliation"]["issues"], [])
+        self.assertTrue(evidence["ledger_check"]["sums_to_current_balance"])
+        self.assertTrue(evidence["protocol_check"]["compliant"])
+        self.assertEqual(evidence["protocol_check"]["positions"], [])
+        boundary = evidence["risk_day_boundaries"][0]
+        self.assertEqual((boundary["balance"], boundary["opening_equity"]["status"]),
+                         ("3000.0", "SUPPORTED"))
+        self.assertEqual(evidence["planned_stop_check"]["status"], "OK")
+
+    def baseline_with_correction(self, comment, profit=0.0, balance=3000.0):
+        """The 22 Nov baseline shape: a deposit, then a type-5 correction, no trades."""
+        self.mt5.account_info.return_value.balance = balance
+        self.mt5.account_info.return_value.equity = balance
+        deposit = self.mt5.history_deals_get.return_value[0]
+        correction = Deal(*deal(4, 0, 5, 0, 0, 0, profit, time_msc=self.base + 500_000).values(),
+                          comment, "", 0)
+        self.mt5.history_deals_get.return_value = (deposit, correction)
+        self.mt5.history_orders_get.return_value = ()
+        return self.collect(boundaries=[("b", self.base + 60_000, {})])
+
+    def test_archived_deals_correction_is_conditional_not_supported(self):
+        evidence = self.baseline_with_correction("Archived deals")
+        equity = evidence["risk_day_boundaries"][0]["opening_equity"]
+        self.assertEqual((equity["status"], equity["reasons"], equity["conditions"]),
+                         ("CONDITIONAL", [], ["ARCHIVED_DEALS_CORRECTION_PRESENT"]))
+        self.assertIn("cannot be independently established", equity["warnings"][0])
+        self.assertTrue(evidence["ledger_check"]["sums_to_current_balance"])
+        (entry,) = evidence["archived_deals_corrections"]
+        self.assertEqual((entry["ticket"], entry["comment"], entry["accepted"], entry["amounts"]),
+                         (4, "Archived deals", True,
+                          {"profit": "0.0", "commission": "0.0", "swap": "0.0", "fee": "0.0"}))
+
+    def test_archived_deals_with_any_amount_stays_unresolved(self):
+        evidence = self.baseline_with_correction("Archived deals", profit=0.01, balance=3000.01)
+        self.assertTrue(evidence["ledger_check"]["sums_to_current_balance"])
+        equity = evidence["risk_day_boundaries"][0]["opening_equity"]
+        self.assertEqual((equity["status"], equity["reasons"], equity["conditions"]),
+                         ("UNRESOLVED", ["UNVERIFIED_LEDGER_ENTRY_TYPE"], []))
+        (entry,) = evidence["archived_deals_corrections"]
+        self.assertEqual((entry["accepted"], entry["reason"]), (False, "NONZERO_AMOUNT"))
+
+    def test_other_corrections_are_not_recognized_and_comments_stay_private(self):
+        for comment in ("Manual adjustment 987654321", "archived deals", "Archived deals ", None):
+            with self.subTest(comment=comment):
+                evidence = self.baseline_with_correction(comment)
+                equity = evidence["risk_day_boundaries"][0]["opening_equity"]
+                self.assertEqual((equity["status"], equity["reasons"]),
+                                 ("UNRESOLVED", ["UNVERIFIED_LEDGER_ENTRY_TYPE"]))
+                self.assertEqual(evidence["archived_deals_corrections"], [])
+                self.assertNotIn("987654321", json.dumps(evidence, default=str))
+
+    def test_archived_deals_never_overrides_a_blocking_reason(self):
+        self.mt5.account_info.return_value.credit = 5.0
+        evidence = self.baseline_with_correction("Archived deals")
+        equity = evidence["risk_day_boundaries"][0]["opening_equity"]
+        self.assertEqual((equity["status"], equity["reasons"]),
+                         ("UNRESOLVED", ["NONZERO_OR_UNKNOWN_CREDIT"]))
+        self.mt5.account_info.return_value.credit = 0.0
+        evidence = self.baseline_with_correction("Archived deals", balance=2999.0)
+        self.assertEqual(evidence["risk_day_boundaries"][0]["opening_equity"]["reasons"],
+                         ["LEDGER_DOES_NOT_SUM_TO_BALANCE"])
+
+    def test_empty_history_reported_as_none(self):
+        self.mt5.history_deals_get.return_value = None
+        self.mt5.history_orders_get.return_value = None
+        self.mt5.last_error.return_value = (1, "Success")
+        evidence = self.collect()
+        self.assertEqual((evidence["deal_count"], evidence["orders"]), (0, []))
+        self.assertFalse(evidence["ledger_check"]["sums_to_current_balance"])
+        self.mt5.last_error.return_value = (-2, "Invalid params")
+        with self.assertRaisesRegex(VerificationError, "history request failed"):
+            self.collect()
+
+    def test_planned_stop_check(self):
+        economics = {"point": 0.01, "trade_contract_size": 100.0, "trade_stops_level": 0, "spread": 25}
+        result = reader.planned_stop_check(economics)
+        self.assertEqual(result["status"], "OK")
+        first = result["trades"][0]
+        self.assertEqual((first["stop_distance_from_entry"], first["exit_side_trigger_distance"],
+                          first["loss_at_exact_stop_fill_usd"], first["slippage_allowance_usd"]),
+                         ("2.50", "2.25", "2.50", "0.50"))
+        self.assertEqual([r["loss_at_exact_stop_fill_usd"] for r in result["trades"]],
+                         ["2.50", "2.40", "2.10", "1.00", "4.50"])
+        wide = reader.planned_stop_check(dict(economics, spread=70))
+        self.assertTrue(all("SPREAD_ABOVE_ENTRY_LIMIT" in r["reasons"] for r in wide["trades"]))
+        self.assertIn("TRIGGER_NOT_BEYOND_SPREAD", wide["trades"][2]["reasons"])
+        strict = reader.planned_stop_check(dict(economics, trade_stops_level=300))
+        self.assertEqual([r["trades"] for r in strict["trades"] if "BELOW_BROKER_MINIMUM_STOP" in r["reasons"]],
+                         ["1-6", "7", "8", "9"])
+        self.assertEqual(reader.planned_stop_check(dict(economics, spread=None))["status"],
+                         "UNKNOWN_SPECIFICATION")
 
     def test_balance_change_during_read_is_refused(self):
         first = self.mt5.account_info.return_value
@@ -406,6 +509,7 @@ class ReadOnlyReaderTests(unittest.TestCase):
             self.collect(boundaries=[("old", self.base - 3 * 86_400_000, {})])
         self.mt5.initialize.assert_not_called()
         self.mt5.history_deals_get.return_value = None
+        self.mt5.last_error.return_value = (-1, "Terminal call failed")
         with self.assertRaises(VerificationError):
             self.collect()
 
@@ -515,7 +619,7 @@ class ProtocolCheckTests(unittest.TestCase):
 
     def check(self, deals, orders=None, now_h=200):
         orders = orders if orders is not None else {
-            d["order"]: {"sl": 3797.5} for d in deals if d["entry"] == 0}
+            d["order"]: {"sl": 3799.3} for d in deals if d["entry"] == 0}
         return protocol_check(deals, orders, start_msc=self.START,
                               now_msc=self.START + now_h * self.HOUR)
 
@@ -533,7 +637,8 @@ class ProtocolCheckTests(unittest.TestCase):
         before = deal(1, 9, 0, 0, 0.01, 3800.0, time_msc=self.START - self.HOUR)
         overlapping = self.position(1, 1, 3) + self.position(2, 2, 2.5)
         self.assertEqual(self.codes(self.check([before] + overlapping)), {"CONCURRENT_POSITIONS"})
-        self.assertEqual(self.codes(self.check(self.position(1, 1, 1.1, volume=0.10))), {"VOLUME_LIMIT"})
+        self.assertEqual(self.codes(self.check(self.position(1, 1, 1.1, volume=0.10), {10: {"sl": 3799.9}})),
+                         {"VOLUME_LIMIT"})
         trades = self.position(1, 1, 1.1)
         self.assertEqual(self.codes(self.check(trades, {10: {"sl": 0.0}})), {"ENTRY_WITHOUT_STOP"})
         self.assertEqual(self.codes(self.check(trades, {})), {"STOP_UNVERIFIED"})
@@ -548,6 +653,21 @@ class ProtocolCheckTests(unittest.TestCase):
         result = self.check(losing + self.position(7, 7, 7.5, profit=1.0))
         self.assertEqual(self.codes(result), {"TRADED_AFTER_LOSS_CAP"})
         self.assertEqual(result["violations"][0]["positions"], [7])
+
+    def test_stop_geometry_uses_the_actual_fill(self):
+        buy = self.position(1, 1, 1.1)
+        (row,) = self.check(buy, {10: {"sl": 3797.5}})["positions"]
+        self.assertEqual(row["stop_geometry"], {
+            "stop_price": "3797.5", "distance_from_fill": "2.5",
+            "loss_at_exact_stop_fill_usd": "2.500", "correct_side": True})
+        self.assertEqual(self.codes(self.check(buy, {10: {"sl": 3802.5}})), {"WRONG_SIDE_STOP"})
+        self.assertEqual(self.codes(self.check(buy, {10: {"sl": 3796.5}})),
+                         {"STOP_IMPLIES_LOSS_ABOVE_CAP"})
+        sell = self.position(2, 1, 1.1, side=1)
+        (row,) = self.check(sell, {20: {"sl": 3802.5}})["positions"]
+        self.assertEqual((row["stop_geometry"]["distance_from_fill"], row["stop_geometry"]["correct_side"]),
+                         ("2.5", True))
+        self.assertEqual(self.codes(self.check(sell, {20: {"sl": 3797.5}})), {"WRONG_SIDE_STOP"})
 
     def test_open_position_is_reported(self):
         result = self.check(self.position(1, 1, None), now_h=2)
@@ -576,6 +696,99 @@ class ArchiveExposureTests(ArchiveFixture):
                                       "--exposure-log", str(log)])
         self.assertEqual(code, 1)
         self.assertFalse((self.root / "out2").exists())
+
+
+class PreTradeCheckTests(unittest.TestCase):
+    from tools import check_pretrade_611 as checker
+    ROOT = Path(__file__).resolve().parents[1]
+    BASELINE = ROOT / "reports" / "phase_6_11" / "demo-baseline-2.json"
+    NOW = datetime(2026, 11, 23, 9, 10, tzinfo=timezone.utc)
+
+    def baseline(self):
+        return {
+            "server": "ExnessKE-MT5Trial9", "company": "Exness (KE) Limited", "mode": "demo",
+            "symbol": "XAUUSD", "observed_utc": "2026-11-22T06:07:50+00:00",
+            "account_snapshot": {"currency": "USD", "balance": 3000.0, "margin": 0.0, "credit": 0.0},
+            "ledger_check": {"sums_to_current_balance": True},
+            "deals": [{"ticket": 1}, {"ticket": 4}], "orders": [],
+            "reconciliation": {"issues": []},
+            "archived_deals_corrections": [{"ticket": 4, "accepted": True}],
+            "risk_day_boundaries": [{"boundary_utc": "2026-11-22T00:00:00+00:00", "opening_equity": {
+                "status": "CONDITIONAL", "reasons": [], "conditions": ["ARCHIVED_DEALS_CORRECTION_PRESENT"]}}],
+            "symbol_economics": {"digits": 3, "trade_tick_size": 0.001, "trade_contract_size": 100.0,
+                                 "trade_stops_level": 0, "volume_min": 0.01, "volume_step": 0.01},
+            "planned_stop_check": {"status": "OK"}, "protocol_check": {"compliant": True},
+        }
+
+    def read(self):
+        read = copy.deepcopy(self.baseline())
+        read["observed_utc"] = "2026-11-23T09:00:00+00:00"
+        read["risk_day_boundaries"][0]["boundary_utc"] = "2026-11-23T00:00:00+00:00"
+        return read
+
+    def run_check(self, read, baseline=None, *, sha=None, now=None, logged=("r",)):
+        return {name: ok for name, ok, _ in self.checker.evaluate(
+            baseline or self.baseline(), read,
+            baseline_sha256=sha or self.checker.ACCEPTED_BASELINE_SHA256, read_sha256="r",
+            logged_digests=set(logged), now=now or self.NOW)}
+
+    def failed(self, read, **kwargs):
+        return {name for name, ok in self.run_check(read, **kwargs).items() if not ok}
+
+    def test_unchanged_trade_day_read_passes(self):
+        self.assertEqual(self.failed(self.read()), set())
+
+    def test_each_change_fails_its_check(self):
+        cases = {
+            "baseline_is_the_accepted_one": lambda r: ({}, dict(sha="0" * 64)),
+            "same_account_and_symbol": lambda r: (r.update(server="Exness-MT5Real9"), {}),
+            "no_exposure": lambda r: (r["account_snapshot"].update(margin=38.0), {}),
+            "ledger_unchanged": lambda r: (r["account_snapshot"].update(balance=2990.0), {}),
+            "no_new_account_activity": lambda r: (r["deals"].append({"ticket": 9}), {}),
+            "no_reconciliation_issues": lambda r: (r["reconciliation"].update(issues=[{"issue": "X"}]), {}),
+            "specification_unchanged": lambda r: (r["symbol_economics"].update(trade_stops_level=50), {}),
+            "stops_feasible": lambda r: (r["planned_stop_check"].update(status="ATTENTION"), {}),
+            "protocol_compliant": lambda r: (r["protocol_check"].update(compliant=False), {}),
+            "read_recorded_in_exposure_log": lambda r: ({}, dict(logged=())),
+        }
+        for check, change in cases.items():
+            with self.subTest(check=check):
+                read = self.read()
+                _, kwargs = change(read)
+                self.assertEqual(self.failed(read, **(kwargs or {})), {check})
+
+    def test_opening_equity_must_match_the_accepted_condition_exactly(self):
+        for change in (
+            lambda r: r["risk_day_boundaries"][0]["opening_equity"].update(status="UNRESOLVED"),
+            lambda r: r["risk_day_boundaries"][0]["opening_equity"].update(reasons=["NONZERO_OR_UNKNOWN_CREDIT"]),
+            lambda r: r["archived_deals_corrections"].append({"ticket": 5, "accepted": True}),
+            lambda r: r["archived_deals_corrections"].clear(),
+            lambda r: r["risk_day_boundaries"][0].update(boundary_utc="2026-11-22T00:00:00+00:00"),
+            lambda r: r.update(risk_day_boundaries=[]),
+        ):
+            read = self.read()
+            change(read)
+            with self.subTest(read=str(read["risk_day_boundaries"])[:60]):
+                self.assertIn("opening_equity_matches_accepted_condition", self.failed(read))
+
+    def test_stale_or_old_reads_fail(self):
+        self.assertIn("fresh_read", self.failed(self.read(), now=self.NOW + timedelta(minutes=31)))
+        self.assertIn("fresh_read", self.failed(self.read(), now=self.NOW - timedelta(hours=1)))
+        old = self.read()
+        old["observed_utc"] = self.baseline()["observed_utc"]
+        self.assertIn("fresh_read", self.failed(old, now=datetime(2026, 11, 22, 6, 10, tzinfo=timezone.utc)))
+
+    @unittest.skipUnless(BASELINE.exists(), "accepted baseline is local evidence")
+    def test_real_accepted_baseline_has_the_expected_shape(self):
+        raw = self.BASELINE.read_bytes()
+        baseline = json.loads(raw)
+        self.assertEqual(sha256(raw).hexdigest(), self.checker.ACCEPTED_BASELINE_SHA256)
+        read = copy.deepcopy(baseline)
+        now = datetime.fromisoformat(baseline["observed_utc"]) + timedelta(minutes=5)
+        read["observed_utc"] = (now - timedelta(minutes=1)).isoformat()
+        checks = self.checker.evaluate(baseline, read, baseline_sha256=sha256(raw).hexdigest(),
+                                       read_sha256="r", logged_digests={"r"}, now=now)
+        self.assertEqual([name for name, ok, _ in checks if not ok], [])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,238 @@
+{
+  "account_snapshot": {
+    "balance": 3000.0,
+    "credit": 0.0,
+    "currency": "USD",
+    "equity": 3000.0,
+    "leverage": 100,
+    "margin": 0.0,
+    "margin_free": 3000.0
+  },
+  "archived_deals_corrections": [
+    {
+      "accepted": true,
+      "amounts": {
+        "commission": "0.0",
+        "fee": "0.0",
+        "profit": "0.0",
+        "swap": "0.0"
+      },
+      "comment": "Archived deals",
+      "reason": null,
+      "ticket": 2914281948,
+      "time_msc": 1795323913353,
+      "type": 5
+    }
+  ],
+  "company": "Exness (KE) Limited",
+  "deal_count": 2,
+  "deals": [
+    {
+      "commission": 0.0,
+      "entry": 0,
+      "fee": 0.0,
+      "order": 0,
+      "position_id": 0,
+      "price": 0.0,
+      "profit": 3000.0,
+      "reason": 0,
+      "swap": 0.0,
+      "symbol": "",
+      "ticket": 2901832201,
+      "time": 1794981863,
+      "time_msc": 1794981863061,
+      "type": 2,
+      "volume": 0.0
+    },
+    {
+      "commission": 0.0,
+      "entry": 0,
+      "fee": 0.0,
+      "order": 0,
+      "position_id": 0,
+      "price": 0.0,
+      "profit": 0.0,
+      "reason": 0,
+      "swap": 0.0,
+      "symbol": "",
+      "ticket": 2914281948,
+      "time": 1795323913,
+      "time_msc": 1795323913353,
+      "type": 5,
+      "volume": 0.0
+    }
+  ],
+  "fill_timing": {},
+  "history_window_labels": [
+    "2026-11-17T00:00:00+00:00",
+    "2026-11-23T06:07:50.075241+00:00"
+  ],
+  "ledger_check": {
+    "account_balance": "3000.0",
+    "note": "True means the window's deals sum exactly to the current balance, so there is no aggregate discrepancy. It cannot prove every historical entry is present: omitted entries whose effects cancel leave the sum unchanged.",
+    "sum_of_window_deals": "3000.0",
+    "sums_to_current_balance": true
+  },
+  "max_quote_age_ms": 2000,
+  "mode": "demo",
+  "observed_utc": "2026-11-22T06:07:50.075241+00:00",
+  "orders": [],
+  "planned_stop_check": {
+    "broker_minimum_stop_distance": "0.000",
+    "current_spread": "0.168",
+    "note": "Read-time estimate. Losses exclude slippage; a stop does not guarantee its price in a gap or fast market.",
+    "status": "OK",
+    "trades": [
+      {
+        "exit_side_trigger_distance": "2.332",
+        "loss_at_exact_stop_fill_usd": "2.50",
+        "loss_cap_usd": "3",
+        "ok": true,
+        "reasons": [],
+        "slippage_allowance_usd": "0.50",
+        "stop_distance_from_entry": "2.50",
+        "trades": "1-6",
+        "volume": "0.01"
+      },
+      {
+        "exit_side_trigger_distance": "1.032",
+        "loss_at_exact_stop_fill_usd": "2.40",
+        "loss_cap_usd": "3",
+        "ok": true,
+        "reasons": [],
+        "slippage_allowance_usd": "0.60",
+        "stop_distance_from_entry": "1.20",
+        "trades": "7",
+        "volume": "0.02"
+      },
+      {
+        "exit_side_trigger_distance": "0.532",
+        "loss_at_exact_stop_fill_usd": "2.10",
+        "loss_cap_usd": "3",
+        "ok": true,
+        "reasons": [],
+        "slippage_allowance_usd": "0.90",
+        "stop_distance_from_entry": "0.70",
+        "trades": "8",
+        "volume": "0.03"
+      },
+      {
+        "exit_side_trigger_distance": "0.832",
+        "loss_at_exact_stop_fill_usd": "1.00",
+        "loss_cap_usd": "3",
+        "ok": true,
+        "reasons": [],
+        "slippage_allowance_usd": "2.00",
+        "stop_distance_from_entry": "1.00",
+        "trades": "9",
+        "volume": "0.01"
+      },
+      {
+        "exit_side_trigger_distance": "4.332",
+        "loss_at_exact_stop_fill_usd": "4.50",
+        "loss_cap_usd": "5",
+        "ok": true,
+        "reasons": [],
+        "slippage_allowance_usd": "0.50",
+        "stop_distance_from_entry": "4.50",
+        "trades": "10-11",
+        "volume": "0.01"
+      }
+    ]
+  },
+  "protocol_check": {
+    "compliant": true,
+    "cumulative_net_usd": "0",
+    "experiment_cap_reached": false,
+    "experiment_start_label_ms": 1794967200000,
+    "limits_source": "docs/evidence/manual-demo-trades.md",
+    "lowest_cumulative_net_usd": "0",
+    "max_concurrent_positions": 0,
+    "positions": [],
+    "still_open": [],
+    "violations": []
+  },
+  "reconciliation": {
+    "exits": [],
+    "issues": [],
+    "ledger": [
+      {
+        "amount": "3000.0",
+        "ticket": 2901832201,
+        "time_msc": 1794981863061,
+        "type": 2
+      },
+      {
+        "amount": "0.0",
+        "ticket": 2914281948,
+        "time_msc": 1795323913353,
+        "type": 5
+      }
+    ],
+    "summary": {
+      "commission_per_lot_by_deal": {},
+      "exits": 0,
+      "fees_total": "0",
+      "fill_vs_prior_quote": null,
+      "implied_usd_per_tick_per_lot": [],
+      "model_match_counts": {},
+      "models_matching_every_exit": [],
+      "nonzero_swaps": [],
+      "partial_exits": 0,
+      "sample_note": "Describes these exits only; it does not establish behaviour outside them."
+    }
+  },
+  "risk_day_boundaries": [
+    {
+      "balance": "3000.0",
+      "boundary_time_msc": 1795312800000,
+      "boundary_utc": "2026-11-22T00:00:00+00:00",
+      "equity_equals_balance": true,
+      "method": "current_balance_minus_later_deals",
+      "offset": {
+        "matches_measured_rule": true,
+        "measured_rule_offset_hours": 2,
+        "offset_hours": 2,
+        "offset_source": "measured_rule"
+      },
+      "opening_equity": {
+        "conditions": [
+          "ARCHIVED_DEALS_CORRECTION_PRESENT"
+        ],
+        "reasons": [],
+        "status": "CONDITIONAL",
+        "warnings": [
+          "An Exness 'Archived deals' correction is present. Its recorded amounts are zero, but historical completeness cannot be independently established from the MT5 ledger alone: archived history may be absent from what the terminal returns."
+        ]
+      },
+      "positions_open_across_boundary": []
+    }
+  ],
+  "server": "ExnessKE-MT5Trial9",
+  "symbol": "XAUUSD",
+  "symbol_economics": {
+    "digits": 3,
+    "margin_initial": 0.0,
+    "margin_maintenance": 0.0,
+    "point": 0.001,
+    "spread": 168,
+    "spread_float": true,
+    "swap_long": -431.6,
+    "swap_mode": 1,
+    "swap_rollover3days": 3,
+    "swap_short": 0.0,
+    "trade_calc_mode": 0,
+    "trade_contract_size": 100.0,
+    "trade_exemode": 2,
+    "trade_freeze_level": 0,
+    "trade_stops_level": 0,
+    "trade_tick_size": 0.001,
+    "trade_tick_value": 0.1,
+    "trade_tick_value_loss": 0.1,
+    "trade_tick_value_profit": 0.1,
+    "volume_max": 200.0,
+    "volume_min": 0.01,
+    "volume_step": 0.01
+  },
+  "time_note": "Deal, order and tick times are raw server-clock labels. Use the archive clock-offset result to map them to UTC."
+}
